@@ -9,3 +9,8 @@ Alias: $library-type = http://terminology.hl7.org/CodeSystem/library-type
 Alias: $measure-scoring = http://terminology.hl7.org/CodeSystem/measure-scoring
 Alias: $measure-population = http://terminology.hl7.org/CodeSystem/measure-population
 Alias: $action-type = http://terminology.hl7.org/CodeSystem/action-type
+
+
+Alias: $m49codes = http://smart.who.int/refmart/CodeSystem/COUNTRYM49
+Alias: $iso2codes = http://smart.who.int/refmart/CodeSystem/COUNTRYISO2
+Alias: $iso3codes = http://smart.who.int/refmart/CodeSystem/COUNTRYISO3
