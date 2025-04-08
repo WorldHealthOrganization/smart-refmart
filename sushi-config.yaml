@@ -1,8 +1,8 @@
-id: smart.who.int.ig-empty
-canonical: http://smart.who.int/ig-empty
-name: IGEmpty
-title: Empty IG
-description: An empty Implementation Guide to be used as a starting point for building SMART Guidelines Implementation Guides
+id: smart.who.int.refmart
+canonical: http://smart.who.int/refmart
+name: refmart
+title: RefMart
+description: An Implementation Guide for the WHO RefMart https://data.who.int/
 status: draft # draft | active | retired | unknown
 experimental: false
 version: 0.1.0
