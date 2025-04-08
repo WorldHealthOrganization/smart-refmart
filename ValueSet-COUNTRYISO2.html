@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>WHO RefMart ISO2 Country List - RefMart v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+    <link href="assets/css/fa-all.css" rel="stylesheet" type="text/css" />
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/who.css" rel="stylesheet"/>
+    <link href="assets/css/lforms.min.css" rel="stylesheet"/>
+
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"5.1.1"}
+    h3,h4,h5,h6{--heading-prefix:"5.1.1"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+
+      <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+        <div id="stripe"> </div>
+        <div class="container">  <!-- container -->
+          <!-- HEADER CONTENT -->
+  
+          <nav class="navbar navbar-inverse">
+            <!--status-bar-->
+            <div class="container">
+              <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+              </button>
+              <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+              <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Home
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Summary</a>
+      </li>
+      <li>
+        <a href="changes.html">Changes</a>
+      </li>
+      <li>
+        <a href="dependencies.html">Dependencies</a>
+      </li>
+      <li>
+        <a href="references.html">References</a>
+      </li>
+      <li>
+        <a href="adapting.html">Adapting Guidelines for Country use</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Business Requirements
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="concepts.html">Concepts</a>
+      </li>
+      <li>
+        <a href="personas.html">Generic Personas</a>
+      </li>
+      <li>
+        <a href="scenarios.html">User Scenarios</a>
+      </li>
+      <li>
+        <a href="business-processes.html">Business Processes</a>
+      </li>
+      <li>
+        <a href="dictionary.html">Data Dictionary</a>
+      </li>
+      <li>
+        <a href="decision-logic.html">Decision-support Logic</a>
+      </li>
+      <li>
+        <a href="indicators.html">Indicator and Performance Metrics</a>
+      </li>
+      <li>
+        <a href="functional-requirements.html">Functional Requirements</a>
+      </li>
+      <li>
+        <a href="non-functional-requirements.html">Non-functional Requirements</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Data Models and Exchange
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="system-actors.html">System Actors</a>
+      </li>
+      <li>
+        <a href="sequence-diagrams.html">Sequence Diagrams</a>
+      </li>
+      <li>
+        <a href="transactions.html">Transactions</a>
+      </li>
+      <li>
+        <a href="indicators-measures.html">Indicators and Measures</a>
+      </li>
+      <li>
+        <a href="codings.html">Codings</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Deployment
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="security-privacy.html">Security and Privacy Considerations</a>
+      </li>
+      <li>
+        <a href="testing.html">Testing</a>
+      </li>
+      <li>
+        <a href="test-data.html">Test Data</a>
+      </li>
+      <li>
+        <a href="reference-implementations.html">Reference Implementations</a>
+      </li>
+      <li>
+        <a href="trust_domain.html">Trust Domains</a>
+      </li>
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Indices
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="artifacts.html">Artifact Index</a>
+      </li>
+      <li>
+        <a href="maps.html">Mappings</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+              </div>  <!-- /.nav-collapse -->
+
+              <div class="sf_colsIn col-md-8  navbar-right-container" data-sf-element="LanguageSelectorSearch" data-placeholder-label="Language Selector and Search" style="display: flex; justify-content: flex-end; align-items: center;">
+                <!-- This div will be pushed to the right -->
+                <div class="language-selector" style="margin-left: auto; background-color: #00477d; color: white;">
+                  <i class="fa fa-language fa-lg"></i>
+                  <label for="language-selector"> </label>
+                  <select onChange="openLink(value)" id="language-selector" name="language-selector">
+                    <option disabled selected>Select language</option>
+                    <option value="en" class="selected">English</option>
+                  </select>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                <!-- Search Content -->
+              </div>
+            </div>  <!-- /.container -->
+          </nav>  <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+        </div>  <!-- /container -->
+      </div>  <!-- /segment-navbar -->
+      
+
+      <div class="container" style=" justify-content: space-between; align-items: left;">
+
+        <!-- Placeholder for child template header declarations -->
+<div id="project-nav">
+    <a id="who-logo" no-external="true" href="index.html">
+        
+    </a>
+</div>
+
+ <div id="family-nav">
+  <a id="fhir-logo" no-external="true" href="http://hl7.org/fhir">  </a>
+</div> 
+
+
+        <div id="ig-status" class="ig-status-draft">
+          <p><span style="font-size:12pt;font-weight:bold">RefMart</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+
+  <img alt="International flag" src="assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>WHO RefMart ISO2 Country List</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">RefMart, published by WHO. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/WorldHealthOrganization/smart-refmart/tree/main">https://github.com/WorldHealthOrganization/smart-refmart/tree/main</a> and changes regularly. See the <a href="http://smart.who.int/refmart/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ValueSet-COUNTRYISO2.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-COUNTRYISO2.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-COUNTRYISO2.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: WHO RefMart ISO2 Country List
+(Experimental)
+  </h2>
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://smart.who.int/refmart/ValueSet/COUNTRYISO2<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://smart.who.int/refmart/ValueSet/COUNTRYISO2"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://smart.who.int/refmart/ValueSet/COUNTRYISO2|0.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Active
+          
+            as of 2025-04-08
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">COUNTRYISO2</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>ValueSet of ISO 2 codes for WHO RefMart Country and Jurisidiction List available at https://xmart-api-public.who.int/REFMART/REF_COUNTRY</p>
+
+</p>
+
+
+  <p>
+    <b>References</b>
+  </p>
+  
+<p>This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)</p>
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <a name="definition"> </a>
+
+<!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet COUNTRYISO2</b></p>
+<ul><li>Include all codes defined in <a href="CodeSystem-COUNTRYISO2.html"><code>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</code></a></li></ul></div>
+
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>ValueSet </b></p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on <a href="CodeSystem-COUNTRYISO2.html">codesystem WHO RefMart Country List ISO 2 Codes v0.1.0 (CodeSystem)</a></p><p>This value set contains 249 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-AF"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-AF">AF</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Afghanistan</td><td><div><p>the Islamic Republic of  Afghanistan</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-AL"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-AL">AL</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Albania</td><td><div><p>the Republic of Albania</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-DZ"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-DZ">DZ</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Algeria</td><td><div><p>the People’s Democratic Republic of Algeria</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-AS"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-AS">AS</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>American Samoa</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-AD"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-AD">AD</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Andorra</td><td><div><p>the Principality of Andorra</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-AO"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-AO">AO</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Angola</td><td><div><p>the Republic of Angola</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-AG"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-AG">AG</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Antigua and Barbuda</td><td><div><p>Antigua and Barbuda</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-AZ"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-AZ">AZ</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Azerbaijan</td><td><div><p>the Republic of Azerbaijan</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-AR"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-AR">AR</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Argentina</td><td><div><p>the Argentine Republic</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-AU"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-AU">AU</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Australia</td><td><div><p>Australia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-AT"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-AT">AT</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Austria</td><td><div><p>the Republic of Austria</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-BS"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-BS">BS</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Bahamas</td><td><div><p>the Commonwealth of the Bahamas</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-BH"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-BH">BH</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Bahrain</td><td><div><p>the Kingdom of Bahrain</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-BD"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-BD">BD</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Bangladesh</td><td><div><p>the People’s Republic of Bangladesh</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-AM"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-AM">AM</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Armenia</td><td><div><p>the Republic of Armenia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-BB"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-BB">BB</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Barbados</td><td><div><p>Barbados</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-BE"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-BE">BE</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Belgium</td><td><div><p>the Kingdom of Belgium</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-BM"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-BM">BM</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Bermuda</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-BT"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-BT">BT</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Bhutan</td><td><div><p>the Kingdom of Bhutan</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-BO"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-BO">BO</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Bolivia (Plurinational State of)</td><td><div><p>the Plurinational State of Bolivia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-BA"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-BA">BA</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Bosnia and Herzegovina</td><td><div><p>Bosnia and Herzegovina</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-BW"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-BW">BW</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Botswana</td><td><div><p>the Republic of Botswana</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-BV"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-BV">BV</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Bouvet Island</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-BR"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-BR">BR</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Brazil</td><td><div><p>the Federative Republic of Brazil</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-BZ"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-BZ">BZ</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Belize</td><td><div><p>Belize</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-IO"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-IO">IO</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>British Indian Ocean Territory</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-SB"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-SB">SB</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Solomon Islands</td><td><div><p>Solomon Islands</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-VG"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-VG">VG</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>British Virgin Islands</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-BN"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-BN">BN</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Brunei Darussalam</td><td><div><p>Brunei Darussalam</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-BG"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-BG">BG</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Bulgaria</td><td><div><p>the Republic of Bulgaria</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-MM"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-MM">MM</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Myanmar</td><td><div><p>the Republic of the Union of Myanmar</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-BI"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-BI">BI</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Burundi</td><td><div><p>the Republic of Burundi</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-BY"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-BY">BY</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Belarus</td><td><div><p>the Republic of Belarus</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-KH"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-KH">KH</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Cambodia</td><td><div><p>the Kingdom of Cambodia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-CM"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-CM">CM</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Cameroon</td><td><div><p>the Republic of Cameroon</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-CA"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-CA">CA</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Canada</td><td><div><p>Canada</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-CV"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-CV">CV</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Cabo Verde</td><td><div><p>the Republic of Cabo Verde</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-KY"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-KY">KY</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Cayman Islands</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-CF"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-CF">CF</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Central African Republic</td><td><div><p>the Central African Republic</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-LK"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-LK">LK</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Sri Lanka</td><td><div><p>the Democratic Socialist Republic of Sri Lanka</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-TD"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-TD">TD</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Chad</td><td><div><p>the Republic of Chad</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-CL"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-CL">CL</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Chile</td><td><div><p>the Republic of Chile</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-CN"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-CN">CN</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>China</td><td><div><p>the People’s Republic of China</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-TW"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-TW">TW</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Taiwan, China</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-CX"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-CX">CX</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Christmas Island</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-CC"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-CC">CC</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Cocos (Keeling) Islands</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-CO"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-CO">CO</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Colombia</td><td><div><p>the Republic of Colombia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-KM"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-KM">KM</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Comoros</td><td><div><p>the Union of the Comoros</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-YT"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-YT">YT</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Mayotte</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-CG"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-CG">CG</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Congo</td><td><div><p>the Republic of the Congo</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-CD"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-CD">CD</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Democratic Republic of the Congo</td><td><div><p>the Democratic Republic of the Congo</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-CK"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-CK">CK</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Cook Islands</td><td><div><p>the Cook Islands</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-CR"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-CR">CR</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Costa Rica</td><td><div><p>the Republic of Costa Rica</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-HR"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-HR">HR</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Croatia</td><td><div><p>the Republic of Croatia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-CU"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-CU">CU</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Cuba</td><td><div><p>the Republic of Cuba</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-CY"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-CY">CY</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Cyprus</td><td><div><p>the Republic of Cyprus</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-CZ"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-CZ">CZ</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Czechia</td><td><div><p>the Czech Republic</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-BJ"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-BJ">BJ</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Benin</td><td><div><p>the Republic of Benin</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-DK"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-DK">DK</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Denmark</td><td><div><p>the Kingdom of Denmark</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-DM"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-DM">DM</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Dominica</td><td><div><p>the Commonwealth of Dominica</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-DO"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-DO">DO</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Dominican Republic</td><td><div><p>the Dominican Republic</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-EC"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-EC">EC</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Ecuador</td><td><div><p>the Republic of Ecuador</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-SV"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-SV">SV</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>El Salvador</td><td><div><p>the Republic of El Salvador</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-GQ"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-GQ">GQ</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Equatorial Guinea</td><td><div><p>the Republic of Equatorial Guinea</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-ET"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-ET">ET</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Ethiopia</td><td><div><p>the Federal Democratic Republic of Ethiopia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-ER"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-ER">ER</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Eritrea</td><td><div><p>Eritrea</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-EE"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-EE">EE</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Estonia</td><td><div><p>the Republic of Estonia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-FO"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-FO">FO</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Faroe Islands</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-FK"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-FK">FK</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Falkland Islands (Malvinas)</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-GS"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-GS">GS</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>South Georgia and the South Sandwich Islands</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-FJ"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-FJ">FJ</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Fiji</td><td><div><p>the Republic of Fiji</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-FI"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-FI">FI</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Finland</td><td><div><p>the Republic of Finland</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-AX"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-AX">AX</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Åland Islands</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-FR"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-FR">FR</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>France</td><td><div><p>the French Republic</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-GF"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-GF">GF</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>French Guiana</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-PF"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-PF">PF</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>French Polynesia</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-TF"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-TF">TF</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>French Southern Territories</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-DJ"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-DJ">DJ</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Djibouti</td><td><div><p>the Republic of Djibouti</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-GA"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-GA">GA</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Gabon</td><td><div><p>the Gabonese Republic</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-GE"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-GE">GE</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Georgia</td><td><div><p>Georgia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-GM"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-GM">GM</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Gambia</td><td><div><p>Republic of the Gambia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-PS"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-PS">PS</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>occupied Palestinian territory, including east Jerusalem</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-DE"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-DE">DE</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Germany</td><td><div><p>the Federal Republic of Germany</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-GH"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-GH">GH</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Ghana</td><td><div><p>the Republic of Ghana</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-GI"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-GI">GI</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Gibraltar</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-KI"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-KI">KI</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Kiribati</td><td><div><p>the Republic of Kiribati</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-GR"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-GR">GR</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Greece</td><td><div><p>the Hellenic Republic</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-GL"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-GL">GL</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Greenland</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-GD"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-GD">GD</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Grenada</td><td><div><p>Grenada</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-GP"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-GP">GP</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Guadeloupe</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-GU"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-GU">GU</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Guam</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-GT"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-GT">GT</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Guatemala</td><td><div><p>the Republic of Guatemala</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-GN"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-GN">GN</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Guinea</td><td><div><p>the Republic of Guinea</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-GY"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-GY">GY</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Guyana</td><td><div><p>the Republic of Guyana</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-HT"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-HT">HT</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Haiti</td><td><div><p>the Republic of Haiti</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-HM"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-HM">HM</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Heard Island and McDonald Islands</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-VA"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-VA">VA</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Holy See</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-HN"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-HN">HN</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Honduras</td><td><div><p>the Republic of Honduras</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-HK"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-HK">HK</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>China, Hong Kong SAR</td><td><div><p>China, Hong Kong Special Administrative REGION</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-HU"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-HU">HU</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Hungary</td><td><div><p>Hungary</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-IS"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-IS">IS</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Iceland</td><td><div><p>Iceland</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-IN"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-IN">IN</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>India</td><td><div><p>the Republic of India</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-ID"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-ID">ID</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Indonesia</td><td><div><p>the Republic of Indonesia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-IR"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-IR">IR</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Iran (Islamic Republic of)</td><td><div><p>the Islamic Republic of Iran</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-IQ"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-IQ">IQ</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Iraq</td><td><div><p>the Republic of Iraq</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-IE"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-IE">IE</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Ireland</td><td><div><p>Ireland</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-IL"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-IL">IL</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Israel</td><td><div><p>the State of Israel</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-IT"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-IT">IT</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Italy</td><td><div><p>the Republic of Italy</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-CI"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-CI">CI</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Côte d’Ivoire</td><td><div><p>the Republic of Côte d'Ivoire</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-JM"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-JM">JM</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Jamaica</td><td><div><p>Jamaica</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-JP"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-JP">JP</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Japan</td><td><div><p>Japan</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-KZ"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-KZ">KZ</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Kazakhstan</td><td><div><p>the Republic of Kazakhstan</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-JO"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-JO">JO</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Jordan</td><td><div><p>the Hashemite Kingdom of Jordan</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-KE"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-KE">KE</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Kenya</td><td><div><p>the Republic of Kenya</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-KP"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-KP">KP</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Democratic People's Republic of Korea</td><td><div><p>the Democratic People's Republic of Korea</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-KR"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-KR">KR</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Republic of Korea</td><td><div><p>the Republic of Korea</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-XK"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-XK">XK</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Kosovo (in accordance with UN Security Council resolution 1244 (1999))</td><td><div><p>Kosovo (in accordance with UN Security Council resolution 1244 (1999))</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-KW"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-KW">KW</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Kuwait</td><td><div><p>the State of Kuwait</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-KG"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-KG">KG</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Kyrgyzstan</td><td><div><p>the Kyrgyz Republic</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-LA"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-LA">LA</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Lao People's Democratic Republic</td><td><div><p>the Lao People's Democratic Republic</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-LB"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-LB">LB</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Lebanon</td><td><div><p>the Lebanese Republic</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-LS"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-LS">LS</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Lesotho</td><td><div><p>the Kingdom of Lesotho</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-LV"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-LV">LV</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Latvia</td><td><div><p>the Republic of Latvia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-LR"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-LR">LR</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Liberia</td><td><div><p>the Republic of Liberia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-LY"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-LY">LY</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Libya</td><td><div><p>State of Libya</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-LI"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-LI">LI</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Liechtenstein</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-LT"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-LT">LT</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Lithuania</td><td><div><p>the Republic of Lithuania</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-LU"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-LU">LU</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Luxembourg</td><td><div><p>the Grand Duchy of Luxembourg</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-MO"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-MO">MO</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>China, Macao SAR</td><td><div><p>China, Macao Special Administrative REGION</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-MG"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-MG">MG</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Madagascar</td><td><div><p>the Republic of Madagascar</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-MW"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-MW">MW</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Malawi</td><td><div><p>the Republic of Malawi</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-MY"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-MY">MY</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Malaysia</td><td><div><p>Malaysia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-MV"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-MV">MV</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Maldives</td><td><div><p>the Republic of Maldives</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-ML"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-ML">ML</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Mali</td><td><div><p>the Republic of Mali</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-MT"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-MT">MT</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Malta</td><td><div><p>the Republic of Malta</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-MQ"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-MQ">MQ</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Martinique</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-MR"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-MR">MR</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Mauritania</td><td><div><p>the Islamic Republic of Mauritania</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-MU"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-MU">MU</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Mauritius</td><td><div><p>the Republic of Mauritius</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-MX"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-MX">MX</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Mexico</td><td><div><p>the United Mexican States</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-MC"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-MC">MC</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Monaco</td><td><div><p>the Principality of Monaco</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-MN"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-MN">MN</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Mongolia</td><td><div><p>Mongolia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-MD"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-MD">MD</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Republic of Moldova</td><td><div><p>the Republic of Moldova</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-ME"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-ME">ME</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Montenegro</td><td><div><p>Montenegro</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-MS"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-MS">MS</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Montserrat</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-MA"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-MA">MA</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Morocco</td><td><div><p>the Kingdom of Morocco</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-MZ"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-MZ">MZ</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Mozambique</td><td><div><p>the Republic of Mozambique</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-OM"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-OM">OM</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Oman</td><td><div><p>the Sultanate of Oman</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-NA"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-NA">NA</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Namibia</td><td><div><p>the Republic of Namibia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-NR"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-NR">NR</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Nauru</td><td><div><p>the Republic of Nauru</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-NP"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-NP">NP</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Nepal</td><td><div><p>the Federal Democratic Republic of Nepal</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-NL"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-NL">NL</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Netherlands (Kingdom of the)</td><td><div><p>the Kingdom of  the Netherlands</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-CW"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-CW">CW</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Curaçao</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-AW"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-AW">AW</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Aruba</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-SX"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-SX">SX</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Sint Maarten (Dutch part)</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-BQ"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-BQ">BQ</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Bonaire, Sint Eustatius and Saba</td><td><div><p>Bonaire, Sint Eustatius and Saba</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-NC"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-NC">NC</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>New Caledonia</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-VU"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-VU">VU</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Vanuatu</td><td><div><p>the Republic of Vanuatu</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-NZ"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-NZ">NZ</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>New Zealand</td><td><div><p>New Zealand</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-NI"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-NI">NI</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Nicaragua</td><td><div><p>the Republic of Nicaragua</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-NE"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-NE">NE</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Niger</td><td><div><p>the Republic of the Niger</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-NG"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-NG">NG</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Nigeria</td><td><div><p>the Federal Republic of Nigeria</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-NU"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-NU">NU</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Niue</td><td><div><p>the Republic of Niue</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-NF"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-NF">NF</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Norfolk Island</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-NO"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-NO">NO</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Norway</td><td><div><p>the Kingdom of Norway</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-MP"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-MP">MP</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Northern Mariana Islands</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-UM"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-UM">UM</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>United States Minor Outlying Islands</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-FM"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-FM">FM</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Micronesia (Federated States of)</td><td><div><p>the Federated States of Micronesia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-MH"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-MH">MH</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Marshall Islands</td><td><div><p>the Republic of the  Marshall Islands</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-PW"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-PW">PW</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Palau</td><td><div><p>the Republic of Palau</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-PK"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-PK">PK</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Pakistan</td><td><div><p>the Islamic Republic of Pakistan</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-PA"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-PA">PA</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Panama</td><td><div><p>the Republic of Panama</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-PG"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-PG">PG</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Papua New Guinea</td><td><div><p>Independent State of Papua New Guinea</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-PY"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-PY">PY</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Paraguay</td><td><div><p>the Republic of Paraguay</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-PE"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-PE">PE</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Peru</td><td><div><p>the Republic of Peru</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-PH"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-PH">PH</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Philippines</td><td><div><p>the Republic of the Philippines</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-PN"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-PN">PN</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Pitcairn</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-PL"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-PL">PL</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Poland</td><td><div><p>the Republic of Poland</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-PT"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-PT">PT</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Portugal</td><td><div><p>the Portuguese Republic</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-GW"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-GW">GW</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Guinea-Bissau</td><td><div><p>the Republic of Guinea-Bissau</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-TL"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-TL">TL</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Timor-Leste</td><td><div><p>the Democratic Republic of Timor-Leste</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-PR"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-PR">PR</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Puerto Rico</td><td><div><p>Puerto Rico</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-QA"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-QA">QA</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Qatar</td><td><div><p>the State of Qatar</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-RE"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-RE">RE</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Réunion</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-RO"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-RO">RO</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Romania</td><td><div><p>Romania</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-RU"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-RU">RU</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Russian Federation</td><td><div><p>the Russian Federation</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-RW"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-RW">RW</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Rwanda</td><td><div><p>the Republic of Rwanda</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-BL"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-BL">BL</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Saint Barthélemy</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-SH"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-SH">SH</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Saint Helena</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-KN"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-KN">KN</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Saint Kitts and Nevis</td><td><div><p>Saint Kitts and Nevis</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-AI"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-AI">AI</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Anguilla</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-LC"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-LC">LC</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Saint Lucia</td><td><div><p>Saint Lucia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-MF"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-MF">MF</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Saint Martin (French part)</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-PM"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-PM">PM</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Saint Pierre and Miquelon</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-VC"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-VC">VC</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Saint Vincent and the Grenadines</td><td><div><p>Saint Vincent and the Grenadines</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-SM"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-SM">SM</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>San Marino</td><td><div><p>the Republic of San Marino</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-ST"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-ST">ST</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Sao Tome and Principe</td><td><div><p>the Democratic Republic of Sao Tome and Principe</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-SA"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-SA">SA</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Saudi Arabia</td><td><div><p>the Kingdom of Saudi Arabia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-SN"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-SN">SN</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Senegal</td><td><div><p>the Republic of Senegal</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-RS"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-RS">RS</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Serbia</td><td><div><p>the Republic of Serbia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-SC"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-SC">SC</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Seychelles</td><td><div><p>the Republic of Seychelles</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-SL"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-SL">SL</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Sierra Leone</td><td><div><p>the Republic of Sierra Leone</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-SG"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-SG">SG</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Singapore</td><td><div><p>the Republic of Singapore</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-SK"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-SK">SK</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Slovakia</td><td><div><p>the Slovak Republic</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-VN"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-VN">VN</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Viet Nam</td><td><div><p>the Socialist Republic of Viet Nam</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-SI"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-SI">SI</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Slovenia</td><td><div><p>the Republic of Slovenia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-SO"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-SO">SO</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Somalia</td><td><div><p>the Federal Republic of Somalia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-ZA"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-ZA">ZA</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>South Africa</td><td><div><p>the Republic of South Africa</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-ZW"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-ZW">ZW</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Zimbabwe</td><td><div><p>the Republic of Zimbabwe</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-ES"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-ES">ES</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Spain</td><td><div><p>the Kingdom of Spain</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-SS"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-SS">SS</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>South Sudan</td><td><div><p>the Republic of South Sudan</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-SD"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-SD">SD</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Sudan</td><td><div><p>the Republic of the Sudan</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-EH"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-EH">EH</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Western Sahara</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-SR"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-SR">SR</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Suriname</td><td><div><p>the Republic of Suriname</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-SJ"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-SJ">SJ</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Svalbard and Jan Mayen</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-SZ"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-SZ">SZ</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Eswatini</td><td><div><p>the Kingdom of Eswatini</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-SE"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-SE">SE</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Sweden</td><td><div><p>the Kingdom of Sweden</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-CH"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-CH">CH</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Switzerland</td><td><div><p>the Swiss Confederation</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-SY"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-SY">SY</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Syrian Arab Republic</td><td><div><p>the Syrian Arab Republic</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-TJ"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-TJ">TJ</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Tajikistan</td><td><div><p>the Republic of Tajikistan</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-TH"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-TH">TH</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Thailand</td><td><div><p>the Kingdom of Thailand</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-TG"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-TG">TG</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Togo</td><td><div><p>the Togolese Republic</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-TK"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-TK">TK</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Tokelau</td><td><div><p>Tokelau</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-TO"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-TO">TO</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Tonga</td><td><div><p>the Kingdom of Tonga</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-TT"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-TT">TT</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Trinidad and Tobago</td><td><div><p>the Republic of Trinidad and Tobago</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-AE"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-AE">AE</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>United Arab Emirates</td><td><div><p>the United Arab Emirates</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-TN"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-TN">TN</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Tunisia</td><td><div><p>the Republic of Tunisia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-TR"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-TR">TR</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Türkiye</td><td><div><p>the Republic of Türkiye</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-TM"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-TM">TM</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Turkmenistan</td><td><div><p>Turkmenistan</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-TC"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-TC">TC</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Turks and Caicos Islands</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-TV"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-TV">TV</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Tuvalu</td><td><div><p>Tuvalu</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-UG"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-UG">UG</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Uganda</td><td><div><p>the Republic of Uganda</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-UA"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-UA">UA</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Ukraine</td><td><div><p>Ukraine</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-MK"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-MK">MK</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>North Macedonia</td><td><div><p>the Republic of North Macedonia</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-EG"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-EG">EG</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Egypt</td><td><div><p>the Arab Republic of Egypt</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-GB"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-GB">GB</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>United Kingdom of Great Britain and Northern Ireland</td><td><div><p>the United Kingdom of Great Britain and Northern Ireland</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-GG"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-GG">GG</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Guernsey</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-JE"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-JE">JE</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Jersey</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-IM"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-IM">IM</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Isle of Man</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-TZ"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-TZ">TZ</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>United Republic of Tanzania</td><td><div><p>the United Republic of Tanzania</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-US"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-US">US</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>United States of America</td><td><div><p>the United States of America</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-VI"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-VI">VI</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>United States Virgin Islands</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-BF"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-BF">BF</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Burkina Faso</td><td><div><p>Burkina Faso</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-UY"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-UY">UY</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Uruguay</td><td><div><p>the Eastern Republic of Uruguay</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-UZ"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-UZ">UZ</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Uzbekistan</td><td><div><p>the Republic of Uzbekistan</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-VE"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-VE">VE</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Venezuela (Bolivarian Republic of)</td><td><div><p>the Bolivarian Republic of Venezuela</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-WF"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-WF">WF</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Wallis and Futuna</td><td><div/></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-WS"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-WS">WS</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Samoa</td><td><div><p>the Independent State of Samoa</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-YE"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-YE">YE</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Yemen</td><td><div><p>the Republic of Yemen</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://smart.who.int/refmart/CodeSystem/COUNTRYISO2-ZM"> </a>  <a href="CodeSystem-COUNTRYISO2.html#COUNTRYISO2-ZM">ZM</a></td><td>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</td><td>Zambia</td><td><div><p>the Republic of Zambia</p>
+</div></td></tr></table></div>
+
+  <hr/>
+  <p>
+    Explanation of the columns that may appear on this page:
+  </p>
+  <table class="grid">
+    <tr>
+      <td>Level</td>
+      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
+          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
+    </tr>
+    <tr>
+      <td>System</td>
+      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>The code (used as the code in the resource instance)</td>
+    </tr>
+    <tr>
+      <td>Display</td>
+      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>An explanation of the meaning of the concept</td>
+    </tr>
+    <tr>
+      <td>Comments</td>
+      <td>Additional notes about how to use the code</td>
+    </tr>
+  </table>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+</div>  <!-- /inner-wrapper -->
+</div>  <!-- /row -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-content -->
+
+<script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+<script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+<script type="text/javascript" src="assets/js/window-hash.js"> </script>
+<a name="bottom"> </a>
+<div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+<div class="container">  <!-- container -->
+
+<div class="inner-wrapper">
+  <p>
+    IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://who.int">WHO</a>.  Package smart.who.int.refmart#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Apr 8, 2025 14:11+0000">2025-04-08</span>
+    <br/>
+    <span style="color: var(--footer-highlight-text-color)">
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" target="_blank" href="http://smart.who.int/refmart/history.html">Version History</a> | <a style="color: #81BEF7" rel="license" href="license.html">License</a>
+    </span>
+  </p>
+</div>  <!-- /inner-wrapper -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-footer -->
+
+<div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+<div class="container">  <!-- container -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-post-footer -->
+
+<!-- JS and analytics only. -->
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+<script type="text/javascript" src="assets/js/respond.min.js"> </script>
+<script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+<script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+<script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+<script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+<!-- Analytics Below
+================================================== -->
+
+
+
+

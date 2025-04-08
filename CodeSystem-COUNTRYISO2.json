@@ -1,0 +1,1229 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "COUNTRYISO2",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem COUNTRYISO2</b></p><a name=\"COUNTRYISO2\"> </a><a name=\"hcCOUNTRYISO2\"> </a><a name=\"COUNTRYISO2-en-US\"> </a><p>This  code system <code>http://smart.who.int/refmart/CodeSystem/COUNTRYISO2</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">AF<a name=\"COUNTRYISO2-AF\"> </a></td><td>Afghanistan</td><td>the Islamic Republic of  Afghanistan</td></tr><tr><td style=\"white-space:nowrap\">AL<a name=\"COUNTRYISO2-AL\"> </a></td><td>Albania</td><td>the Republic of Albania</td></tr><tr><td style=\"white-space:nowrap\">DZ<a name=\"COUNTRYISO2-DZ\"> </a></td><td>Algeria</td><td>the People’s Democratic Republic of Algeria</td></tr><tr><td style=\"white-space:nowrap\">AS<a name=\"COUNTRYISO2-AS\"> </a></td><td>American Samoa</td><td/></tr><tr><td style=\"white-space:nowrap\">AD<a name=\"COUNTRYISO2-AD\"> </a></td><td>Andorra</td><td>the Principality of Andorra</td></tr><tr><td style=\"white-space:nowrap\">AO<a name=\"COUNTRYISO2-AO\"> </a></td><td>Angola</td><td>the Republic of Angola</td></tr><tr><td style=\"white-space:nowrap\">AG<a name=\"COUNTRYISO2-AG\"> </a></td><td>Antigua and Barbuda</td><td>Antigua and Barbuda</td></tr><tr><td style=\"white-space:nowrap\">AZ<a name=\"COUNTRYISO2-AZ\"> </a></td><td>Azerbaijan</td><td>the Republic of Azerbaijan</td></tr><tr><td style=\"white-space:nowrap\">AR<a name=\"COUNTRYISO2-AR\"> </a></td><td>Argentina</td><td>the Argentine Republic</td></tr><tr><td style=\"white-space:nowrap\">AU<a name=\"COUNTRYISO2-AU\"> </a></td><td>Australia</td><td>Australia</td></tr><tr><td style=\"white-space:nowrap\">AT<a name=\"COUNTRYISO2-AT\"> </a></td><td>Austria</td><td>the Republic of Austria</td></tr><tr><td style=\"white-space:nowrap\">BS<a name=\"COUNTRYISO2-BS\"> </a></td><td>Bahamas</td><td>the Commonwealth of the Bahamas</td></tr><tr><td style=\"white-space:nowrap\">BH<a name=\"COUNTRYISO2-BH\"> </a></td><td>Bahrain</td><td>the Kingdom of Bahrain</td></tr><tr><td style=\"white-space:nowrap\">BD<a name=\"COUNTRYISO2-BD\"> </a></td><td>Bangladesh</td><td>the People’s Republic of Bangladesh</td></tr><tr><td style=\"white-space:nowrap\">AM<a name=\"COUNTRYISO2-AM\"> </a></td><td>Armenia</td><td>the Republic of Armenia</td></tr><tr><td style=\"white-space:nowrap\">BB<a name=\"COUNTRYISO2-BB\"> </a></td><td>Barbados</td><td>Barbados</td></tr><tr><td style=\"white-space:nowrap\">BE<a name=\"COUNTRYISO2-BE\"> </a></td><td>Belgium</td><td>the Kingdom of Belgium</td></tr><tr><td style=\"white-space:nowrap\">BM<a name=\"COUNTRYISO2-BM\"> </a></td><td>Bermuda</td><td/></tr><tr><td style=\"white-space:nowrap\">BT<a name=\"COUNTRYISO2-BT\"> </a></td><td>Bhutan</td><td>the Kingdom of Bhutan</td></tr><tr><td style=\"white-space:nowrap\">BO<a name=\"COUNTRYISO2-BO\"> </a></td><td>Bolivia (Plurinational State of)</td><td>the Plurinational State of Bolivia</td></tr><tr><td style=\"white-space:nowrap\">BA<a name=\"COUNTRYISO2-BA\"> </a></td><td>Bosnia and Herzegovina</td><td>Bosnia and Herzegovina</td></tr><tr><td style=\"white-space:nowrap\">BW<a name=\"COUNTRYISO2-BW\"> </a></td><td>Botswana</td><td>the Republic of Botswana</td></tr><tr><td style=\"white-space:nowrap\">BV<a name=\"COUNTRYISO2-BV\"> </a></td><td>Bouvet Island</td><td/></tr><tr><td style=\"white-space:nowrap\">BR<a name=\"COUNTRYISO2-BR\"> </a></td><td>Brazil</td><td>the Federative Republic of Brazil</td></tr><tr><td style=\"white-space:nowrap\">BZ<a name=\"COUNTRYISO2-BZ\"> </a></td><td>Belize</td><td>Belize</td></tr><tr><td style=\"white-space:nowrap\">IO<a name=\"COUNTRYISO2-IO\"> </a></td><td>British Indian Ocean Territory</td><td/></tr><tr><td style=\"white-space:nowrap\">SB<a name=\"COUNTRYISO2-SB\"> </a></td><td>Solomon Islands</td><td>Solomon Islands</td></tr><tr><td style=\"white-space:nowrap\">VG<a name=\"COUNTRYISO2-VG\"> </a></td><td>British Virgin Islands</td><td/></tr><tr><td style=\"white-space:nowrap\">BN<a name=\"COUNTRYISO2-BN\"> </a></td><td>Brunei Darussalam</td><td>Brunei Darussalam</td></tr><tr><td style=\"white-space:nowrap\">BG<a name=\"COUNTRYISO2-BG\"> </a></td><td>Bulgaria</td><td>the Republic of Bulgaria</td></tr><tr><td style=\"white-space:nowrap\">MM<a name=\"COUNTRYISO2-MM\"> </a></td><td>Myanmar</td><td>the Republic of the Union of Myanmar</td></tr><tr><td style=\"white-space:nowrap\">BI<a name=\"COUNTRYISO2-BI\"> </a></td><td>Burundi</td><td>the Republic of Burundi</td></tr><tr><td style=\"white-space:nowrap\">BY<a name=\"COUNTRYISO2-BY\"> </a></td><td>Belarus</td><td>the Republic of Belarus</td></tr><tr><td style=\"white-space:nowrap\">KH<a name=\"COUNTRYISO2-KH\"> </a></td><td>Cambodia</td><td>the Kingdom of Cambodia</td></tr><tr><td style=\"white-space:nowrap\">CM<a name=\"COUNTRYISO2-CM\"> </a></td><td>Cameroon</td><td>the Republic of Cameroon</td></tr><tr><td style=\"white-space:nowrap\">CA<a name=\"COUNTRYISO2-CA\"> </a></td><td>Canada</td><td>Canada</td></tr><tr><td style=\"white-space:nowrap\">CV<a name=\"COUNTRYISO2-CV\"> </a></td><td>Cabo Verde</td><td>the Republic of Cabo Verde</td></tr><tr><td style=\"white-space:nowrap\">KY<a name=\"COUNTRYISO2-KY\"> </a></td><td>Cayman Islands</td><td/></tr><tr><td style=\"white-space:nowrap\">CF<a name=\"COUNTRYISO2-CF\"> </a></td><td>Central African Republic</td><td>the Central African Republic</td></tr><tr><td style=\"white-space:nowrap\">LK<a name=\"COUNTRYISO2-LK\"> </a></td><td>Sri Lanka</td><td>the Democratic Socialist Republic of Sri Lanka</td></tr><tr><td style=\"white-space:nowrap\">TD<a name=\"COUNTRYISO2-TD\"> </a></td><td>Chad</td><td>the Republic of Chad</td></tr><tr><td style=\"white-space:nowrap\">CL<a name=\"COUNTRYISO2-CL\"> </a></td><td>Chile</td><td>the Republic of Chile</td></tr><tr><td style=\"white-space:nowrap\">CN<a name=\"COUNTRYISO2-CN\"> </a></td><td>China</td><td>the People’s Republic of China</td></tr><tr><td style=\"white-space:nowrap\">TW<a name=\"COUNTRYISO2-TW\"> </a></td><td>Taiwan, China</td><td/></tr><tr><td style=\"white-space:nowrap\">CX<a name=\"COUNTRYISO2-CX\"> </a></td><td>Christmas Island</td><td/></tr><tr><td style=\"white-space:nowrap\">CC<a name=\"COUNTRYISO2-CC\"> </a></td><td>Cocos (Keeling) Islands</td><td/></tr><tr><td style=\"white-space:nowrap\">CO<a name=\"COUNTRYISO2-CO\"> </a></td><td>Colombia</td><td>the Republic of Colombia</td></tr><tr><td style=\"white-space:nowrap\">KM<a name=\"COUNTRYISO2-KM\"> </a></td><td>Comoros</td><td>the Union of the Comoros</td></tr><tr><td style=\"white-space:nowrap\">YT<a name=\"COUNTRYISO2-YT\"> </a></td><td>Mayotte</td><td/></tr><tr><td style=\"white-space:nowrap\">CG<a name=\"COUNTRYISO2-CG\"> </a></td><td>Congo</td><td>the Republic of the Congo</td></tr><tr><td style=\"white-space:nowrap\">CD<a name=\"COUNTRYISO2-CD\"> </a></td><td>Democratic Republic of the Congo</td><td>the Democratic Republic of the Congo</td></tr><tr><td style=\"white-space:nowrap\">CK<a name=\"COUNTRYISO2-CK\"> </a></td><td>Cook Islands</td><td>the Cook Islands</td></tr><tr><td style=\"white-space:nowrap\">CR<a name=\"COUNTRYISO2-CR\"> </a></td><td>Costa Rica</td><td>the Republic of Costa Rica</td></tr><tr><td style=\"white-space:nowrap\">HR<a name=\"COUNTRYISO2-HR\"> </a></td><td>Croatia</td><td>the Republic of Croatia</td></tr><tr><td style=\"white-space:nowrap\">CU<a name=\"COUNTRYISO2-CU\"> </a></td><td>Cuba</td><td>the Republic of Cuba</td></tr><tr><td style=\"white-space:nowrap\">CY<a name=\"COUNTRYISO2-CY\"> </a></td><td>Cyprus</td><td>the Republic of Cyprus</td></tr><tr><td style=\"white-space:nowrap\">CZ<a name=\"COUNTRYISO2-CZ\"> </a></td><td>Czechia</td><td>the Czech Republic</td></tr><tr><td style=\"white-space:nowrap\">BJ<a name=\"COUNTRYISO2-BJ\"> </a></td><td>Benin</td><td>the Republic of Benin</td></tr><tr><td style=\"white-space:nowrap\">DK<a name=\"COUNTRYISO2-DK\"> </a></td><td>Denmark</td><td>the Kingdom of Denmark</td></tr><tr><td style=\"white-space:nowrap\">DM<a name=\"COUNTRYISO2-DM\"> </a></td><td>Dominica</td><td>the Commonwealth of Dominica</td></tr><tr><td style=\"white-space:nowrap\">DO<a name=\"COUNTRYISO2-DO\"> </a></td><td>Dominican Republic</td><td>the Dominican Republic</td></tr><tr><td style=\"white-space:nowrap\">EC<a name=\"COUNTRYISO2-EC\"> </a></td><td>Ecuador</td><td>the Republic of Ecuador</td></tr><tr><td style=\"white-space:nowrap\">SV<a name=\"COUNTRYISO2-SV\"> </a></td><td>El Salvador</td><td>the Republic of El Salvador</td></tr><tr><td style=\"white-space:nowrap\">GQ<a name=\"COUNTRYISO2-GQ\"> </a></td><td>Equatorial Guinea</td><td>the Republic of Equatorial Guinea</td></tr><tr><td style=\"white-space:nowrap\">ET<a name=\"COUNTRYISO2-ET\"> </a></td><td>Ethiopia</td><td>the Federal Democratic Republic of Ethiopia</td></tr><tr><td style=\"white-space:nowrap\">ER<a name=\"COUNTRYISO2-ER\"> </a></td><td>Eritrea</td><td>Eritrea</td></tr><tr><td style=\"white-space:nowrap\">EE<a name=\"COUNTRYISO2-EE\"> </a></td><td>Estonia</td><td>the Republic of Estonia</td></tr><tr><td style=\"white-space:nowrap\">FO<a name=\"COUNTRYISO2-FO\"> </a></td><td>Faroe Islands</td><td/></tr><tr><td style=\"white-space:nowrap\">FK<a name=\"COUNTRYISO2-FK\"> </a></td><td>Falkland Islands (Malvinas)</td><td/></tr><tr><td style=\"white-space:nowrap\">GS<a name=\"COUNTRYISO2-GS\"> </a></td><td>South Georgia and the South Sandwich Islands</td><td/></tr><tr><td style=\"white-space:nowrap\">FJ<a name=\"COUNTRYISO2-FJ\"> </a></td><td>Fiji</td><td>the Republic of Fiji</td></tr><tr><td style=\"white-space:nowrap\">FI<a name=\"COUNTRYISO2-FI\"> </a></td><td>Finland</td><td>the Republic of Finland</td></tr><tr><td style=\"white-space:nowrap\">AX<a name=\"COUNTRYISO2-AX\"> </a></td><td>Åland Islands</td><td/></tr><tr><td style=\"white-space:nowrap\">FR<a name=\"COUNTRYISO2-FR\"> </a></td><td>France</td><td>the French Republic</td></tr><tr><td style=\"white-space:nowrap\">GF<a name=\"COUNTRYISO2-GF\"> </a></td><td>French Guiana</td><td/></tr><tr><td style=\"white-space:nowrap\">PF<a name=\"COUNTRYISO2-PF\"> </a></td><td>French Polynesia</td><td/></tr><tr><td style=\"white-space:nowrap\">TF<a name=\"COUNTRYISO2-TF\"> </a></td><td>French Southern Territories</td><td/></tr><tr><td style=\"white-space:nowrap\">DJ<a name=\"COUNTRYISO2-DJ\"> </a></td><td>Djibouti</td><td>the Republic of Djibouti</td></tr><tr><td style=\"white-space:nowrap\">GA<a name=\"COUNTRYISO2-GA\"> </a></td><td>Gabon</td><td>the Gabonese Republic</td></tr><tr><td style=\"white-space:nowrap\">GE<a name=\"COUNTRYISO2-GE\"> </a></td><td>Georgia</td><td>Georgia</td></tr><tr><td style=\"white-space:nowrap\">GM<a name=\"COUNTRYISO2-GM\"> </a></td><td>Gambia</td><td>Republic of the Gambia</td></tr><tr><td style=\"white-space:nowrap\">PS<a name=\"COUNTRYISO2-PS\"> </a></td><td>occupied Palestinian territory, including east Jerusalem</td><td/></tr><tr><td style=\"white-space:nowrap\">DE<a name=\"COUNTRYISO2-DE\"> </a></td><td>Germany</td><td>the Federal Republic of Germany</td></tr><tr><td style=\"white-space:nowrap\">GH<a name=\"COUNTRYISO2-GH\"> </a></td><td>Ghana</td><td>the Republic of Ghana</td></tr><tr><td style=\"white-space:nowrap\">GI<a name=\"COUNTRYISO2-GI\"> </a></td><td>Gibraltar</td><td/></tr><tr><td style=\"white-space:nowrap\">KI<a name=\"COUNTRYISO2-KI\"> </a></td><td>Kiribati</td><td>the Republic of Kiribati</td></tr><tr><td style=\"white-space:nowrap\">GR<a name=\"COUNTRYISO2-GR\"> </a></td><td>Greece</td><td>the Hellenic Republic</td></tr><tr><td style=\"white-space:nowrap\">GL<a name=\"COUNTRYISO2-GL\"> </a></td><td>Greenland</td><td/></tr><tr><td style=\"white-space:nowrap\">GD<a name=\"COUNTRYISO2-GD\"> </a></td><td>Grenada</td><td>Grenada</td></tr><tr><td style=\"white-space:nowrap\">GP<a name=\"COUNTRYISO2-GP\"> </a></td><td>Guadeloupe</td><td/></tr><tr><td style=\"white-space:nowrap\">GU<a name=\"COUNTRYISO2-GU\"> </a></td><td>Guam</td><td/></tr><tr><td style=\"white-space:nowrap\">GT<a name=\"COUNTRYISO2-GT\"> </a></td><td>Guatemala</td><td>the Republic of Guatemala</td></tr><tr><td style=\"white-space:nowrap\">GN<a name=\"COUNTRYISO2-GN\"> </a></td><td>Guinea</td><td>the Republic of Guinea</td></tr><tr><td style=\"white-space:nowrap\">GY<a name=\"COUNTRYISO2-GY\"> </a></td><td>Guyana</td><td>the Republic of Guyana</td></tr><tr><td style=\"white-space:nowrap\">HT<a name=\"COUNTRYISO2-HT\"> </a></td><td>Haiti</td><td>the Republic of Haiti</td></tr><tr><td style=\"white-space:nowrap\">HM<a name=\"COUNTRYISO2-HM\"> </a></td><td>Heard Island and McDonald Islands</td><td/></tr><tr><td style=\"white-space:nowrap\">VA<a name=\"COUNTRYISO2-VA\"> </a></td><td>Holy See</td><td/></tr><tr><td style=\"white-space:nowrap\">HN<a name=\"COUNTRYISO2-HN\"> </a></td><td>Honduras</td><td>the Republic of Honduras</td></tr><tr><td style=\"white-space:nowrap\">HK<a name=\"COUNTRYISO2-HK\"> </a></td><td>China, Hong Kong SAR</td><td>China, Hong Kong Special Administrative REGION</td></tr><tr><td style=\"white-space:nowrap\">HU<a name=\"COUNTRYISO2-HU\"> </a></td><td>Hungary</td><td>Hungary</td></tr><tr><td style=\"white-space:nowrap\">IS<a name=\"COUNTRYISO2-IS\"> </a></td><td>Iceland</td><td>Iceland</td></tr><tr><td style=\"white-space:nowrap\">IN<a name=\"COUNTRYISO2-IN\"> </a></td><td>India</td><td>the Republic of India</td></tr><tr><td style=\"white-space:nowrap\">ID<a name=\"COUNTRYISO2-ID\"> </a></td><td>Indonesia</td><td>the Republic of Indonesia</td></tr><tr><td style=\"white-space:nowrap\">IR<a name=\"COUNTRYISO2-IR\"> </a></td><td>Iran (Islamic Republic of)</td><td>the Islamic Republic of Iran</td></tr><tr><td style=\"white-space:nowrap\">IQ<a name=\"COUNTRYISO2-IQ\"> </a></td><td>Iraq</td><td>the Republic of Iraq</td></tr><tr><td style=\"white-space:nowrap\">IE<a name=\"COUNTRYISO2-IE\"> </a></td><td>Ireland</td><td>Ireland</td></tr><tr><td style=\"white-space:nowrap\">IL<a name=\"COUNTRYISO2-IL\"> </a></td><td>Israel</td><td>the State of Israel</td></tr><tr><td style=\"white-space:nowrap\">IT<a name=\"COUNTRYISO2-IT\"> </a></td><td>Italy</td><td>the Republic of Italy</td></tr><tr><td style=\"white-space:nowrap\">CI<a name=\"COUNTRYISO2-CI\"> </a></td><td>Côte d’Ivoire</td><td>the Republic of Côte d'Ivoire</td></tr><tr><td style=\"white-space:nowrap\">JM<a name=\"COUNTRYISO2-JM\"> </a></td><td>Jamaica</td><td>Jamaica</td></tr><tr><td style=\"white-space:nowrap\">JP<a name=\"COUNTRYISO2-JP\"> </a></td><td>Japan</td><td>Japan</td></tr><tr><td style=\"white-space:nowrap\">KZ<a name=\"COUNTRYISO2-KZ\"> </a></td><td>Kazakhstan</td><td>the Republic of Kazakhstan</td></tr><tr><td style=\"white-space:nowrap\">JO<a name=\"COUNTRYISO2-JO\"> </a></td><td>Jordan</td><td>the Hashemite Kingdom of Jordan</td></tr><tr><td style=\"white-space:nowrap\">KE<a name=\"COUNTRYISO2-KE\"> </a></td><td>Kenya</td><td>the Republic of Kenya</td></tr><tr><td style=\"white-space:nowrap\">KP<a name=\"COUNTRYISO2-KP\"> </a></td><td>Democratic People's Republic of Korea</td><td>the Democratic People's Republic of Korea</td></tr><tr><td style=\"white-space:nowrap\">KR<a name=\"COUNTRYISO2-KR\"> </a></td><td>Republic of Korea</td><td>the Republic of Korea</td></tr><tr><td style=\"white-space:nowrap\">XK<a name=\"COUNTRYISO2-XK\"> </a></td><td>Kosovo (in accordance with UN Security Council resolution 1244 (1999))</td><td>Kosovo (in accordance with UN Security Council resolution 1244 (1999))</td></tr><tr><td style=\"white-space:nowrap\">KW<a name=\"COUNTRYISO2-KW\"> </a></td><td>Kuwait</td><td>the State of Kuwait</td></tr><tr><td style=\"white-space:nowrap\">KG<a name=\"COUNTRYISO2-KG\"> </a></td><td>Kyrgyzstan</td><td>the Kyrgyz Republic</td></tr><tr><td style=\"white-space:nowrap\">LA<a name=\"COUNTRYISO2-LA\"> </a></td><td>Lao People's Democratic Republic</td><td>the Lao People's Democratic Republic</td></tr><tr><td style=\"white-space:nowrap\">LB<a name=\"COUNTRYISO2-LB\"> </a></td><td>Lebanon</td><td>the Lebanese Republic</td></tr><tr><td style=\"white-space:nowrap\">LS<a name=\"COUNTRYISO2-LS\"> </a></td><td>Lesotho</td><td>the Kingdom of Lesotho</td></tr><tr><td style=\"white-space:nowrap\">LV<a name=\"COUNTRYISO2-LV\"> </a></td><td>Latvia</td><td>the Republic of Latvia</td></tr><tr><td style=\"white-space:nowrap\">LR<a name=\"COUNTRYISO2-LR\"> </a></td><td>Liberia</td><td>the Republic of Liberia</td></tr><tr><td style=\"white-space:nowrap\">LY<a name=\"COUNTRYISO2-LY\"> </a></td><td>Libya</td><td>State of Libya</td></tr><tr><td style=\"white-space:nowrap\">LI<a name=\"COUNTRYISO2-LI\"> </a></td><td>Liechtenstein</td><td/></tr><tr><td style=\"white-space:nowrap\">LT<a name=\"COUNTRYISO2-LT\"> </a></td><td>Lithuania</td><td>the Republic of Lithuania</td></tr><tr><td style=\"white-space:nowrap\">LU<a name=\"COUNTRYISO2-LU\"> </a></td><td>Luxembourg</td><td>the Grand Duchy of Luxembourg</td></tr><tr><td style=\"white-space:nowrap\">MO<a name=\"COUNTRYISO2-MO\"> </a></td><td>China, Macao SAR</td><td>China, Macao Special Administrative REGION</td></tr><tr><td style=\"white-space:nowrap\">MG<a name=\"COUNTRYISO2-MG\"> </a></td><td>Madagascar</td><td>the Republic of Madagascar</td></tr><tr><td style=\"white-space:nowrap\">MW<a name=\"COUNTRYISO2-MW\"> </a></td><td>Malawi</td><td>the Republic of Malawi</td></tr><tr><td style=\"white-space:nowrap\">MY<a name=\"COUNTRYISO2-MY\"> </a></td><td>Malaysia</td><td>Malaysia</td></tr><tr><td style=\"white-space:nowrap\">MV<a name=\"COUNTRYISO2-MV\"> </a></td><td>Maldives</td><td>the Republic of Maldives</td></tr><tr><td style=\"white-space:nowrap\">ML<a name=\"COUNTRYISO2-ML\"> </a></td><td>Mali</td><td>the Republic of Mali</td></tr><tr><td style=\"white-space:nowrap\">MT<a name=\"COUNTRYISO2-MT\"> </a></td><td>Malta</td><td>the Republic of Malta</td></tr><tr><td style=\"white-space:nowrap\">MQ<a name=\"COUNTRYISO2-MQ\"> </a></td><td>Martinique</td><td/></tr><tr><td style=\"white-space:nowrap\">MR<a name=\"COUNTRYISO2-MR\"> </a></td><td>Mauritania</td><td>the Islamic Republic of Mauritania</td></tr><tr><td style=\"white-space:nowrap\">MU<a name=\"COUNTRYISO2-MU\"> </a></td><td>Mauritius</td><td>the Republic of Mauritius</td></tr><tr><td style=\"white-space:nowrap\">MX<a name=\"COUNTRYISO2-MX\"> </a></td><td>Mexico</td><td>the United Mexican States</td></tr><tr><td style=\"white-space:nowrap\">MC<a name=\"COUNTRYISO2-MC\"> </a></td><td>Monaco</td><td>the Principality of Monaco</td></tr><tr><td style=\"white-space:nowrap\">MN<a name=\"COUNTRYISO2-MN\"> </a></td><td>Mongolia</td><td>Mongolia</td></tr><tr><td style=\"white-space:nowrap\">MD<a name=\"COUNTRYISO2-MD\"> </a></td><td>Republic of Moldova</td><td>the Republic of Moldova</td></tr><tr><td style=\"white-space:nowrap\">ME<a name=\"COUNTRYISO2-ME\"> </a></td><td>Montenegro</td><td>Montenegro</td></tr><tr><td style=\"white-space:nowrap\">MS<a name=\"COUNTRYISO2-MS\"> </a></td><td>Montserrat</td><td/></tr><tr><td style=\"white-space:nowrap\">MA<a name=\"COUNTRYISO2-MA\"> </a></td><td>Morocco</td><td>the Kingdom of Morocco</td></tr><tr><td style=\"white-space:nowrap\">MZ<a name=\"COUNTRYISO2-MZ\"> </a></td><td>Mozambique</td><td>the Republic of Mozambique</td></tr><tr><td style=\"white-space:nowrap\">OM<a name=\"COUNTRYISO2-OM\"> </a></td><td>Oman</td><td>the Sultanate of Oman</td></tr><tr><td style=\"white-space:nowrap\">NA<a name=\"COUNTRYISO2-NA\"> </a></td><td>Namibia</td><td>the Republic of Namibia</td></tr><tr><td style=\"white-space:nowrap\">NR<a name=\"COUNTRYISO2-NR\"> </a></td><td>Nauru</td><td>the Republic of Nauru</td></tr><tr><td style=\"white-space:nowrap\">NP<a name=\"COUNTRYISO2-NP\"> </a></td><td>Nepal</td><td>the Federal Democratic Republic of Nepal</td></tr><tr><td style=\"white-space:nowrap\">NL<a name=\"COUNTRYISO2-NL\"> </a></td><td>Netherlands (Kingdom of the)</td><td>the Kingdom of  the Netherlands</td></tr><tr><td style=\"white-space:nowrap\">CW<a name=\"COUNTRYISO2-CW\"> </a></td><td>Curaçao</td><td/></tr><tr><td style=\"white-space:nowrap\">AW<a name=\"COUNTRYISO2-AW\"> </a></td><td>Aruba</td><td/></tr><tr><td style=\"white-space:nowrap\">SX<a name=\"COUNTRYISO2-SX\"> </a></td><td>Sint Maarten (Dutch part)</td><td/></tr><tr><td style=\"white-space:nowrap\">BQ<a name=\"COUNTRYISO2-BQ\"> </a></td><td>Bonaire, Sint Eustatius and Saba</td><td>Bonaire, Sint Eustatius and Saba</td></tr><tr><td style=\"white-space:nowrap\">NC<a name=\"COUNTRYISO2-NC\"> </a></td><td>New Caledonia</td><td/></tr><tr><td style=\"white-space:nowrap\">VU<a name=\"COUNTRYISO2-VU\"> </a></td><td>Vanuatu</td><td>the Republic of Vanuatu</td></tr><tr><td style=\"white-space:nowrap\">NZ<a name=\"COUNTRYISO2-NZ\"> </a></td><td>New Zealand</td><td>New Zealand</td></tr><tr><td style=\"white-space:nowrap\">NI<a name=\"COUNTRYISO2-NI\"> </a></td><td>Nicaragua</td><td>the Republic of Nicaragua</td></tr><tr><td style=\"white-space:nowrap\">NE<a name=\"COUNTRYISO2-NE\"> </a></td><td>Niger</td><td>the Republic of the Niger</td></tr><tr><td style=\"white-space:nowrap\">NG<a name=\"COUNTRYISO2-NG\"> </a></td><td>Nigeria</td><td>the Federal Republic of Nigeria</td></tr><tr><td style=\"white-space:nowrap\">NU<a name=\"COUNTRYISO2-NU\"> </a></td><td>Niue</td><td>the Republic of Niue</td></tr><tr><td style=\"white-space:nowrap\">NF<a name=\"COUNTRYISO2-NF\"> </a></td><td>Norfolk Island</td><td/></tr><tr><td style=\"white-space:nowrap\">NO<a name=\"COUNTRYISO2-NO\"> </a></td><td>Norway</td><td>the Kingdom of Norway</td></tr><tr><td style=\"white-space:nowrap\">MP<a name=\"COUNTRYISO2-MP\"> </a></td><td>Northern Mariana Islands</td><td/></tr><tr><td style=\"white-space:nowrap\">UM<a name=\"COUNTRYISO2-UM\"> </a></td><td>United States Minor Outlying Islands</td><td/></tr><tr><td style=\"white-space:nowrap\">FM<a name=\"COUNTRYISO2-FM\"> </a></td><td>Micronesia (Federated States of)</td><td>the Federated States of Micronesia</td></tr><tr><td style=\"white-space:nowrap\">MH<a name=\"COUNTRYISO2-MH\"> </a></td><td>Marshall Islands</td><td>the Republic of the  Marshall Islands</td></tr><tr><td style=\"white-space:nowrap\">PW<a name=\"COUNTRYISO2-PW\"> </a></td><td>Palau</td><td>the Republic of Palau</td></tr><tr><td style=\"white-space:nowrap\">PK<a name=\"COUNTRYISO2-PK\"> </a></td><td>Pakistan</td><td>the Islamic Republic of Pakistan</td></tr><tr><td style=\"white-space:nowrap\">PA<a name=\"COUNTRYISO2-PA\"> </a></td><td>Panama</td><td>the Republic of Panama</td></tr><tr><td style=\"white-space:nowrap\">PG<a name=\"COUNTRYISO2-PG\"> </a></td><td>Papua New Guinea</td><td>Independent State of Papua New Guinea</td></tr><tr><td style=\"white-space:nowrap\">PY<a name=\"COUNTRYISO2-PY\"> </a></td><td>Paraguay</td><td>the Republic of Paraguay</td></tr><tr><td style=\"white-space:nowrap\">PE<a name=\"COUNTRYISO2-PE\"> </a></td><td>Peru</td><td>the Republic of Peru</td></tr><tr><td style=\"white-space:nowrap\">PH<a name=\"COUNTRYISO2-PH\"> </a></td><td>Philippines</td><td>the Republic of the Philippines</td></tr><tr><td style=\"white-space:nowrap\">PN<a name=\"COUNTRYISO2-PN\"> </a></td><td>Pitcairn</td><td/></tr><tr><td style=\"white-space:nowrap\">PL<a name=\"COUNTRYISO2-PL\"> </a></td><td>Poland</td><td>the Republic of Poland</td></tr><tr><td style=\"white-space:nowrap\">PT<a name=\"COUNTRYISO2-PT\"> </a></td><td>Portugal</td><td>the Portuguese Republic</td></tr><tr><td style=\"white-space:nowrap\">GW<a name=\"COUNTRYISO2-GW\"> </a></td><td>Guinea-Bissau</td><td>the Republic of Guinea-Bissau</td></tr><tr><td style=\"white-space:nowrap\">TL<a name=\"COUNTRYISO2-TL\"> </a></td><td>Timor-Leste</td><td>the Democratic Republic of Timor-Leste</td></tr><tr><td style=\"white-space:nowrap\">PR<a name=\"COUNTRYISO2-PR\"> </a></td><td>Puerto Rico</td><td>Puerto Rico</td></tr><tr><td style=\"white-space:nowrap\">QA<a name=\"COUNTRYISO2-QA\"> </a></td><td>Qatar</td><td>the State of Qatar</td></tr><tr><td style=\"white-space:nowrap\">RE<a name=\"COUNTRYISO2-RE\"> </a></td><td>Réunion</td><td/></tr><tr><td style=\"white-space:nowrap\">RO<a name=\"COUNTRYISO2-RO\"> </a></td><td>Romania</td><td>Romania</td></tr><tr><td style=\"white-space:nowrap\">RU<a name=\"COUNTRYISO2-RU\"> </a></td><td>Russian Federation</td><td>the Russian Federation</td></tr><tr><td style=\"white-space:nowrap\">RW<a name=\"COUNTRYISO2-RW\"> </a></td><td>Rwanda</td><td>the Republic of Rwanda</td></tr><tr><td style=\"white-space:nowrap\">BL<a name=\"COUNTRYISO2-BL\"> </a></td><td>Saint Barthélemy</td><td/></tr><tr><td style=\"white-space:nowrap\">SH<a name=\"COUNTRYISO2-SH\"> </a></td><td>Saint Helena</td><td/></tr><tr><td style=\"white-space:nowrap\">KN<a name=\"COUNTRYISO2-KN\"> </a></td><td>Saint Kitts and Nevis</td><td>Saint Kitts and Nevis</td></tr><tr><td style=\"white-space:nowrap\">AI<a name=\"COUNTRYISO2-AI\"> </a></td><td>Anguilla</td><td/></tr><tr><td style=\"white-space:nowrap\">LC<a name=\"COUNTRYISO2-LC\"> </a></td><td>Saint Lucia</td><td>Saint Lucia</td></tr><tr><td style=\"white-space:nowrap\">MF<a name=\"COUNTRYISO2-MF\"> </a></td><td>Saint Martin (French part)</td><td/></tr><tr><td style=\"white-space:nowrap\">PM<a name=\"COUNTRYISO2-PM\"> </a></td><td>Saint Pierre and Miquelon</td><td/></tr><tr><td style=\"white-space:nowrap\">VC<a name=\"COUNTRYISO2-VC\"> </a></td><td>Saint Vincent and the Grenadines</td><td>Saint Vincent and the Grenadines</td></tr><tr><td style=\"white-space:nowrap\">SM<a name=\"COUNTRYISO2-SM\"> </a></td><td>San Marino</td><td>the Republic of San Marino</td></tr><tr><td style=\"white-space:nowrap\">ST<a name=\"COUNTRYISO2-ST\"> </a></td><td>Sao Tome and Principe</td><td>the Democratic Republic of Sao Tome and Principe</td></tr><tr><td style=\"white-space:nowrap\">SA<a name=\"COUNTRYISO2-SA\"> </a></td><td>Saudi Arabia</td><td>the Kingdom of Saudi Arabia</td></tr><tr><td style=\"white-space:nowrap\">SN<a name=\"COUNTRYISO2-SN\"> </a></td><td>Senegal</td><td>the Republic of Senegal</td></tr><tr><td style=\"white-space:nowrap\">RS<a name=\"COUNTRYISO2-RS\"> </a></td><td>Serbia</td><td>the Republic of Serbia</td></tr><tr><td style=\"white-space:nowrap\">SC<a name=\"COUNTRYISO2-SC\"> </a></td><td>Seychelles</td><td>the Republic of Seychelles</td></tr><tr><td style=\"white-space:nowrap\">SL<a name=\"COUNTRYISO2-SL\"> </a></td><td>Sierra Leone</td><td>the Republic of Sierra Leone</td></tr><tr><td style=\"white-space:nowrap\">SG<a name=\"COUNTRYISO2-SG\"> </a></td><td>Singapore</td><td>the Republic of Singapore</td></tr><tr><td style=\"white-space:nowrap\">SK<a name=\"COUNTRYISO2-SK\"> </a></td><td>Slovakia</td><td>the Slovak Republic</td></tr><tr><td style=\"white-space:nowrap\">VN<a name=\"COUNTRYISO2-VN\"> </a></td><td>Viet Nam</td><td>the Socialist Republic of Viet Nam</td></tr><tr><td style=\"white-space:nowrap\">SI<a name=\"COUNTRYISO2-SI\"> </a></td><td>Slovenia</td><td>the Republic of Slovenia</td></tr><tr><td style=\"white-space:nowrap\">SO<a name=\"COUNTRYISO2-SO\"> </a></td><td>Somalia</td><td>the Federal Republic of Somalia</td></tr><tr><td style=\"white-space:nowrap\">ZA<a name=\"COUNTRYISO2-ZA\"> </a></td><td>South Africa</td><td>the Republic of South Africa</td></tr><tr><td style=\"white-space:nowrap\">ZW<a name=\"COUNTRYISO2-ZW\"> </a></td><td>Zimbabwe</td><td>the Republic of Zimbabwe</td></tr><tr><td style=\"white-space:nowrap\">ES<a name=\"COUNTRYISO2-ES\"> </a></td><td>Spain</td><td>the Kingdom of Spain</td></tr><tr><td style=\"white-space:nowrap\">SS<a name=\"COUNTRYISO2-SS\"> </a></td><td>South Sudan</td><td>the Republic of South Sudan</td></tr><tr><td style=\"white-space:nowrap\">SD<a name=\"COUNTRYISO2-SD\"> </a></td><td>Sudan</td><td>the Republic of the Sudan</td></tr><tr><td style=\"white-space:nowrap\">EH<a name=\"COUNTRYISO2-EH\"> </a></td><td>Western Sahara</td><td/></tr><tr><td style=\"white-space:nowrap\">SR<a name=\"COUNTRYISO2-SR\"> </a></td><td>Suriname</td><td>the Republic of Suriname</td></tr><tr><td style=\"white-space:nowrap\">SJ<a name=\"COUNTRYISO2-SJ\"> </a></td><td>Svalbard and Jan Mayen</td><td/></tr><tr><td style=\"white-space:nowrap\">SZ<a name=\"COUNTRYISO2-SZ\"> </a></td><td>Eswatini</td><td>the Kingdom of Eswatini</td></tr><tr><td style=\"white-space:nowrap\">SE<a name=\"COUNTRYISO2-SE\"> </a></td><td>Sweden</td><td>the Kingdom of Sweden</td></tr><tr><td style=\"white-space:nowrap\">CH<a name=\"COUNTRYISO2-CH\"> </a></td><td>Switzerland</td><td>the Swiss Confederation</td></tr><tr><td style=\"white-space:nowrap\">SY<a name=\"COUNTRYISO2-SY\"> </a></td><td>Syrian Arab Republic</td><td>the Syrian Arab Republic</td></tr><tr><td style=\"white-space:nowrap\">TJ<a name=\"COUNTRYISO2-TJ\"> </a></td><td>Tajikistan</td><td>the Republic of Tajikistan</td></tr><tr><td style=\"white-space:nowrap\">TH<a name=\"COUNTRYISO2-TH\"> </a></td><td>Thailand</td><td>the Kingdom of Thailand</td></tr><tr><td style=\"white-space:nowrap\">TG<a name=\"COUNTRYISO2-TG\"> </a></td><td>Togo</td><td>the Togolese Republic</td></tr><tr><td style=\"white-space:nowrap\">TK<a name=\"COUNTRYISO2-TK\"> </a></td><td>Tokelau</td><td>Tokelau</td></tr><tr><td style=\"white-space:nowrap\">TO<a name=\"COUNTRYISO2-TO\"> </a></td><td>Tonga</td><td>the Kingdom of Tonga</td></tr><tr><td style=\"white-space:nowrap\">TT<a name=\"COUNTRYISO2-TT\"> </a></td><td>Trinidad and Tobago</td><td>the Republic of Trinidad and Tobago</td></tr><tr><td style=\"white-space:nowrap\">AE<a name=\"COUNTRYISO2-AE\"> </a></td><td>United Arab Emirates</td><td>the United Arab Emirates</td></tr><tr><td style=\"white-space:nowrap\">TN<a name=\"COUNTRYISO2-TN\"> </a></td><td>Tunisia</td><td>the Republic of Tunisia</td></tr><tr><td style=\"white-space:nowrap\">TR<a name=\"COUNTRYISO2-TR\"> </a></td><td>Türkiye</td><td>the Republic of Türkiye</td></tr><tr><td style=\"white-space:nowrap\">TM<a name=\"COUNTRYISO2-TM\"> </a></td><td>Turkmenistan</td><td>Turkmenistan</td></tr><tr><td style=\"white-space:nowrap\">TC<a name=\"COUNTRYISO2-TC\"> </a></td><td>Turks and Caicos Islands</td><td/></tr><tr><td style=\"white-space:nowrap\">TV<a name=\"COUNTRYISO2-TV\"> </a></td><td>Tuvalu</td><td>Tuvalu</td></tr><tr><td style=\"white-space:nowrap\">UG<a name=\"COUNTRYISO2-UG\"> </a></td><td>Uganda</td><td>the Republic of Uganda</td></tr><tr><td style=\"white-space:nowrap\">UA<a name=\"COUNTRYISO2-UA\"> </a></td><td>Ukraine</td><td>Ukraine</td></tr><tr><td style=\"white-space:nowrap\">MK<a name=\"COUNTRYISO2-MK\"> </a></td><td>North Macedonia</td><td>the Republic of North Macedonia</td></tr><tr><td style=\"white-space:nowrap\">EG<a name=\"COUNTRYISO2-EG\"> </a></td><td>Egypt</td><td>the Arab Republic of Egypt</td></tr><tr><td style=\"white-space:nowrap\">GB<a name=\"COUNTRYISO2-GB\"> </a></td><td>United Kingdom of Great Britain and Northern Ireland</td><td>the United Kingdom of Great Britain and Northern Ireland</td></tr><tr><td style=\"white-space:nowrap\">GG<a name=\"COUNTRYISO2-GG\"> </a></td><td>Guernsey</td><td/></tr><tr><td style=\"white-space:nowrap\">JE<a name=\"COUNTRYISO2-JE\"> </a></td><td>Jersey</td><td/></tr><tr><td style=\"white-space:nowrap\">IM<a name=\"COUNTRYISO2-IM\"> </a></td><td>Isle of Man</td><td/></tr><tr><td style=\"white-space:nowrap\">TZ<a name=\"COUNTRYISO2-TZ\"> </a></td><td>United Republic of Tanzania</td><td>the United Republic of Tanzania</td></tr><tr><td style=\"white-space:nowrap\">US<a name=\"COUNTRYISO2-US\"> </a></td><td>United States of America</td><td>the United States of America</td></tr><tr><td style=\"white-space:nowrap\">VI<a name=\"COUNTRYISO2-VI\"> </a></td><td>United States Virgin Islands</td><td/></tr><tr><td style=\"white-space:nowrap\">BF<a name=\"COUNTRYISO2-BF\"> </a></td><td>Burkina Faso</td><td>Burkina Faso</td></tr><tr><td style=\"white-space:nowrap\">UY<a name=\"COUNTRYISO2-UY\"> </a></td><td>Uruguay</td><td>the Eastern Republic of Uruguay</td></tr><tr><td style=\"white-space:nowrap\">UZ<a name=\"COUNTRYISO2-UZ\"> </a></td><td>Uzbekistan</td><td>the Republic of Uzbekistan</td></tr><tr><td style=\"white-space:nowrap\">VE<a name=\"COUNTRYISO2-VE\"> </a></td><td>Venezuela (Bolivarian Republic of)</td><td>the Bolivarian Republic of Venezuela</td></tr><tr><td style=\"white-space:nowrap\">WF<a name=\"COUNTRYISO2-WF\"> </a></td><td>Wallis and Futuna</td><td/></tr><tr><td style=\"white-space:nowrap\">WS<a name=\"COUNTRYISO2-WS\"> </a></td><td>Samoa</td><td>the Independent State of Samoa</td></tr><tr><td style=\"white-space:nowrap\">YE<a name=\"COUNTRYISO2-YE\"> </a></td><td>Yemen</td><td>the Republic of Yemen</td></tr><tr><td style=\"white-space:nowrap\">ZM<a name=\"COUNTRYISO2-ZM\"> </a></td><td>Zambia</td><td>the Republic of Zambia</td></tr></table></div>"
+  },
+  "url" : "http://smart.who.int/refmart/CodeSystem/COUNTRYISO2",
+  "version" : "0.1.0",
+  "name" : "COUNTRYISO2",
+  "title" : "WHO RefMart Country List ISO 2 Codes",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2025-04-08T14:10:31+00:00",
+  "publisher" : "WHO",
+  "contact" : [{
+    "name" : "WHO",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://who.int"
+    }]
+  }],
+  "description" : "CodeSystem for ISO 2 code from from WHO RefMart Country and Jurisidiction List available at https://xmart-api-public.who.int/REFMART/REF_COUNTRY",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 249,
+  "concept" : [{
+    "code" : "AF",
+    "display" : "Afghanistan",
+    "definition" : "the Islamic Republic of  Afghanistan"
+  },
+  {
+    "code" : "AL",
+    "display" : "Albania",
+    "definition" : "the Republic of Albania"
+  },
+  {
+    "code" : "DZ",
+    "display" : "Algeria",
+    "definition" : "the People’s Democratic Republic of Algeria"
+  },
+  {
+    "code" : "AS",
+    "display" : "American Samoa"
+  },
+  {
+    "code" : "AD",
+    "display" : "Andorra",
+    "definition" : "the Principality of Andorra"
+  },
+  {
+    "code" : "AO",
+    "display" : "Angola",
+    "definition" : "the Republic of Angola"
+  },
+  {
+    "code" : "AG",
+    "display" : "Antigua and Barbuda",
+    "definition" : "Antigua and Barbuda"
+  },
+  {
+    "code" : "AZ",
+    "display" : "Azerbaijan",
+    "definition" : "the Republic of Azerbaijan"
+  },
+  {
+    "code" : "AR",
+    "display" : "Argentina",
+    "definition" : "the Argentine Republic"
+  },
+  {
+    "code" : "AU",
+    "display" : "Australia",
+    "definition" : "Australia"
+  },
+  {
+    "code" : "AT",
+    "display" : "Austria",
+    "definition" : "the Republic of Austria"
+  },
+  {
+    "code" : "BS",
+    "display" : "Bahamas",
+    "definition" : "the Commonwealth of the Bahamas"
+  },
+  {
+    "code" : "BH",
+    "display" : "Bahrain",
+    "definition" : "the Kingdom of Bahrain"
+  },
+  {
+    "code" : "BD",
+    "display" : "Bangladesh",
+    "definition" : "the People’s Republic of Bangladesh"
+  },
+  {
+    "code" : "AM",
+    "display" : "Armenia",
+    "definition" : "the Republic of Armenia"
+  },
+  {
+    "code" : "BB",
+    "display" : "Barbados",
+    "definition" : "Barbados"
+  },
+  {
+    "code" : "BE",
+    "display" : "Belgium",
+    "definition" : "the Kingdom of Belgium"
+  },
+  {
+    "code" : "BM",
+    "display" : "Bermuda"
+  },
+  {
+    "code" : "BT",
+    "display" : "Bhutan",
+    "definition" : "the Kingdom of Bhutan"
+  },
+  {
+    "code" : "BO",
+    "display" : "Bolivia (Plurinational State of)",
+    "definition" : "the Plurinational State of Bolivia"
+  },
+  {
+    "code" : "BA",
+    "display" : "Bosnia and Herzegovina",
+    "definition" : "Bosnia and Herzegovina"
+  },
+  {
+    "code" : "BW",
+    "display" : "Botswana",
+    "definition" : "the Republic of Botswana"
+  },
+  {
+    "code" : "BV",
+    "display" : "Bouvet Island"
+  },
+  {
+    "code" : "BR",
+    "display" : "Brazil",
+    "definition" : "the Federative Republic of Brazil"
+  },
+  {
+    "code" : "BZ",
+    "display" : "Belize",
+    "definition" : "Belize"
+  },
+  {
+    "code" : "IO",
+    "display" : "British Indian Ocean Territory"
+  },
+  {
+    "code" : "SB",
+    "display" : "Solomon Islands",
+    "definition" : "Solomon Islands"
+  },
+  {
+    "code" : "VG",
+    "display" : "British Virgin Islands"
+  },
+  {
+    "code" : "BN",
+    "display" : "Brunei Darussalam",
+    "definition" : "Brunei Darussalam"
+  },
+  {
+    "code" : "BG",
+    "display" : "Bulgaria",
+    "definition" : "the Republic of Bulgaria"
+  },
+  {
+    "code" : "MM",
+    "display" : "Myanmar",
+    "definition" : "the Republic of the Union of Myanmar"
+  },
+  {
+    "code" : "BI",
+    "display" : "Burundi",
+    "definition" : "the Republic of Burundi"
+  },
+  {
+    "code" : "BY",
+    "display" : "Belarus",
+    "definition" : "the Republic of Belarus"
+  },
+  {
+    "code" : "KH",
+    "display" : "Cambodia",
+    "definition" : "the Kingdom of Cambodia"
+  },
+  {
+    "code" : "CM",
+    "display" : "Cameroon",
+    "definition" : "the Republic of Cameroon"
+  },
+  {
+    "code" : "CA",
+    "display" : "Canada",
+    "definition" : "Canada"
+  },
+  {
+    "code" : "CV",
+    "display" : "Cabo Verde",
+    "definition" : "the Republic of Cabo Verde"
+  },
+  {
+    "code" : "KY",
+    "display" : "Cayman Islands"
+  },
+  {
+    "code" : "CF",
+    "display" : "Central African Republic",
+    "definition" : "the Central African Republic"
+  },
+  {
+    "code" : "LK",
+    "display" : "Sri Lanka",
+    "definition" : "the Democratic Socialist Republic of Sri Lanka"
+  },
+  {
+    "code" : "TD",
+    "display" : "Chad",
+    "definition" : "the Republic of Chad"
+  },
+  {
+    "code" : "CL",
+    "display" : "Chile",
+    "definition" : "the Republic of Chile"
+  },
+  {
+    "code" : "CN",
+    "display" : "China",
+    "definition" : "the People’s Republic of China"
+  },
+  {
+    "code" : "TW",
+    "display" : "Taiwan, China"
+  },
+  {
+    "code" : "CX",
+    "display" : "Christmas Island"
+  },
+  {
+    "code" : "CC",
+    "display" : "Cocos (Keeling) Islands"
+  },
+  {
+    "code" : "CO",
+    "display" : "Colombia",
+    "definition" : "the Republic of Colombia"
+  },
+  {
+    "code" : "KM",
+    "display" : "Comoros",
+    "definition" : "the Union of the Comoros"
+  },
+  {
+    "code" : "YT",
+    "display" : "Mayotte"
+  },
+  {
+    "code" : "CG",
+    "display" : "Congo",
+    "definition" : "the Republic of the Congo"
+  },
+  {
+    "code" : "CD",
+    "display" : "Democratic Republic of the Congo",
+    "definition" : "the Democratic Republic of the Congo"
+  },
+  {
+    "code" : "CK",
+    "display" : "Cook Islands",
+    "definition" : "the Cook Islands"
+  },
+  {
+    "code" : "CR",
+    "display" : "Costa Rica",
+    "definition" : "the Republic of Costa Rica"
+  },
+  {
+    "code" : "HR",
+    "display" : "Croatia",
+    "definition" : "the Republic of Croatia"
+  },
+  {
+    "code" : "CU",
+    "display" : "Cuba",
+    "definition" : "the Republic of Cuba"
+  },
+  {
+    "code" : "CY",
+    "display" : "Cyprus",
+    "definition" : "the Republic of Cyprus"
+  },
+  {
+    "code" : "CZ",
+    "display" : "Czechia",
+    "definition" : "the Czech Republic"
+  },
+  {
+    "code" : "BJ",
+    "display" : "Benin",
+    "definition" : "the Republic of Benin"
+  },
+  {
+    "code" : "DK",
+    "display" : "Denmark",
+    "definition" : "the Kingdom of Denmark"
+  },
+  {
+    "code" : "DM",
+    "display" : "Dominica",
+    "definition" : "the Commonwealth of Dominica"
+  },
+  {
+    "code" : "DO",
+    "display" : "Dominican Republic",
+    "definition" : "the Dominican Republic"
+  },
+  {
+    "code" : "EC",
+    "display" : "Ecuador",
+    "definition" : "the Republic of Ecuador"
+  },
+  {
+    "code" : "SV",
+    "display" : "El Salvador",
+    "definition" : "the Republic of El Salvador"
+  },
+  {
+    "code" : "GQ",
+    "display" : "Equatorial Guinea",
+    "definition" : "the Republic of Equatorial Guinea"
+  },
+  {
+    "code" : "ET",
+    "display" : "Ethiopia",
+    "definition" : "the Federal Democratic Republic of Ethiopia"
+  },
+  {
+    "code" : "ER",
+    "display" : "Eritrea",
+    "definition" : "Eritrea"
+  },
+  {
+    "code" : "EE",
+    "display" : "Estonia",
+    "definition" : "the Republic of Estonia"
+  },
+  {
+    "code" : "FO",
+    "display" : "Faroe Islands"
+  },
+  {
+    "code" : "FK",
+    "display" : "Falkland Islands (Malvinas)"
+  },
+  {
+    "code" : "GS",
+    "display" : "South Georgia and the South Sandwich Islands"
+  },
+  {
+    "code" : "FJ",
+    "display" : "Fiji",
+    "definition" : "the Republic of Fiji"
+  },
+  {
+    "code" : "FI",
+    "display" : "Finland",
+    "definition" : "the Republic of Finland"
+  },
+  {
+    "code" : "AX",
+    "display" : "Åland Islands"
+  },
+  {
+    "code" : "FR",
+    "display" : "France",
+    "definition" : "the French Republic"
+  },
+  {
+    "code" : "GF",
+    "display" : "French Guiana"
+  },
+  {
+    "code" : "PF",
+    "display" : "French Polynesia"
+  },
+  {
+    "code" : "TF",
+    "display" : "French Southern Territories"
+  },
+  {
+    "code" : "DJ",
+    "display" : "Djibouti",
+    "definition" : "the Republic of Djibouti"
+  },
+  {
+    "code" : "GA",
+    "display" : "Gabon",
+    "definition" : "the Gabonese Republic"
+  },
+  {
+    "code" : "GE",
+    "display" : "Georgia",
+    "definition" : "Georgia"
+  },
+  {
+    "code" : "GM",
+    "display" : "Gambia",
+    "definition" : "Republic of the Gambia"
+  },
+  {
+    "code" : "PS",
+    "display" : "occupied Palestinian territory, including east Jerusalem"
+  },
+  {
+    "code" : "DE",
+    "display" : "Germany",
+    "definition" : "the Federal Republic of Germany"
+  },
+  {
+    "code" : "GH",
+    "display" : "Ghana",
+    "definition" : "the Republic of Ghana"
+  },
+  {
+    "code" : "GI",
+    "display" : "Gibraltar"
+  },
+  {
+    "code" : "KI",
+    "display" : "Kiribati",
+    "definition" : "the Republic of Kiribati"
+  },
+  {
+    "code" : "GR",
+    "display" : "Greece",
+    "definition" : "the Hellenic Republic"
+  },
+  {
+    "code" : "GL",
+    "display" : "Greenland"
+  },
+  {
+    "code" : "GD",
+    "display" : "Grenada",
+    "definition" : "Grenada"
+  },
+  {
+    "code" : "GP",
+    "display" : "Guadeloupe"
+  },
+  {
+    "code" : "GU",
+    "display" : "Guam"
+  },
+  {
+    "code" : "GT",
+    "display" : "Guatemala",
+    "definition" : "the Republic of Guatemala"
+  },
+  {
+    "code" : "GN",
+    "display" : "Guinea",
+    "definition" : "the Republic of Guinea"
+  },
+  {
+    "code" : "GY",
+    "display" : "Guyana",
+    "definition" : "the Republic of Guyana"
+  },
+  {
+    "code" : "HT",
+    "display" : "Haiti",
+    "definition" : "the Republic of Haiti"
+  },
+  {
+    "code" : "HM",
+    "display" : "Heard Island and McDonald Islands"
+  },
+  {
+    "code" : "VA",
+    "display" : "Holy See"
+  },
+  {
+    "code" : "HN",
+    "display" : "Honduras",
+    "definition" : "the Republic of Honduras"
+  },
+  {
+    "code" : "HK",
+    "display" : "China, Hong Kong SAR",
+    "definition" : "China, Hong Kong Special Administrative REGION"
+  },
+  {
+    "code" : "HU",
+    "display" : "Hungary",
+    "definition" : "Hungary"
+  },
+  {
+    "code" : "IS",
+    "display" : "Iceland",
+    "definition" : "Iceland"
+  },
+  {
+    "code" : "IN",
+    "display" : "India",
+    "definition" : "the Republic of India"
+  },
+  {
+    "code" : "ID",
+    "display" : "Indonesia",
+    "definition" : "the Republic of Indonesia"
+  },
+  {
+    "code" : "IR",
+    "display" : "Iran (Islamic Republic of)",
+    "definition" : "the Islamic Republic of Iran"
+  },
+  {
+    "code" : "IQ",
+    "display" : "Iraq",
+    "definition" : "the Republic of Iraq"
+  },
+  {
+    "code" : "IE",
+    "display" : "Ireland",
+    "definition" : "Ireland"
+  },
+  {
+    "code" : "IL",
+    "display" : "Israel",
+    "definition" : "the State of Israel"
+  },
+  {
+    "code" : "IT",
+    "display" : "Italy",
+    "definition" : "the Republic of Italy"
+  },
+  {
+    "code" : "CI",
+    "display" : "Côte d’Ivoire",
+    "definition" : "the Republic of Côte d'Ivoire"
+  },
+  {
+    "code" : "JM",
+    "display" : "Jamaica",
+    "definition" : "Jamaica"
+  },
+  {
+    "code" : "JP",
+    "display" : "Japan",
+    "definition" : "Japan"
+  },
+  {
+    "code" : "KZ",
+    "display" : "Kazakhstan",
+    "definition" : "the Republic of Kazakhstan"
+  },
+  {
+    "code" : "JO",
+    "display" : "Jordan",
+    "definition" : "the Hashemite Kingdom of Jordan"
+  },
+  {
+    "code" : "KE",
+    "display" : "Kenya",
+    "definition" : "the Republic of Kenya"
+  },
+  {
+    "code" : "KP",
+    "display" : "Democratic People's Republic of Korea",
+    "definition" : "the Democratic People's Republic of Korea"
+  },
+  {
+    "code" : "KR",
+    "display" : "Republic of Korea",
+    "definition" : "the Republic of Korea"
+  },
+  {
+    "code" : "XK",
+    "display" : "Kosovo (in accordance with UN Security Council resolution 1244 (1999))",
+    "definition" : "Kosovo (in accordance with UN Security Council resolution 1244 (1999))"
+  },
+  {
+    "code" : "KW",
+    "display" : "Kuwait",
+    "definition" : "the State of Kuwait"
+  },
+  {
+    "code" : "KG",
+    "display" : "Kyrgyzstan",
+    "definition" : "the Kyrgyz Republic"
+  },
+  {
+    "code" : "LA",
+    "display" : "Lao People's Democratic Republic",
+    "definition" : "the Lao People's Democratic Republic"
+  },
+  {
+    "code" : "LB",
+    "display" : "Lebanon",
+    "definition" : "the Lebanese Republic"
+  },
+  {
+    "code" : "LS",
+    "display" : "Lesotho",
+    "definition" : "the Kingdom of Lesotho"
+  },
+  {
+    "code" : "LV",
+    "display" : "Latvia",
+    "definition" : "the Republic of Latvia"
+  },
+  {
+    "code" : "LR",
+    "display" : "Liberia",
+    "definition" : "the Republic of Liberia"
+  },
+  {
+    "code" : "LY",
+    "display" : "Libya",
+    "definition" : "State of Libya"
+  },
+  {
+    "code" : "LI",
+    "display" : "Liechtenstein"
+  },
+  {
+    "code" : "LT",
+    "display" : "Lithuania",
+    "definition" : "the Republic of Lithuania"
+  },
+  {
+    "code" : "LU",
+    "display" : "Luxembourg",
+    "definition" : "the Grand Duchy of Luxembourg"
+  },
+  {
+    "code" : "MO",
+    "display" : "China, Macao SAR",
+    "definition" : "China, Macao Special Administrative REGION"
+  },
+  {
+    "code" : "MG",
+    "display" : "Madagascar",
+    "definition" : "the Republic of Madagascar"
+  },
+  {
+    "code" : "MW",
+    "display" : "Malawi",
+    "definition" : "the Republic of Malawi"
+  },
+  {
+    "code" : "MY",
+    "display" : "Malaysia",
+    "definition" : "Malaysia"
+  },
+  {
+    "code" : "MV",
+    "display" : "Maldives",
+    "definition" : "the Republic of Maldives"
+  },
+  {
+    "code" : "ML",
+    "display" : "Mali",
+    "definition" : "the Republic of Mali"
+  },
+  {
+    "code" : "MT",
+    "display" : "Malta",
+    "definition" : "the Republic of Malta"
+  },
+  {
+    "code" : "MQ",
+    "display" : "Martinique"
+  },
+  {
+    "code" : "MR",
+    "display" : "Mauritania",
+    "definition" : "the Islamic Republic of Mauritania"
+  },
+  {
+    "code" : "MU",
+    "display" : "Mauritius",
+    "definition" : "the Republic of Mauritius"
+  },
+  {
+    "code" : "MX",
+    "display" : "Mexico",
+    "definition" : "the United Mexican States"
+  },
+  {
+    "code" : "MC",
+    "display" : "Monaco",
+    "definition" : "the Principality of Monaco"
+  },
+  {
+    "code" : "MN",
+    "display" : "Mongolia",
+    "definition" : "Mongolia"
+  },
+  {
+    "code" : "MD",
+    "display" : "Republic of Moldova",
+    "definition" : "the Republic of Moldova"
+  },
+  {
+    "code" : "ME",
+    "display" : "Montenegro",
+    "definition" : "Montenegro"
+  },
+  {
+    "code" : "MS",
+    "display" : "Montserrat"
+  },
+  {
+    "code" : "MA",
+    "display" : "Morocco",
+    "definition" : "the Kingdom of Morocco"
+  },
+  {
+    "code" : "MZ",
+    "display" : "Mozambique",
+    "definition" : "the Republic of Mozambique"
+  },
+  {
+    "code" : "OM",
+    "display" : "Oman",
+    "definition" : "the Sultanate of Oman"
+  },
+  {
+    "code" : "NA",
+    "display" : "Namibia",
+    "definition" : "the Republic of Namibia"
+  },
+  {
+    "code" : "NR",
+    "display" : "Nauru",
+    "definition" : "the Republic of Nauru"
+  },
+  {
+    "code" : "NP",
+    "display" : "Nepal",
+    "definition" : "the Federal Democratic Republic of Nepal"
+  },
+  {
+    "code" : "NL",
+    "display" : "Netherlands (Kingdom of the)",
+    "definition" : "the Kingdom of  the Netherlands"
+  },
+  {
+    "code" : "CW",
+    "display" : "Curaçao"
+  },
+  {
+    "code" : "AW",
+    "display" : "Aruba"
+  },
+  {
+    "code" : "SX",
+    "display" : "Sint Maarten (Dutch part)"
+  },
+  {
+    "code" : "BQ",
+    "display" : "Bonaire, Sint Eustatius and Saba",
+    "definition" : "Bonaire, Sint Eustatius and Saba"
+  },
+  {
+    "code" : "NC",
+    "display" : "New Caledonia"
+  },
+  {
+    "code" : "VU",
+    "display" : "Vanuatu",
+    "definition" : "the Republic of Vanuatu"
+  },
+  {
+    "code" : "NZ",
+    "display" : "New Zealand",
+    "definition" : "New Zealand"
+  },
+  {
+    "code" : "NI",
+    "display" : "Nicaragua",
+    "definition" : "the Republic of Nicaragua"
+  },
+  {
+    "code" : "NE",
+    "display" : "Niger",
+    "definition" : "the Republic of the Niger"
+  },
+  {
+    "code" : "NG",
+    "display" : "Nigeria",
+    "definition" : "the Federal Republic of Nigeria"
+  },
+  {
+    "code" : "NU",
+    "display" : "Niue",
+    "definition" : "the Republic of Niue"
+  },
+  {
+    "code" : "NF",
+    "display" : "Norfolk Island"
+  },
+  {
+    "code" : "NO",
+    "display" : "Norway",
+    "definition" : "the Kingdom of Norway"
+  },
+  {
+    "code" : "MP",
+    "display" : "Northern Mariana Islands"
+  },
+  {
+    "code" : "UM",
+    "display" : "United States Minor Outlying Islands"
+  },
+  {
+    "code" : "FM",
+    "display" : "Micronesia (Federated States of)",
+    "definition" : "the Federated States of Micronesia"
+  },
+  {
+    "code" : "MH",
+    "display" : "Marshall Islands",
+    "definition" : "the Republic of the  Marshall Islands"
+  },
+  {
+    "code" : "PW",
+    "display" : "Palau",
+    "definition" : "the Republic of Palau"
+  },
+  {
+    "code" : "PK",
+    "display" : "Pakistan",
+    "definition" : "the Islamic Republic of Pakistan"
+  },
+  {
+    "code" : "PA",
+    "display" : "Panama",
+    "definition" : "the Republic of Panama"
+  },
+  {
+    "code" : "PG",
+    "display" : "Papua New Guinea",
+    "definition" : "Independent State of Papua New Guinea"
+  },
+  {
+    "code" : "PY",
+    "display" : "Paraguay",
+    "definition" : "the Republic of Paraguay"
+  },
+  {
+    "code" : "PE",
+    "display" : "Peru",
+    "definition" : "the Republic of Peru"
+  },
+  {
+    "code" : "PH",
+    "display" : "Philippines",
+    "definition" : "the Republic of the Philippines"
+  },
+  {
+    "code" : "PN",
+    "display" : "Pitcairn"
+  },
+  {
+    "code" : "PL",
+    "display" : "Poland",
+    "definition" : "the Republic of Poland"
+  },
+  {
+    "code" : "PT",
+    "display" : "Portugal",
+    "definition" : "the Portuguese Republic"
+  },
+  {
+    "code" : "GW",
+    "display" : "Guinea-Bissau",
+    "definition" : "the Republic of Guinea-Bissau"
+  },
+  {
+    "code" : "TL",
+    "display" : "Timor-Leste",
+    "definition" : "the Democratic Republic of Timor-Leste"
+  },
+  {
+    "code" : "PR",
+    "display" : "Puerto Rico",
+    "definition" : "Puerto Rico"
+  },
+  {
+    "code" : "QA",
+    "display" : "Qatar",
+    "definition" : "the State of Qatar"
+  },
+  {
+    "code" : "RE",
+    "display" : "Réunion"
+  },
+  {
+    "code" : "RO",
+    "display" : "Romania",
+    "definition" : "Romania"
+  },
+  {
+    "code" : "RU",
+    "display" : "Russian Federation",
+    "definition" : "the Russian Federation"
+  },
+  {
+    "code" : "RW",
+    "display" : "Rwanda",
+    "definition" : "the Republic of Rwanda"
+  },
+  {
+    "code" : "BL",
+    "display" : "Saint Barthélemy"
+  },
+  {
+    "code" : "SH",
+    "display" : "Saint Helena"
+  },
+  {
+    "code" : "KN",
+    "display" : "Saint Kitts and Nevis",
+    "definition" : "Saint Kitts and Nevis"
+  },
+  {
+    "code" : "AI",
+    "display" : "Anguilla"
+  },
+  {
+    "code" : "LC",
+    "display" : "Saint Lucia",
+    "definition" : "Saint Lucia"
+  },
+  {
+    "code" : "MF",
+    "display" : "Saint Martin (French part)"
+  },
+  {
+    "code" : "PM",
+    "display" : "Saint Pierre and Miquelon"
+  },
+  {
+    "code" : "VC",
+    "display" : "Saint Vincent and the Grenadines",
+    "definition" : "Saint Vincent and the Grenadines"
+  },
+  {
+    "code" : "SM",
+    "display" : "San Marino",
+    "definition" : "the Republic of San Marino"
+  },
+  {
+    "code" : "ST",
+    "display" : "Sao Tome and Principe",
+    "definition" : "the Democratic Republic of Sao Tome and Principe"
+  },
+  {
+    "code" : "SA",
+    "display" : "Saudi Arabia",
+    "definition" : "the Kingdom of Saudi Arabia"
+  },
+  {
+    "code" : "SN",
+    "display" : "Senegal",
+    "definition" : "the Republic of Senegal"
+  },
+  {
+    "code" : "RS",
+    "display" : "Serbia",
+    "definition" : "the Republic of Serbia"
+  },
+  {
+    "code" : "SC",
+    "display" : "Seychelles",
+    "definition" : "the Republic of Seychelles"
+  },
+  {
+    "code" : "SL",
+    "display" : "Sierra Leone",
+    "definition" : "the Republic of Sierra Leone"
+  },
+  {
+    "code" : "SG",
+    "display" : "Singapore",
+    "definition" : "the Republic of Singapore"
+  },
+  {
+    "code" : "SK",
+    "display" : "Slovakia",
+    "definition" : "the Slovak Republic"
+  },
+  {
+    "code" : "VN",
+    "display" : "Viet Nam",
+    "definition" : "the Socialist Republic of Viet Nam"
+  },
+  {
+    "code" : "SI",
+    "display" : "Slovenia",
+    "definition" : "the Republic of Slovenia"
+  },
+  {
+    "code" : "SO",
+    "display" : "Somalia",
+    "definition" : "the Federal Republic of Somalia"
+  },
+  {
+    "code" : "ZA",
+    "display" : "South Africa",
+    "definition" : "the Republic of South Africa"
+  },
+  {
+    "code" : "ZW",
+    "display" : "Zimbabwe",
+    "definition" : "the Republic of Zimbabwe"
+  },
+  {
+    "code" : "ES",
+    "display" : "Spain",
+    "definition" : "the Kingdom of Spain"
+  },
+  {
+    "code" : "SS",
+    "display" : "South Sudan",
+    "definition" : "the Republic of South Sudan"
+  },
+  {
+    "code" : "SD",
+    "display" : "Sudan",
+    "definition" : "the Republic of the Sudan"
+  },
+  {
+    "code" : "EH",
+    "display" : "Western Sahara"
+  },
+  {
+    "code" : "SR",
+    "display" : "Suriname",
+    "definition" : "the Republic of Suriname"
+  },
+  {
+    "code" : "SJ",
+    "display" : "Svalbard and Jan Mayen"
+  },
+  {
+    "code" : "SZ",
+    "display" : "Eswatini",
+    "definition" : "the Kingdom of Eswatini"
+  },
+  {
+    "code" : "SE",
+    "display" : "Sweden",
+    "definition" : "the Kingdom of Sweden"
+  },
+  {
+    "code" : "CH",
+    "display" : "Switzerland",
+    "definition" : "the Swiss Confederation"
+  },
+  {
+    "code" : "SY",
+    "display" : "Syrian Arab Republic",
+    "definition" : "the Syrian Arab Republic"
+  },
+  {
+    "code" : "TJ",
+    "display" : "Tajikistan",
+    "definition" : "the Republic of Tajikistan"
+  },
+  {
+    "code" : "TH",
+    "display" : "Thailand",
+    "definition" : "the Kingdom of Thailand"
+  },
+  {
+    "code" : "TG",
+    "display" : "Togo",
+    "definition" : "the Togolese Republic"
+  },
+  {
+    "code" : "TK",
+    "display" : "Tokelau",
+    "definition" : "Tokelau"
+  },
+  {
+    "code" : "TO",
+    "display" : "Tonga",
+    "definition" : "the Kingdom of Tonga"
+  },
+  {
+    "code" : "TT",
+    "display" : "Trinidad and Tobago",
+    "definition" : "the Republic of Trinidad and Tobago"
+  },
+  {
+    "code" : "AE",
+    "display" : "United Arab Emirates",
+    "definition" : "the United Arab Emirates"
+  },
+  {
+    "code" : "TN",
+    "display" : "Tunisia",
+    "definition" : "the Republic of Tunisia"
+  },
+  {
+    "code" : "TR",
+    "display" : "Türkiye",
+    "definition" : "the Republic of Türkiye"
+  },
+  {
+    "code" : "TM",
+    "display" : "Turkmenistan",
+    "definition" : "Turkmenistan"
+  },
+  {
+    "code" : "TC",
+    "display" : "Turks and Caicos Islands"
+  },
+  {
+    "code" : "TV",
+    "display" : "Tuvalu",
+    "definition" : "Tuvalu"
+  },
+  {
+    "code" : "UG",
+    "display" : "Uganda",
+    "definition" : "the Republic of Uganda"
+  },
+  {
+    "code" : "UA",
+    "display" : "Ukraine",
+    "definition" : "Ukraine"
+  },
+  {
+    "code" : "MK",
+    "display" : "North Macedonia",
+    "definition" : "the Republic of North Macedonia"
+  },
+  {
+    "code" : "EG",
+    "display" : "Egypt",
+    "definition" : "the Arab Republic of Egypt"
+  },
+  {
+    "code" : "GB",
+    "display" : "United Kingdom of Great Britain and Northern Ireland",
+    "definition" : "the United Kingdom of Great Britain and Northern Ireland"
+  },
+  {
+    "code" : "GG",
+    "display" : "Guernsey"
+  },
+  {
+    "code" : "JE",
+    "display" : "Jersey"
+  },
+  {
+    "code" : "IM",
+    "display" : "Isle of Man"
+  },
+  {
+    "code" : "TZ",
+    "display" : "United Republic of Tanzania",
+    "definition" : "the United Republic of Tanzania"
+  },
+  {
+    "code" : "US",
+    "display" : "United States of America",
+    "definition" : "the United States of America"
+  },
+  {
+    "code" : "VI",
+    "display" : "United States Virgin Islands"
+  },
+  {
+    "code" : "BF",
+    "display" : "Burkina Faso",
+    "definition" : "Burkina Faso"
+  },
+  {
+    "code" : "UY",
+    "display" : "Uruguay",
+    "definition" : "the Eastern Republic of Uruguay"
+  },
+  {
+    "code" : "UZ",
+    "display" : "Uzbekistan",
+    "definition" : "the Republic of Uzbekistan"
+  },
+  {
+    "code" : "VE",
+    "display" : "Venezuela (Bolivarian Republic of)",
+    "definition" : "the Bolivarian Republic of Venezuela"
+  },
+  {
+    "code" : "WF",
+    "display" : "Wallis and Futuna"
+  },
+  {
+    "code" : "WS",
+    "display" : "Samoa",
+    "definition" : "the Independent State of Samoa"
+  },
+  {
+    "code" : "YE",
+    "display" : "Yemen",
+    "definition" : "the Republic of Yemen"
+  },
+  {
+    "code" : "ZM",
+    "display" : "Zambia",
+    "definition" : "the Republic of Zambia"
+  }]
+}

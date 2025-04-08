@@ -1,0 +1,1547 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://smart.who.int/refmart/ConceptMap/ISO3toISO2> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ISO3toISO2"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableconceptmap"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableconceptmap>
+     ] [
+       fhir:v "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishableconceptmap"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishableconceptmap>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ISO3toISO2</b></p><a name=\"ISO3toISO2\"> </a><a name=\"hcISO3toISO2\"> </a><a name=\"ISO3toISO2-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareableconceptmap.html\">CRMI Shareable ConceptMap</a>, <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishableconceptmap.html\">CRMI Publishable ConceptMap</a></p></div><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <a href=\"CodeSystem-COUNTRYISO3.html\">WHO RefMart Country List ISO 3 Codes</a> to <a href=\"CodeSystem-COUNTRYISO2.html\">WHO RefMart Country List ISO 2 Codes</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>AFG (Afghanistan)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AF (Afghanistan)</td></tr><tr><td>ALB (Albania)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AL (Albania)</td></tr><tr><td>DZA (Algeria)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>DZ (Algeria)</td></tr><tr><td>ASM (American Samoa)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AS (American Samoa)</td></tr><tr><td>AND (Andorra)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AD (Andorra)</td></tr><tr><td>AGO (Angola)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AO (Angola)</td></tr><tr><td>ATG (Antigua and Barbuda)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AG (Antigua and Barbuda)</td></tr><tr><td>AZE (Azerbaijan)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AZ (Azerbaijan)</td></tr><tr><td>ARG (Argentina)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AR (Argentina)</td></tr><tr><td>AUS (Australia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AU (Australia)</td></tr><tr><td>AUT (Austria)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AT (Austria)</td></tr><tr><td>BHS (Bahamas)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BS (Bahamas)</td></tr><tr><td>BHR (Bahrain)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BH (Bahrain)</td></tr><tr><td>BGD (Bangladesh)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BD (Bangladesh)</td></tr><tr><td>ARM (Armenia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AM (Armenia)</td></tr><tr><td>BRB (Barbados)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BB (Barbados)</td></tr><tr><td>BEL (Belgium)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BE (Belgium)</td></tr><tr><td>BMU (Bermuda)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BM (Bermuda)</td></tr><tr><td>BTN (Bhutan)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BT (Bhutan)</td></tr><tr><td>BOL (Bolivia (Plurinational State of))</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BO (Bolivia (Plurinational State of))</td></tr><tr><td>BIH (Bosnia and Herzegovina)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BA (Bosnia and Herzegovina)</td></tr><tr><td>BWA (Botswana)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BW (Botswana)</td></tr><tr><td>BVT (Bouvet Island)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BV (Bouvet Island)</td></tr><tr><td>BRA (Brazil)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BR (Brazil)</td></tr><tr><td>BLZ (Belize)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BZ (Belize)</td></tr><tr><td>IOT (British Indian Ocean Territory)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>IO (British Indian Ocean Territory)</td></tr><tr><td>SLB (Solomon Islands)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SB (Solomon Islands)</td></tr><tr><td>VGB (British Virgin Islands)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VG (British Virgin Islands)</td></tr><tr><td>BRN (Brunei Darussalam)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BN (Brunei Darussalam)</td></tr><tr><td>BGR (Bulgaria)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BG (Bulgaria)</td></tr><tr><td>MMR (Myanmar)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MM (Myanmar)</td></tr><tr><td>BDI (Burundi)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BI (Burundi)</td></tr><tr><td>BLR (Belarus)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BY (Belarus)</td></tr><tr><td>KHM (Cambodia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>KH (Cambodia)</td></tr><tr><td>CMR (Cameroon)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>CM (Cameroon)</td></tr><tr><td>CAN (Canada)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>CA (Canada)</td></tr><tr><td>CPV (Cabo Verde)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>CV (Cabo Verde)</td></tr><tr><td>CYM (Cayman Islands)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>KY (Cayman Islands)</td></tr><tr><td>CAF (Central African Republic)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>CF (Central African Republic)</td></tr><tr><td>LKA (Sri Lanka)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>LK (Sri Lanka)</td></tr><tr><td>TCD (Chad)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>TD (Chad)</td></tr><tr><td>CHL (Chile)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>CL (Chile)</td></tr><tr><td>CHN (China)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>CN (China)</td></tr><tr><td>TWN (Taiwan, China)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>TW (Taiwan, China)</td></tr><tr><td>CXR (Christmas Island)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>CX (Christmas Island)</td></tr><tr><td>CCK (Cocos (Keeling) Islands)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>CC (Cocos (Keeling) Islands)</td></tr><tr><td>COL (Colombia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>CO (Colombia)</td></tr><tr><td>COM (Comoros)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>KM (Comoros)</td></tr><tr><td>MYT (Mayotte)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>YT (Mayotte)</td></tr><tr><td>COG (Congo)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>CG (Congo)</td></tr><tr><td>COD (Democratic Republic of the Congo)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>CD (Democratic Republic of the Congo)</td></tr><tr><td>COK (Cook Islands)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>CK (Cook Islands)</td></tr><tr><td>CRI (Costa Rica)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>CR (Costa Rica)</td></tr><tr><td>HRV (Croatia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>HR (Croatia)</td></tr><tr><td>CUB (Cuba)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>CU (Cuba)</td></tr><tr><td>CYP (Cyprus)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>CY (Cyprus)</td></tr><tr><td>CZE (Czechia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>CZ (Czechia)</td></tr><tr><td>BEN (Benin)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BJ (Benin)</td></tr><tr><td>DNK (Denmark)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>DK (Denmark)</td></tr><tr><td>DMA (Dominica)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>DM (Dominica)</td></tr><tr><td>DOM (Dominican Republic)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>DO (Dominican Republic)</td></tr><tr><td>ECU (Ecuador)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>EC (Ecuador)</td></tr><tr><td>SLV (El Salvador)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SV (El Salvador)</td></tr><tr><td>GNQ (Equatorial Guinea)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>GQ (Equatorial Guinea)</td></tr><tr><td>ETH (Ethiopia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ET (Ethiopia)</td></tr><tr><td>ERI (Eritrea)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ER (Eritrea)</td></tr><tr><td>EST (Estonia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>EE (Estonia)</td></tr><tr><td>FRO (Faroe Islands)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>FO (Faroe Islands)</td></tr><tr><td>FLK (Falkland Islands (Malvinas))</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>FK (Falkland Islands (Malvinas))</td></tr><tr><td>SGS (South Georgia and the South Sandwich Islands)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>GS (South Georgia and the South Sandwich Islands)</td></tr><tr><td>FJI (Fiji)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>FJ (Fiji)</td></tr><tr><td>FIN (Finland)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>FI (Finland)</td></tr><tr><td>ALA (Åland Islands)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AX (Åland Islands)</td></tr><tr><td>FRA (France)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>FR (France)</td></tr><tr><td>GUF (French Guiana)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>GF (French Guiana)</td></tr><tr><td>PYF (French Polynesia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PF (French Polynesia)</td></tr><tr><td>ATF (French Southern Territories)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>TF (French Southern Territories)</td></tr><tr><td>DJI (Djibouti)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>DJ (Djibouti)</td></tr><tr><td>GAB (Gabon)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>GA (Gabon)</td></tr><tr><td>GEO (Georgia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>GE (Georgia)</td></tr><tr><td>GMB (Gambia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>GM (Gambia)</td></tr><tr><td>PSE (occupied Palestinian territory, including east Jerusalem)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PS (occupied Palestinian territory, including east Jerusalem)</td></tr><tr><td>DEU (Germany)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>DE (Germany)</td></tr><tr><td>GHA (Ghana)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>GH (Ghana)</td></tr><tr><td>GIB (Gibraltar)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>GI (Gibraltar)</td></tr><tr><td>KIR (Kiribati)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>KI (Kiribati)</td></tr><tr><td>GRC (Greece)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>GR (Greece)</td></tr><tr><td>GRL (Greenland)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>GL (Greenland)</td></tr><tr><td>GRD (Grenada)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>GD (Grenada)</td></tr><tr><td>GLP (Guadeloupe)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>GP (Guadeloupe)</td></tr><tr><td>GUM (Guam)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>GU (Guam)</td></tr><tr><td>GTM (Guatemala)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>GT (Guatemala)</td></tr><tr><td>GIN (Guinea)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>GN (Guinea)</td></tr><tr><td>GUY (Guyana)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>GY (Guyana)</td></tr><tr><td>HTI (Haiti)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>HT (Haiti)</td></tr><tr><td>HMD (Heard Island and McDonald Islands)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>HM (Heard Island and McDonald Islands)</td></tr><tr><td>VAT (Holy See)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VA (Holy See)</td></tr><tr><td>HND (Honduras)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>HN (Honduras)</td></tr><tr><td>HKG (China, Hong Kong SAR)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>HK (China, Hong Kong SAR)</td></tr><tr><td>HUN (Hungary)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>HU (Hungary)</td></tr><tr><td>ISL (Iceland)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>IS (Iceland)</td></tr><tr><td>IND (India)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>IN (India)</td></tr><tr><td>IDN (Indonesia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ID (Indonesia)</td></tr><tr><td>IRN (Iran (Islamic Republic of))</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>IR (Iran (Islamic Republic of))</td></tr><tr><td>IRQ (Iraq)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>IQ (Iraq)</td></tr><tr><td>IRL (Ireland)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>IE (Ireland)</td></tr><tr><td>ISR (Israel)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>IL (Israel)</td></tr><tr><td>ITA (Italy)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>IT (Italy)</td></tr><tr><td>CIV (Côte d’Ivoire)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>CI (Côte d’Ivoire)</td></tr><tr><td>JAM (Jamaica)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>JM (Jamaica)</td></tr><tr><td>JPN (Japan)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>JP (Japan)</td></tr><tr><td>KAZ (Kazakhstan)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>KZ (Kazakhstan)</td></tr><tr><td>JOR (Jordan)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>JO (Jordan)</td></tr><tr><td>KEN (Kenya)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>KE (Kenya)</td></tr><tr><td>PRK (Democratic People's Republic of Korea)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>KP (Democratic People's Republic of Korea)</td></tr><tr><td>KOR (Republic of Korea)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>KR (Republic of Korea)</td></tr><tr><td>XKX (Kosovo (in accordance with UN Security Council resolution 1244 (1999)))</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>XK (Kosovo (in accordance with UN Security Council resolution 1244 (1999)))</td></tr><tr><td>KWT (Kuwait)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>KW (Kuwait)</td></tr><tr><td>KGZ (Kyrgyzstan)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>KG (Kyrgyzstan)</td></tr><tr><td>LAO (Lao People's Democratic Republic)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>LA (Lao People's Democratic Republic)</td></tr><tr><td>LBN (Lebanon)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>LB (Lebanon)</td></tr><tr><td>LSO (Lesotho)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>LS (Lesotho)</td></tr><tr><td>LVA (Latvia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>LV (Latvia)</td></tr><tr><td>LBR (Liberia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>LR (Liberia)</td></tr><tr><td>LBY (Libya)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>LY (Libya)</td></tr><tr><td>LIE (Liechtenstein)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>LI (Liechtenstein)</td></tr><tr><td>LTU (Lithuania)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>LT (Lithuania)</td></tr><tr><td>LUX (Luxembourg)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>LU (Luxembourg)</td></tr><tr><td>MAC (China, Macao SAR)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MO (China, Macao SAR)</td></tr><tr><td>MDG (Madagascar)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MG (Madagascar)</td></tr><tr><td>MWI (Malawi)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MW (Malawi)</td></tr><tr><td>MYS (Malaysia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MY (Malaysia)</td></tr><tr><td>MDV (Maldives)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MV (Maldives)</td></tr><tr><td>MLI (Mali)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ML (Mali)</td></tr><tr><td>MLT (Malta)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MT (Malta)</td></tr><tr><td>MTQ (Martinique)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MQ (Martinique)</td></tr><tr><td>MRT (Mauritania)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MR (Mauritania)</td></tr><tr><td>MUS (Mauritius)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MU (Mauritius)</td></tr><tr><td>MEX (Mexico)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MX (Mexico)</td></tr><tr><td>MCO (Monaco)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MC (Monaco)</td></tr><tr><td>MNG (Mongolia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MN (Mongolia)</td></tr><tr><td>MDA (Republic of Moldova)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MD (Republic of Moldova)</td></tr><tr><td>MNE (Montenegro)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ME (Montenegro)</td></tr><tr><td>MSR (Montserrat)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MS (Montserrat)</td></tr><tr><td>MAR (Morocco)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MA (Morocco)</td></tr><tr><td>MOZ (Mozambique)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MZ (Mozambique)</td></tr><tr><td>OMN (Oman)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OM (Oman)</td></tr><tr><td>NAM (Namibia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>NA (Namibia)</td></tr><tr><td>NRU (Nauru)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>NR (Nauru)</td></tr><tr><td>NPL (Nepal)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>NP (Nepal)</td></tr><tr><td>NLD (Netherlands (Kingdom of the))</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>NL (Netherlands (Kingdom of the))</td></tr><tr><td>CUW (Curaçao)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>CW (Curaçao)</td></tr><tr><td>ABW (Aruba)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AW (Aruba)</td></tr><tr><td>SXM (Sint Maarten (Dutch part))</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SX (Sint Maarten (Dutch part))</td></tr><tr><td>BES (Bonaire, Sint Eustatius and Saba)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BQ (Bonaire, Sint Eustatius and Saba)</td></tr><tr><td>NCL (New Caledonia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>NC (New Caledonia)</td></tr><tr><td>VUT (Vanuatu)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VU (Vanuatu)</td></tr><tr><td>NZL (New Zealand)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>NZ (New Zealand)</td></tr><tr><td>NIC (Nicaragua)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>NI (Nicaragua)</td></tr><tr><td>NER (Niger)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>NE (Niger)</td></tr><tr><td>NGA (Nigeria)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>NG (Nigeria)</td></tr><tr><td>NIU (Niue)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>NU (Niue)</td></tr><tr><td>NFK (Norfolk Island)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>NF (Norfolk Island)</td></tr><tr><td>NOR (Norway)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>NO (Norway)</td></tr><tr><td>MNP (Northern Mariana Islands)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MP (Northern Mariana Islands)</td></tr><tr><td>UMI (United States Minor Outlying Islands)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>UM (United States Minor Outlying Islands)</td></tr><tr><td>FSM (Micronesia (Federated States of))</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>FM (Micronesia (Federated States of))</td></tr><tr><td>MHL (Marshall Islands)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MH (Marshall Islands)</td></tr><tr><td>PLW (Palau)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PW (Palau)</td></tr><tr><td>PAK (Pakistan)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PK (Pakistan)</td></tr><tr><td>PAN (Panama)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PA (Panama)</td></tr><tr><td>PNG (Papua New Guinea)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PG (Papua New Guinea)</td></tr><tr><td>PRY (Paraguay)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PY (Paraguay)</td></tr><tr><td>PER (Peru)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PE (Peru)</td></tr><tr><td>PHL (Philippines)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PH (Philippines)</td></tr><tr><td>PCN (Pitcairn)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PN (Pitcairn)</td></tr><tr><td>POL (Poland)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PL (Poland)</td></tr><tr><td>PRT (Portugal)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PT (Portugal)</td></tr><tr><td>GNB (Guinea-Bissau)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>GW (Guinea-Bissau)</td></tr><tr><td>TLS (Timor-Leste)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>TL (Timor-Leste)</td></tr><tr><td>PRI (Puerto Rico)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PR (Puerto Rico)</td></tr><tr><td>QAT (Qatar)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>QA (Qatar)</td></tr><tr><td>REU (Réunion)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>RE (Réunion)</td></tr><tr><td>ROU (Romania)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>RO (Romania)</td></tr><tr><td>RUS (Russian Federation)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>RU (Russian Federation)</td></tr><tr><td>RWA (Rwanda)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>RW (Rwanda)</td></tr><tr><td>BLM (Saint Barthélemy)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BL (Saint Barthélemy)</td></tr><tr><td>SHN (Saint Helena)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SH (Saint Helena)</td></tr><tr><td>KNA (Saint Kitts and Nevis)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>KN (Saint Kitts and Nevis)</td></tr><tr><td>AIA (Anguilla)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AI (Anguilla)</td></tr><tr><td>LCA (Saint Lucia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>LC (Saint Lucia)</td></tr><tr><td>MAF (Saint Martin (French part))</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MF (Saint Martin (French part))</td></tr><tr><td>SPM (Saint Pierre and Miquelon)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PM (Saint Pierre and Miquelon)</td></tr><tr><td>VCT (Saint Vincent and the Grenadines)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VC (Saint Vincent and the Grenadines)</td></tr><tr><td>SMR (San Marino)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SM (San Marino)</td></tr><tr><td>STP (Sao Tome and Principe)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ST (Sao Tome and Principe)</td></tr><tr><td>SAU (Saudi Arabia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SA (Saudi Arabia)</td></tr><tr><td>SEN (Senegal)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SN (Senegal)</td></tr><tr><td>SRB (Serbia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>RS (Serbia)</td></tr><tr><td>SYC (Seychelles)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SC (Seychelles)</td></tr><tr><td>SLE (Sierra Leone)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SL (Sierra Leone)</td></tr><tr><td>SGP (Singapore)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SG (Singapore)</td></tr><tr><td>SVK (Slovakia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SK (Slovakia)</td></tr><tr><td>VNM (Viet Nam)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VN (Viet Nam)</td></tr><tr><td>SVN (Slovenia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SI (Slovenia)</td></tr><tr><td>SOM (Somalia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SO (Somalia)</td></tr><tr><td>ZAF (South Africa)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ZA (South Africa)</td></tr><tr><td>ZWE (Zimbabwe)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ZW (Zimbabwe)</td></tr><tr><td>ESP (Spain)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ES (Spain)</td></tr><tr><td>SSD (South Sudan)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SS (South Sudan)</td></tr><tr><td>SDN (Sudan)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SD (Sudan)</td></tr><tr><td>ESH (Western Sahara)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>EH (Western Sahara)</td></tr><tr><td>SUR (Suriname)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SR (Suriname)</td></tr><tr><td>SJM (Svalbard and Jan Mayen)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SJ (Svalbard and Jan Mayen)</td></tr><tr><td>SWZ (Eswatini)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SZ (Eswatini)</td></tr><tr><td>SWE (Sweden)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SE (Sweden)</td></tr><tr><td>CHE (Switzerland)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>CH (Switzerland)</td></tr><tr><td>SYR (Syrian Arab Republic)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SY (Syrian Arab Republic)</td></tr><tr><td>TJK (Tajikistan)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>TJ (Tajikistan)</td></tr><tr><td>THA (Thailand)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>TH (Thailand)</td></tr><tr><td>TGO (Togo)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>TG (Togo)</td></tr><tr><td>TKL (Tokelau)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>TK (Tokelau)</td></tr><tr><td>TON (Tonga)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>TO (Tonga)</td></tr><tr><td>TTO (Trinidad and Tobago)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>TT (Trinidad and Tobago)</td></tr><tr><td>ARE (United Arab Emirates)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AE (United Arab Emirates)</td></tr><tr><td>TUN (Tunisia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>TN (Tunisia)</td></tr><tr><td>TUR (Türkiye)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>TR (Türkiye)</td></tr><tr><td>TKM (Turkmenistan)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>TM (Turkmenistan)</td></tr><tr><td>TCA (Turks and Caicos Islands)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>TC (Turks and Caicos Islands)</td></tr><tr><td>TUV (Tuvalu)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>TV (Tuvalu)</td></tr><tr><td>UGA (Uganda)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>UG (Uganda)</td></tr><tr><td>UKR (Ukraine)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>UA (Ukraine)</td></tr><tr><td>MKD (North Macedonia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MK (North Macedonia)</td></tr><tr><td>EGY (Egypt)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>EG (Egypt)</td></tr><tr><td>GBR (United Kingdom of Great Britain and Northern Ireland)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>GB (United Kingdom of Great Britain and Northern Ireland)</td></tr><tr><td>GGY (Guernsey)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>GG (Guernsey)</td></tr><tr><td>JEY (Jersey)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>JE (Jersey)</td></tr><tr><td>IMN (Isle of Man)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>IM (Isle of Man)</td></tr><tr><td>TZA (United Republic of Tanzania)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>TZ (United Republic of Tanzania)</td></tr><tr><td>USA (United States of America)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>US (United States of America)</td></tr><tr><td>VIR (United States Virgin Islands)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VI (United States Virgin Islands)</td></tr><tr><td>BFA (Burkina Faso)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BF (Burkina Faso)</td></tr><tr><td>URY (Uruguay)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>UY (Uruguay)</td></tr><tr><td>UZB (Uzbekistan)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>UZ (Uzbekistan)</td></tr><tr><td>VEN (Venezuela (Bolivarian Republic of))</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VE (Venezuela (Bolivarian Republic of))</td></tr><tr><td>WLF (Wallis and Futuna)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>WF (Wallis and Futuna)</td></tr><tr><td>WSM (Samoa)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>WS (Samoa)</td></tr><tr><td>YEM (Yemen)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>YE (Yemen)</td></tr><tr><td>ZMB (Zambia)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ZM (Zambia)</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://smart.who.int/refmart/ConceptMap/ISO3toISO2"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:title [ fhir:v "Concept Map from ISO3 to ISO2 country codes"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2025-04-08T14:10:31+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "WHO"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "WHO" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://who.int" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "WHO Concept Map for RefMart countries from ISO3 to ISO2 codes"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [ fhir:v "http://smart.who.int/refmart/CodeSystem/COUNTRYISO3"^^xsd:anyURI ] ;
+     fhir:target [ fhir:v "http://smart.who.int/refmart/CodeSystem/COUNTRYISO2"^^xsd:anyURI ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "AFG" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AF" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ALB" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AL" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DZA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DZ" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ASM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AS" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AND" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AD" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AGO" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AO" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ATG" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AG" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AZE" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AZ" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ARG" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AR" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AUS" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AU" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AUT" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AT" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BHS" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BS" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BHR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BH" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BGD" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BD" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ARM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AM" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BRB" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BB" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BEL" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BE" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BMU" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BM" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BTN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BT" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BOL" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BO" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BIH" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BA" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BWA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BW" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BVT" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BV" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BRA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BR" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BLZ" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BZ" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "IOT" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "IO" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SLB" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SB" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VGB" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VG" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BRN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BN" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BGR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BG" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MMR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MM" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BDI" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BI" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BLR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BY" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "KHM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "KH" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CMR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CM" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CAN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CA" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CPV" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CV" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CYM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "KY" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CAF" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CF" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "LKA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "LK" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TCD" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "TD" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CHL" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CL" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CHN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CN" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TWN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "TW" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CXR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CX" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CCK" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CC" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "COL" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CO" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "COM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "KM" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MYT" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "YT" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "COG" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CG" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "COD" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CD" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "COK" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CK" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CRI" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CR" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HRV" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HR" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CUB" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CU" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CYP" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CY" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CZE" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CZ" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BEN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BJ" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DNK" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DK" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DMA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DM" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DOM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DO" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ECU" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "EC" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SLV" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SV" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GNQ" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "GQ" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ETH" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ET" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ERI" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ER" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EST" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "EE" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FRO" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FO" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FLK" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FK" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SGS" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "GS" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FJI" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FJ" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FIN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FI" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ALA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AX" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FRA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FR" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GUF" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "GF" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PYF" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PF" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ATF" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "TF" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DJI" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DJ" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GAB" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "GA" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GEO" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "GE" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GMB" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "GM" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PSE" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PS" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DEU" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DE" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GHA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "GH" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GIB" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "GI" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "KIR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "KI" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GRC" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "GR" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GRL" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "GL" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GRD" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "GD" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GLP" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "GP" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GUM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "GU" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GTM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "GT" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GIN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "GN" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GUY" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "GY" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HTI" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HT" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HMD" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HM" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VAT" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VA" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HND" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HN" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HKG" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HK" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HUN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HU" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ISL" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "IS" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "IND" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "IN" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "IDN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ID" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "IRN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "IR" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "IRQ" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "IQ" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "IRL" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "IE" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ISR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "IL" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ITA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "IT" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CIV" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CI" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "JAM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "JM" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "JPN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "JP" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "KAZ" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "KZ" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "JOR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "JO" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "KEN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "KE" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PRK" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "KP" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "KOR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "KR" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "XKX" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "XK" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "KWT" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "KW" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "KGZ" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "KG" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "LAO" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "LA" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "LBN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "LB" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "LSO" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "LS" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "LVA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "LV" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "LBR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "LR" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "LBY" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "LY" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "LIE" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "LI" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "LTU" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "LT" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "LUX" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "LU" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MAC" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MO" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MDG" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MG" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MWI" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MW" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MYS" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MY" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MDV" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MV" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MLI" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ML" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MLT" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MT" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MTQ" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MQ" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MRT" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MR" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MUS" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MU" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MEX" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MX" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MCO" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MC" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MNG" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MN" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MDA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MD" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MNE" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ME" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MSR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MS" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MAR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MA" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MOZ" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MZ" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OMN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OM" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NAM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "NA" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NRU" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "NR" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NPL" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "NP" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NLD" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "NL" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CUW" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CW" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ABW" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AW" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SXM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SX" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BES" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BQ" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NCL" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "NC" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VUT" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VU" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NZL" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "NZ" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NIC" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "NI" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NER" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "NE" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NGA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "NG" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NIU" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "NU" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NFK" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "NF" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NOR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "NO" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MNP" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MP" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "UMI" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "UM" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FSM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FM" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MHL" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MH" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PLW" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PW" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PAK" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PK" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PAN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PA" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PNG" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PG" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PRY" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PY" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PER" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PE" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PHL" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PH" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PCN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PN" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "POL" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PL" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PRT" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PT" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GNB" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "GW" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TLS" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "TL" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PRI" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PR" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QAT" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "QA" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "REU" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "RE" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ROU" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "RO" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "RUS" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "RU" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "RWA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "RW" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BLM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BL" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SHN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SH" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "KNA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "KN" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AIA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AI" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "LCA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "LC" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MAF" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MF" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SPM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PM" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VCT" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VC" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SMR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SM" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "STP" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ST" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SAU" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SA" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SEN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SN" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SRB" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "RS" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SYC" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SC" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SLE" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SL" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SGP" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SG" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SVK" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SK" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VNM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VN" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SVN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SI" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SOM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SO" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ZAF" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ZA" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ZWE" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ZW" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ESP" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ES" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SSD" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SS" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SDN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SD" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ESH" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "EH" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SUR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SR" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SJM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SJ" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SWZ" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SZ" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SWE" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SE" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CHE" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CH" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SYR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SY" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TJK" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "TJ" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "THA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "TH" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TGO" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "TG" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TKL" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "TK" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TON" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "TO" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TTO" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "TT" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ARE" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AE" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TUN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "TN" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TUR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "TR" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TKM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "TM" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TCA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "TC" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TUV" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "TV" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "UGA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "UG" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "UKR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "UA" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MKD" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MK" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EGY" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "EG" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GBR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "GB" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GGY" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "GG" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "JEY" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "JE" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "IMN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "IM" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TZA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "TZ" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "USA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "US" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VIR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VI" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BFA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BF" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "URY" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "UY" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "UZB" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "UZ" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VEN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VE" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "WLF" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "WF" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "WSM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "WS" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "YEM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "YE" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ZMB" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ZM" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

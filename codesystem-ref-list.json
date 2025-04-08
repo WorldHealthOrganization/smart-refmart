@@ -1,0 +1,41 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://smart.who.int/refmart/CodeSystem/COUNTRYISO2",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "COUNTRYISO2",
+      "title" : "WHO RefMart Country List ISO 2 Codes",
+      "description" : "CodeSystem for ISO 2 code from from WHO RefMart Country and Jurisidiction List available at https://xmart-api-public.who.int/REFMART/REF_COUNTRY",
+      "uses" : {
+      },
+      "ConceptMap-ISO3toISO2.html" : "Concept Map from ISO3 to ISO2 country codes",
+      "ValueSet-COUNTRYISO2.html" : "WHO RefMart ISO2 Country List"
+    },
+    {
+      "url" : "http://smart.who.int/refmart/CodeSystem/COUNTRYISO3",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "COUNTRYISO3",
+      "title" : "WHO RefMart Country List ISO 3 Codes",
+      "description" : "CodeSystem for ISO 3 code from  WHO RefMart Country and Jurisidiction List available at https://xmart-api-public.who.int/REFMART/REF_COUNTRY",
+      "uses" : {
+      },
+      "ValueSet-COUNTRYISO3.html" : "WHO RefMart ISO3 Country List",
+      "ConceptMap-M49toISO3.html" : "Concept Map from M49 to ISO3 country codes",
+      "ConceptMap-ISO3toISO2.html" : "Concept Map from ISO3 to ISO2 country codes"
+    },
+    {
+      "url" : "http://smart.who.int/refmart/CodeSystem/COUNTRYM49",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "COUNTRYM49",
+      "title" : "WHO RefMart Country List M49 Codes",
+      "description" : "CodeSystem for M49 code from WHO RefMart Country and Jurisidiction List available at https://xmart-api-public.who.int/REFMART/REF_COUNTRY",
+      "uses" : {
+      },
+      "ValueSet-COUNTRYM49.html" : "WHO RefMart M49 Country List",
+      "ConceptMap-M49toISO3.html" : "Concept Map from M49 to ISO3 country codes"
+    }
+  ]
+}

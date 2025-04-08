@@ -1,0 +1,455 @@
+{
+  "date" : "Tue, 08 Apr, 2025 14:11:28 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-smart.who.int.refmart.json",
+      "size" : 10874,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 56,
+          "length" : 12
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 57,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 57,
+          "length" : 198
+        },
+        {
+          "activity" : "validate",
+          "start" : 59,
+          "length" : 18086
+        },
+        {
+          "activity" : "generate1",
+          "start" : 77,
+          "length" : 87
+        },
+        {
+          "activity" : "generate2",
+          "start" : 81,
+          "length" : 68
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 98,
+          "length" : 5
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 114,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-COUNTRYISO2.json",
+      "size" : 26180,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 56,
+          "length" : 29
+        },
+        {
+          "activity" : "load",
+          "start" : 56,
+          "length" : 26
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 57,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 57,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 57,
+          "length" : 53
+        },
+        {
+          "activity" : "validate",
+          "start" : 58,
+          "length" : 409
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 77,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 77,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 78,
+          "length" : 94
+        },
+        {
+          "activity" : "generate2",
+          "start" : 81,
+          "length" : 3561
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 99,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-COUNTRYISO3.json",
+      "size" : 26425,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 56,
+          "length" : 29
+        },
+        {
+          "activity" : "load",
+          "start" : 56,
+          "length" : 44
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 57,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 57,
+          "length" : 23
+        },
+        {
+          "activity" : "validate",
+          "start" : 58,
+          "length" : 99
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 77,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 78,
+          "length" : 90
+        },
+        {
+          "activity" : "generate2",
+          "start" : 85,
+          "length" : 173
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 99,
+          "length" : 12
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 114,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-COUNTRYM49.json",
+      "size" : 26417,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 56,
+          "length" : 36
+        },
+        {
+          "activity" : "load",
+          "start" : 56,
+          "length" : 16
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 57,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 57,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 57,
+          "length" : 29
+        },
+        {
+          "activity" : "validate",
+          "start" : 58,
+          "length" : 78
+        },
+        {
+          "activity" : "generate1",
+          "start" : 78,
+          "length" : 115
+        },
+        {
+          "activity" : "generate2",
+          "start" : 85,
+          "length" : 160
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 99,
+          "length" : 9
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ConceptMap-ISO3toISO2.json",
+      "size" : 45007,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 56,
+          "length" : 29
+        },
+        {
+          "activity" : "load",
+          "start" : 56,
+          "length" : 32
+        },
+        {
+          "activity" : "load",
+          "start" : 56,
+          "length" : 17
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 57,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 57,
+          "length" : 204
+        },
+        {
+          "activity" : "validate",
+          "start" : 58,
+          "length" : 942
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 77,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 78,
+          "length" : 161
+        },
+        {
+          "activity" : "generate2",
+          "start" : 85,
+          "length" : 116
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 99,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ConceptMap-M49toISO3.json",
+      "size" : 45251,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 56,
+          "length" : 37
+        },
+        {
+          "activity" : "load",
+          "start" : 56,
+          "length" : 21
+        },
+        {
+          "activity" : "load",
+          "start" : 56,
+          "length" : 14
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 57,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 57,
+          "length" : 101
+        },
+        {
+          "activity" : "validate",
+          "start" : 59,
+          "length" : 245
+        },
+        {
+          "activity" : "generate1",
+          "start" : 78,
+          "length" : 114
+        },
+        {
+          "activity" : "generate2",
+          "start" : 85,
+          "length" : 72
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 99,
+          "length" : 5
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 114,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-COUNTRYISO2.json",
+      "size" : 521,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 56,
+          "length" : 32
+        },
+        {
+          "activity" : "load",
+          "start" : 56,
+          "length" : 7
+        },
+        {
+          "activity" : "load",
+          "start" : 56,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 57,
+          "length" : 72
+        },
+        {
+          "activity" : "validate",
+          "start" : 58,
+          "length" : 10
+        },
+        {
+          "activity" : "generate1",
+          "start" : 78,
+          "length" : 19
+        },
+        {
+          "activity" : "generate2",
+          "start" : 85,
+          "length" : 593
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 99,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-COUNTRYISO3.json",
+      "size" : 521,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 56,
+          "length" : 28
+        },
+        {
+          "activity" : "load",
+          "start" : 56,
+          "length" : 5
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 57,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 57,
+          "length" : 23
+        },
+        {
+          "activity" : "validate",
+          "start" : 58,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 78,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 86,
+          "length" : 435
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-COUNTRYM49.json",
+      "size" : 514,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 56,
+          "length" : 31
+        },
+        {
+          "activity" : "load",
+          "start" : 56,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 57,
+          "length" : 28
+        },
+        {
+          "activity" : "validate",
+          "start" : 58,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 78,
+          "length" : 12
+        },
+        {
+          "activity" : "generate2",
+          "start" : 86,
+          "length" : 399
+        }
+      ]
+    }
+  ]
+}

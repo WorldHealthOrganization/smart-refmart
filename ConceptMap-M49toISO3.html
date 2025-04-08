@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Concept Map from M49 to ISO3 country codes - RefMart v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+    <link href="assets/css/fa-all.css" rel="stylesheet" type="text/css" />
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/who.css" rel="stylesheet"/>
+    <link href="assets/css/lforms.min.css" rel="stylesheet"/>
+
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"5.1.8"}
+    h3,h4,h5,h6{--heading-prefix:"5.1.8"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+
+      <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+        <div id="stripe"> </div>
+        <div class="container">  <!-- container -->
+          <!-- HEADER CONTENT -->
+  
+          <nav class="navbar navbar-inverse">
+            <!--status-bar-->
+            <div class="container">
+              <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+              </button>
+              <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+              <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Home
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Summary</a>
+      </li>
+      <li>
+        <a href="changes.html">Changes</a>
+      </li>
+      <li>
+        <a href="dependencies.html">Dependencies</a>
+      </li>
+      <li>
+        <a href="references.html">References</a>
+      </li>
+      <li>
+        <a href="adapting.html">Adapting Guidelines for Country use</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Business Requirements
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="concepts.html">Concepts</a>
+      </li>
+      <li>
+        <a href="personas.html">Generic Personas</a>
+      </li>
+      <li>
+        <a href="scenarios.html">User Scenarios</a>
+      </li>
+      <li>
+        <a href="business-processes.html">Business Processes</a>
+      </li>
+      <li>
+        <a href="dictionary.html">Data Dictionary</a>
+      </li>
+      <li>
+        <a href="decision-logic.html">Decision-support Logic</a>
+      </li>
+      <li>
+        <a href="indicators.html">Indicator and Performance Metrics</a>
+      </li>
+      <li>
+        <a href="functional-requirements.html">Functional Requirements</a>
+      </li>
+      <li>
+        <a href="non-functional-requirements.html">Non-functional Requirements</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Data Models and Exchange
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="system-actors.html">System Actors</a>
+      </li>
+      <li>
+        <a href="sequence-diagrams.html">Sequence Diagrams</a>
+      </li>
+      <li>
+        <a href="transactions.html">Transactions</a>
+      </li>
+      <li>
+        <a href="indicators-measures.html">Indicators and Measures</a>
+      </li>
+      <li>
+        <a href="codings.html">Codings</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Deployment
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="security-privacy.html">Security and Privacy Considerations</a>
+      </li>
+      <li>
+        <a href="testing.html">Testing</a>
+      </li>
+      <li>
+        <a href="test-data.html">Test Data</a>
+      </li>
+      <li>
+        <a href="reference-implementations.html">Reference Implementations</a>
+      </li>
+      <li>
+        <a href="trust_domain.html">Trust Domains</a>
+      </li>
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Indices
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="artifacts.html">Artifact Index</a>
+      </li>
+      <li>
+        <a href="maps.html">Mappings</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+              </div>  <!-- /.nav-collapse -->
+
+              <div class="sf_colsIn col-md-8  navbar-right-container" data-sf-element="LanguageSelectorSearch" data-placeholder-label="Language Selector and Search" style="display: flex; justify-content: flex-end; align-items: center;">
+                <!-- This div will be pushed to the right -->
+                <div class="language-selector" style="margin-left: auto; background-color: #00477d; color: white;">
+                  <i class="fa fa-language fa-lg"></i>
+                  <label for="language-selector"> </label>
+                  <select onChange="openLink(value)" id="language-selector" name="language-selector">
+                    <option disabled selected>Select language</option>
+                    <option value="en" class="selected">English</option>
+                  </select>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                <!-- Search Content -->
+              </div>
+            </div>  <!-- /.container -->
+          </nav>  <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+        </div>  <!-- /container -->
+      </div>  <!-- /segment-navbar -->
+      
+
+      <div class="container" style=" justify-content: space-between; align-items: left;">
+
+        <!-- Placeholder for child template header declarations -->
+<div id="project-nav">
+    <a id="who-logo" no-external="true" href="index.html">
+        
+    </a>
+</div>
+
+ <div id="family-nav">
+  <a id="fhir-logo" no-external="true" href="http://hl7.org/fhir">  </a>
+</div> 
+
+
+        <div id="ig-status" class="ig-status-draft">
+          <p><span style="font-size:12pt;font-weight:bold">RefMart</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+
+  <img alt="International flag" src="assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>Concept Map from M49 to ISO3 country codes</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">RefMart, published by WHO. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/WorldHealthOrganization/smart-refmart/tree/main">https://github.com/WorldHealthOrganization/smart-refmart/tree/main</a> and changes regularly. See the <a href="http://smart.who.int/refmart/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ConceptMap-M49toISO3.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ConceptMap-M49toISO3.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ConceptMap-M49toISO3.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+
+  <h2 id="root">ConceptMap: Concept Map from M49 to ISO3 country codes
+
+  </h2>
+
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://smart.who.int/refmart/ConceptMap/M49toISO3<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://smart.who.int/refmart/ConceptMap/M49toISO3"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://smart.who.int/refmart/ConceptMap/M49toISO3|0.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Active
+          
+            as of 2025-04-08
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;"></span></td>
+    </tr>
+
+
+
+
+  </table>
+
+
+<p>
+<p>WHO Concept Map for RefMart countries from M49 to ISO3 codes</p>
+
+</p>
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+<!--  <p>
+  Formats: <a href="ConceptMap-M49toISO3.xml.html">XML</a>, <a href="ConceptMap-M49toISO3.json.html">JSON</a>, <a href="ConceptMap-M49toISO3.ttl.html">Turtle</a>
+  </p>-->
+
+  
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap M49toISO3</b></p><a name="M49toISO3"> </a><a name="hcM49toISO3"> </a><a name="M49toISO3-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profiles: <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareableconceptmap.html">CRMI Shareable ConceptMap</a>, <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishableconceptmap.html">CRMI Publishable ConceptMap</a></p></div><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <a href="CodeSystem-COUNTRYM49.html">WHO RefMart Country List M49 Codes</a> to <a href="CodeSystem-COUNTRYISO3.html">WHO RefMart Country List ISO 3 Codes</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>004 (Afghanistan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>AFG (Afghanistan)</td></tr><tr><td>008 (Albania)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ALB (Albania)</td></tr><tr><td>012 (Algeria)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DZA (Algeria)</td></tr><tr><td>016 (American Samoa)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ASM (American Samoa)</td></tr><tr><td>020 (Andorra)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>AND (Andorra)</td></tr><tr><td>024 (Angola)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>AGO (Angola)</td></tr><tr><td>028 (Antigua and Barbuda)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ATG (Antigua and Barbuda)</td></tr><tr><td>031 (Azerbaijan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>AZE (Azerbaijan)</td></tr><tr><td>032 (Argentina)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ARG (Argentina)</td></tr><tr><td>036 (Australia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>AUS (Australia)</td></tr><tr><td>040 (Austria)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>AUT (Austria)</td></tr><tr><td>044 (Bahamas)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BHS (Bahamas)</td></tr><tr><td>048 (Bahrain)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BHR (Bahrain)</td></tr><tr><td>050 (Bangladesh)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BGD (Bangladesh)</td></tr><tr><td>051 (Armenia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ARM (Armenia)</td></tr><tr><td>052 (Barbados)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BRB (Barbados)</td></tr><tr><td>056 (Belgium)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BEL (Belgium)</td></tr><tr><td>060 (Bermuda)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BMU (Bermuda)</td></tr><tr><td>064 (Bhutan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BTN (Bhutan)</td></tr><tr><td>068 (Bolivia (Plurinational State of))</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BOL (Bolivia (Plurinational State of))</td></tr><tr><td>070 (Bosnia and Herzegovina)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BIH (Bosnia and Herzegovina)</td></tr><tr><td>072 (Botswana)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BWA (Botswana)</td></tr><tr><td>074 (Bouvet Island)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BVT (Bouvet Island)</td></tr><tr><td>076 (Brazil)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BRA (Brazil)</td></tr><tr><td>084 (Belize)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BLZ (Belize)</td></tr><tr><td>086 (British Indian Ocean Territory)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>IOT (British Indian Ocean Territory)</td></tr><tr><td>090 (Solomon Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SLB (Solomon Islands)</td></tr><tr><td>092 (British Virgin Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>VGB (British Virgin Islands)</td></tr><tr><td>096 (Brunei Darussalam)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BRN (Brunei Darussalam)</td></tr><tr><td>100 (Bulgaria)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BGR (Bulgaria)</td></tr><tr><td>104 (Myanmar)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MMR (Myanmar)</td></tr><tr><td>108 (Burundi)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BDI (Burundi)</td></tr><tr><td>112 (Belarus)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BLR (Belarus)</td></tr><tr><td>116 (Cambodia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>KHM (Cambodia)</td></tr><tr><td>120 (Cameroon)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CMR (Cameroon)</td></tr><tr><td>124 (Canada)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CAN (Canada)</td></tr><tr><td>132 (Cabo Verde)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CPV (Cabo Verde)</td></tr><tr><td>136 (Cayman Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CYM (Cayman Islands)</td></tr><tr><td>140 (Central African Republic)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CAF (Central African Republic)</td></tr><tr><td>144 (Sri Lanka)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>LKA (Sri Lanka)</td></tr><tr><td>148 (Chad)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TCD (Chad)</td></tr><tr><td>152 (Chile)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CHL (Chile)</td></tr><tr><td>156 (China)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CHN (China)</td></tr><tr><td>158 (Taiwan, China)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TWN (Taiwan, China)</td></tr><tr><td>162 (Christmas Island)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CXR (Christmas Island)</td></tr><tr><td>166 (Cocos (Keeling) Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CCK (Cocos (Keeling) Islands)</td></tr><tr><td>170 (Colombia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>COL (Colombia)</td></tr><tr><td>174 (Comoros)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>COM (Comoros)</td></tr><tr><td>175 (Mayotte)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MYT (Mayotte)</td></tr><tr><td>178 (Congo)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>COG (Congo)</td></tr><tr><td>180 (Democratic Republic of the Congo)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>COD (Democratic Republic of the Congo)</td></tr><tr><td>184 (Cook Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>COK (Cook Islands)</td></tr><tr><td>188 (Costa Rica)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CRI (Costa Rica)</td></tr><tr><td>191 (Croatia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>HRV (Croatia)</td></tr><tr><td>192 (Cuba)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CUB (Cuba)</td></tr><tr><td>196 (Cyprus)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CYP (Cyprus)</td></tr><tr><td>203 (Czechia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CZE (Czechia)</td></tr><tr><td>204 (Benin)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BEN (Benin)</td></tr><tr><td>208 (Denmark)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DNK (Denmark)</td></tr><tr><td>212 (Dominica)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DMA (Dominica)</td></tr><tr><td>214 (Dominican Republic)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DOM (Dominican Republic)</td></tr><tr><td>218 (Ecuador)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ECU (Ecuador)</td></tr><tr><td>222 (El Salvador)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SLV (El Salvador)</td></tr><tr><td>226 (Equatorial Guinea)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GNQ (Equatorial Guinea)</td></tr><tr><td>231 (Ethiopia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ETH (Ethiopia)</td></tr><tr><td>232 (Eritrea)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ERI (Eritrea)</td></tr><tr><td>233 (Estonia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EST (Estonia)</td></tr><tr><td>234 (Faroe Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>FRO (Faroe Islands)</td></tr><tr><td>238 (Falkland Islands (Malvinas))</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>FLK (Falkland Islands (Malvinas))</td></tr><tr><td>239 (South Georgia and the South Sandwich Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SGS (South Georgia and the South Sandwich Islands)</td></tr><tr><td>242 (Fiji)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>FJI (Fiji)</td></tr><tr><td>246 (Finland)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>FIN (Finland)</td></tr><tr><td>248 (Åland Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ALA (Åland Islands)</td></tr><tr><td>250 (France)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>FRA (France)</td></tr><tr><td>254 (French Guiana)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GUF (French Guiana)</td></tr><tr><td>258 (French Polynesia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PYF (French Polynesia)</td></tr><tr><td>260 (French Southern Territories)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ATF (French Southern Territories)</td></tr><tr><td>262 (Djibouti)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DJI (Djibouti)</td></tr><tr><td>266 (Gabon)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GAB (Gabon)</td></tr><tr><td>268 (Georgia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GEO (Georgia)</td></tr><tr><td>270 (Gambia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GMB (Gambia)</td></tr><tr><td>275 (occupied Palestinian territory, including east Jerusalem)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PSE (occupied Palestinian territory, including east Jerusalem)</td></tr><tr><td>276 (Germany)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DEU (Germany)</td></tr><tr><td>288 (Ghana)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GHA (Ghana)</td></tr><tr><td>292 (Gibraltar)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GIB (Gibraltar)</td></tr><tr><td>296 (Kiribati)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>KIR (Kiribati)</td></tr><tr><td>300 (Greece)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GRC (Greece)</td></tr><tr><td>304 (Greenland)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GRL (Greenland)</td></tr><tr><td>308 (Grenada)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GRD (Grenada)</td></tr><tr><td>312 (Guadeloupe)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GLP (Guadeloupe)</td></tr><tr><td>316 (Guam)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GUM (Guam)</td></tr><tr><td>320 (Guatemala)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GTM (Guatemala)</td></tr><tr><td>324 (Guinea)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GIN (Guinea)</td></tr><tr><td>328 (Guyana)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GUY (Guyana)</td></tr><tr><td>332 (Haiti)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>HTI (Haiti)</td></tr><tr><td>334 (Heard Island and McDonald Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>HMD (Heard Island and McDonald Islands)</td></tr><tr><td>336 (Holy See)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>VAT (Holy See)</td></tr><tr><td>340 (Honduras)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>HND (Honduras)</td></tr><tr><td>344 (China, Hong Kong SAR)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>HKG (China, Hong Kong SAR)</td></tr><tr><td>348 (Hungary)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>HUN (Hungary)</td></tr><tr><td>352 (Iceland)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ISL (Iceland)</td></tr><tr><td>356 (India)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>IND (India)</td></tr><tr><td>360 (Indonesia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>IDN (Indonesia)</td></tr><tr><td>364 (Iran (Islamic Republic of))</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>IRN (Iran (Islamic Republic of))</td></tr><tr><td>368 (Iraq)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>IRQ (Iraq)</td></tr><tr><td>372 (Ireland)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>IRL (Ireland)</td></tr><tr><td>376 (Israel)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ISR (Israel)</td></tr><tr><td>380 (Italy)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ITA (Italy)</td></tr><tr><td>384 (Côte d’Ivoire)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CIV (Côte d’Ivoire)</td></tr><tr><td>388 (Jamaica)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>JAM (Jamaica)</td></tr><tr><td>392 (Japan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>JPN (Japan)</td></tr><tr><td>398 (Kazakhstan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>KAZ (Kazakhstan)</td></tr><tr><td>400 (Jordan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>JOR (Jordan)</td></tr><tr><td>404 (Kenya)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>KEN (Kenya)</td></tr><tr><td>408 (Democratic People's Republic of Korea)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PRK (Democratic People's Republic of Korea)</td></tr><tr><td>410 (Republic of Korea)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>KOR (Republic of Korea)</td></tr><tr><td>412 (Kosovo (in accordance with UN Security Council resolution 1244 (1999)))</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>XKX (Kosovo (in accordance with UN Security Council resolution 1244 (1999)))</td></tr><tr><td>414 (Kuwait)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>KWT (Kuwait)</td></tr><tr><td>417 (Kyrgyzstan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>KGZ (Kyrgyzstan)</td></tr><tr><td>418 (Lao People's Democratic Republic)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>LAO (Lao People's Democratic Republic)</td></tr><tr><td>422 (Lebanon)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>LBN (Lebanon)</td></tr><tr><td>426 (Lesotho)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>LSO (Lesotho)</td></tr><tr><td>428 (Latvia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>LVA (Latvia)</td></tr><tr><td>430 (Liberia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>LBR (Liberia)</td></tr><tr><td>434 (Libya)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>LBY (Libya)</td></tr><tr><td>438 (Liechtenstein)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>LIE (Liechtenstein)</td></tr><tr><td>440 (Lithuania)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>LTU (Lithuania)</td></tr><tr><td>442 (Luxembourg)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>LUX (Luxembourg)</td></tr><tr><td>446 (China, Macao SAR)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MAC (China, Macao SAR)</td></tr><tr><td>450 (Madagascar)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MDG (Madagascar)</td></tr><tr><td>454 (Malawi)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MWI (Malawi)</td></tr><tr><td>458 (Malaysia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MYS (Malaysia)</td></tr><tr><td>462 (Maldives)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MDV (Maldives)</td></tr><tr><td>466 (Mali)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MLI (Mali)</td></tr><tr><td>470 (Malta)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MLT (Malta)</td></tr><tr><td>474 (Martinique)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MTQ (Martinique)</td></tr><tr><td>478 (Mauritania)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MRT (Mauritania)</td></tr><tr><td>480 (Mauritius)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MUS (Mauritius)</td></tr><tr><td>484 (Mexico)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MEX (Mexico)</td></tr><tr><td>492 (Monaco)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MCO (Monaco)</td></tr><tr><td>496 (Mongolia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MNG (Mongolia)</td></tr><tr><td>498 (Republic of Moldova)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MDA (Republic of Moldova)</td></tr><tr><td>499 (Montenegro)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MNE (Montenegro)</td></tr><tr><td>500 (Montserrat)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MSR (Montserrat)</td></tr><tr><td>504 (Morocco)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MAR (Morocco)</td></tr><tr><td>508 (Mozambique)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MOZ (Mozambique)</td></tr><tr><td>512 (Oman)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>OMN (Oman)</td></tr><tr><td>516 (Namibia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NAM (Namibia)</td></tr><tr><td>520 (Nauru)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NRU (Nauru)</td></tr><tr><td>524 (Nepal)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NPL (Nepal)</td></tr><tr><td>528 (Netherlands (Kingdom of the))</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NLD (Netherlands (Kingdom of the))</td></tr><tr><td>531 (Curaçao)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CUW (Curaçao)</td></tr><tr><td>533 (Aruba)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ABW (Aruba)</td></tr><tr><td>534 (Sint Maarten (Dutch part))</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SXM (Sint Maarten (Dutch part))</td></tr><tr><td>535 (Bonaire, Sint Eustatius and Saba)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BES (Bonaire, Sint Eustatius and Saba)</td></tr><tr><td>540 (New Caledonia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NCL (New Caledonia)</td></tr><tr><td>548 (Vanuatu)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>VUT (Vanuatu)</td></tr><tr><td>554 (New Zealand)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NZL (New Zealand)</td></tr><tr><td>558 (Nicaragua)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NIC (Nicaragua)</td></tr><tr><td>562 (Niger)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NER (Niger)</td></tr><tr><td>566 (Nigeria)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NGA (Nigeria)</td></tr><tr><td>570 (Niue)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NIU (Niue)</td></tr><tr><td>574 (Norfolk Island)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NFK (Norfolk Island)</td></tr><tr><td>578 (Norway)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NOR (Norway)</td></tr><tr><td>580 (Northern Mariana Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MNP (Northern Mariana Islands)</td></tr><tr><td>581 (United States Minor Outlying Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>UMI (United States Minor Outlying Islands)</td></tr><tr><td>583 (Micronesia (Federated States of))</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>FSM (Micronesia (Federated States of))</td></tr><tr><td>584 (Marshall Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MHL (Marshall Islands)</td></tr><tr><td>585 (Palau)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PLW (Palau)</td></tr><tr><td>586 (Pakistan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PAK (Pakistan)</td></tr><tr><td>591 (Panama)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PAN (Panama)</td></tr><tr><td>598 (Papua New Guinea)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PNG (Papua New Guinea)</td></tr><tr><td>600 (Paraguay)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PRY (Paraguay)</td></tr><tr><td>604 (Peru)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PER (Peru)</td></tr><tr><td>608 (Philippines)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PHL (Philippines)</td></tr><tr><td>612 (Pitcairn)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PCN (Pitcairn)</td></tr><tr><td>616 (Poland)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>POL (Poland)</td></tr><tr><td>620 (Portugal)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PRT (Portugal)</td></tr><tr><td>624 (Guinea-Bissau)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GNB (Guinea-Bissau)</td></tr><tr><td>626 (Timor-Leste)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TLS (Timor-Leste)</td></tr><tr><td>630 (Puerto Rico)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PRI (Puerto Rico)</td></tr><tr><td>634 (Qatar)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>QAT (Qatar)</td></tr><tr><td>638 (Réunion)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>REU (Réunion)</td></tr><tr><td>642 (Romania)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ROU (Romania)</td></tr><tr><td>643 (Russian Federation)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RUS (Russian Federation)</td></tr><tr><td>646 (Rwanda)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RWA (Rwanda)</td></tr><tr><td>652 (Saint Barthélemy)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BLM (Saint Barthélemy)</td></tr><tr><td>654 (Saint Helena)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SHN (Saint Helena)</td></tr><tr><td>659 (Saint Kitts and Nevis)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>KNA (Saint Kitts and Nevis)</td></tr><tr><td>660 (Anguilla)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>AIA (Anguilla)</td></tr><tr><td>662 (Saint Lucia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>LCA (Saint Lucia)</td></tr><tr><td>663 (Saint Martin (French part))</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MAF (Saint Martin (French part))</td></tr><tr><td>666 (Saint Pierre and Miquelon)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SPM (Saint Pierre and Miquelon)</td></tr><tr><td>670 (Saint Vincent and the Grenadines)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>VCT (Saint Vincent and the Grenadines)</td></tr><tr><td>674 (San Marino)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SMR (San Marino)</td></tr><tr><td>678 (Sao Tome and Principe)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>STP (Sao Tome and Principe)</td></tr><tr><td>682 (Saudi Arabia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SAU (Saudi Arabia)</td></tr><tr><td>686 (Senegal)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SEN (Senegal)</td></tr><tr><td>688 (Serbia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SRB (Serbia)</td></tr><tr><td>690 (Seychelles)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SYC (Seychelles)</td></tr><tr><td>694 (Sierra Leone)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SLE (Sierra Leone)</td></tr><tr><td>702 (Singapore)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SGP (Singapore)</td></tr><tr><td>703 (Slovakia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SVK (Slovakia)</td></tr><tr><td>704 (Viet Nam)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>VNM (Viet Nam)</td></tr><tr><td>705 (Slovenia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SVN (Slovenia)</td></tr><tr><td>706 (Somalia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SOM (Somalia)</td></tr><tr><td>710 (South Africa)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ZAF (South Africa)</td></tr><tr><td>716 (Zimbabwe)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ZWE (Zimbabwe)</td></tr><tr><td>724 (Spain)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ESP (Spain)</td></tr><tr><td>728 (South Sudan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SSD (South Sudan)</td></tr><tr><td>729 (Sudan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SDN (Sudan)</td></tr><tr><td>732 (Western Sahara)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ESH (Western Sahara)</td></tr><tr><td>740 (Suriname)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SUR (Suriname)</td></tr><tr><td>744 (Svalbard and Jan Mayen)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SJM (Svalbard and Jan Mayen)</td></tr><tr><td>748 (Eswatini)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SWZ (Eswatini)</td></tr><tr><td>752 (Sweden)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SWE (Sweden)</td></tr><tr><td>756 (Switzerland)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CHE (Switzerland)</td></tr><tr><td>760 (Syrian Arab Republic)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SYR (Syrian Arab Republic)</td></tr><tr><td>762 (Tajikistan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TJK (Tajikistan)</td></tr><tr><td>764 (Thailand)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>THA (Thailand)</td></tr><tr><td>768 (Togo)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TGO (Togo)</td></tr><tr><td>772 (Tokelau)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TKL (Tokelau)</td></tr><tr><td>776 (Tonga)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TON (Tonga)</td></tr><tr><td>780 (Trinidad and Tobago)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TTO (Trinidad and Tobago)</td></tr><tr><td>784 (United Arab Emirates)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ARE (United Arab Emirates)</td></tr><tr><td>788 (Tunisia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TUN (Tunisia)</td></tr><tr><td>792 (Türkiye)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TUR (Türkiye)</td></tr><tr><td>795 (Turkmenistan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TKM (Turkmenistan)</td></tr><tr><td>796 (Turks and Caicos Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TCA (Turks and Caicos Islands)</td></tr><tr><td>798 (Tuvalu)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TUV (Tuvalu)</td></tr><tr><td>800 (Uganda)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>UGA (Uganda)</td></tr><tr><td>804 (Ukraine)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>UKR (Ukraine)</td></tr><tr><td>807 (North Macedonia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MKD (North Macedonia)</td></tr><tr><td>818 (Egypt)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EGY (Egypt)</td></tr><tr><td>826 (United Kingdom of Great Britain and Northern Ireland)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GBR (United Kingdom of Great Britain and Northern Ireland)</td></tr><tr><td>831 (Guernsey)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GGY (Guernsey)</td></tr><tr><td>832 (Jersey)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>JEY (Jersey)</td></tr><tr><td>833 (Isle of Man)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>IMN (Isle of Man)</td></tr><tr><td>834 (United Republic of Tanzania)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TZA (United Republic of Tanzania)</td></tr><tr><td>840 (United States of America)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>USA (United States of America)</td></tr><tr><td>850 (United States Virgin Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>VIR (United States Virgin Islands)</td></tr><tr><td>854 (Burkina Faso)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BFA (Burkina Faso)</td></tr><tr><td>858 (Uruguay)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>URY (Uruguay)</td></tr><tr><td>860 (Uzbekistan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>UZB (Uzbekistan)</td></tr><tr><td>862 (Venezuela (Bolivarian Republic of))</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>VEN (Venezuela (Bolivarian Republic of))</td></tr><tr><td>876 (Wallis and Futuna)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>WLF (Wallis and Futuna)</td></tr><tr><td>882 (Samoa)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>WSM (Samoa)</td></tr><tr><td>887 (Yemen)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>YEM (Yemen)</td></tr><tr><td>894 (Zambia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ZMB (Zambia)</td></tr></table></div>
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+</div>  <!-- /inner-wrapper -->
+</div>  <!-- /row -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-content -->
+
+<script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+<script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+<script type="text/javascript" src="assets/js/window-hash.js"> </script>
+<a name="bottom"> </a>
+<div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+<div class="container">  <!-- container -->
+
+<div class="inner-wrapper">
+  <p>
+    IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://who.int">WHO</a>.  Package smart.who.int.refmart#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Apr 8, 2025 14:11+0000">2025-04-08</span>
+    <br/>
+    <span style="color: var(--footer-highlight-text-color)">
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" target="_blank" href="http://smart.who.int/refmart/history.html">Version History</a> | <a style="color: #81BEF7" rel="license" href="license.html">License</a>
+    </span>
+  </p>
+</div>  <!-- /inner-wrapper -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-footer -->
+
+<div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+<div class="container">  <!-- container -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-post-footer -->
+
+<!-- JS and analytics only. -->
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+<script type="text/javascript" src="assets/js/respond.min.js"> </script>
+<script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+<script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+<script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+<script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+<!-- Analytics Below
+================================================== -->
+
+
+
+

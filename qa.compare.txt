@@ -1,0 +1,54 @@
+refmart : Validation Results
+=========================================
+
+err = 2, warn = 11, info = 8
+$--
+Generated $--. FHIR version $-- for smart.who.int.refmart#$-- (canonical = http://smart.who.int/refmart)
+ Build Errors : 6 / 0 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-COUNTRYISO2 : 0 / 1 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-COUNTRYISO3 : 0 / 1 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-COUNTRYM49 : 0 / 1 / 2
+ /github/workspace/fsh-generated/resources/ConceptMap-ISO3toISO2 : 1 / 2 / 4
+ /github/workspace/fsh-generated/resources/ConceptMap-M49toISO3 : 1 / 2 / 4
+ /github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.refmart : 0 / 4 / 7
+ /github/workspace/fsh-generated/resources/ValueSet-COUNTRYISO2 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-COUNTRYISO3 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-COUNTRYM49 : 0 / 0 / 1
+</table>
+== n/a ==
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 299, column 8: The link 'definitions.xml.zip' for "XML" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 300, column 8: The link 'definitions.json.zip' for "JSON" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/div/div/ul/li/p/a at Line 302, column 9: The link 'definitions.ttl.zip' for "TTL" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 316, column 8: The link 'examples.xml.zip' for "XML" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 317, column 8: The link 'examples.json.zip' for "JSON" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 318, column 8: The link 'examples.ttl.zip' for "TTL" cannot be resolved
+== fsh-generated/resources/CodeSystem-COUNTRYISO2.json ==
+INFORMATION: CodeSystem/COUNTRYISO2: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/COUNTRYISO2: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-COUNTRYISO3.json ==
+INFORMATION: CodeSystem/COUNTRYISO3: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/COUNTRYISO3: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-COUNTRYM49.json ==
+INFORMATION: CodeSystem/COUNTRYM49: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/COUNTRYM49: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/ConceptMap-ISO3toISO2.json ==
+ERROR: ConceptMap/ISO3toISO2: ConceptMap: ConceptMap.experimental: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableconceptmap|1.0.0)
+WARNING: ConceptMap/ISO3toISO2: ConceptMap: Published concept maps SHOULD conform to the ShareableConceptMap profile, which says that the element ConceptMap.name should be present, but it is not
+WARNING: ConceptMap/ISO3toISO2: ConceptMap: Published concept maps SHOULD conform to the ShareableConceptMap profile, which says that the element ConceptMap.experimental is mandatory, but it is not present
+== fsh-generated/resources/ConceptMap-M49toISO3.json ==
+ERROR: ConceptMap/M49toISO3: ConceptMap: ConceptMap.experimental: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableconceptmap|1.0.0)
+WARNING: ConceptMap/M49toISO3: ConceptMap: Published concept maps SHOULD conform to the ShareableConceptMap profile, which says that the element ConceptMap.name should be present, but it is not
+WARNING: ConceptMap/M49toISO3: ConceptMap: Published concept maps SHOULD conform to the ShareableConceptMap profile, which says that the element ConceptMap.experimental is mandatory, but it is not present
+== fsh-generated/resources/ImplementationGuide-smart.who.int.refmart.json ==
+WARNING: ImplementationGuide/smart.who.int.refmart: ImplementationGuide: Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: ImplementationGuide/smart.who.int.refmart: ImplementationGuide.dependsOn[0]: The ImplementationGuide uses package hl7.terminology#5.5.0 released on 2024-03-09, but the most recent appropriate version is 6.2.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/smart.who.int.refmart: ImplementationGuide.dependsOn[1]: The ImplementationGuide uses package hl7.fhir.uv.extensions.r4#5.1.0 released on 2024-04-27, but the most recent appropriate version is 5.2.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/smart.who.int.refmart: ImplementationGuide.dependsOn[7]: The ImplementationGuide uses package smart.who.int.base#0.1.0 released on 2024-09-20, but the most recent appropriate version is 0.2.0. This reference is getting old and the more recent version should be considered
+INFORMATION: ImplementationGuide/smart.who.int.refmart: ImplementationGuide.definition.resource[0]: This element does not match any known slice defined in the profile http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ImplementationGuide/smart.who.int.refmart: ImplementationGuide.definition.resource[1]: This element does not match any known slice defined in the profile http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ImplementationGuide/smart.who.int.refmart: ImplementationGuide.definition.resource[2]: This element does not match any known slice defined in the profile http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ImplementationGuide/smart.who.int.refmart: ImplementationGuide.definition.resource[3]: This element does not match any known slice defined in the profile http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ImplementationGuide/smart.who.int.refmart: ImplementationGuide.definition.resource[4]: This element does not match any known slice defined in the profile http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/ValueSet-COUNTRYISO2.json ==
+== fsh-generated/resources/ValueSet-COUNTRYISO3.json ==
+== fsh-generated/resources/ValueSet-COUNTRYM49.json ==

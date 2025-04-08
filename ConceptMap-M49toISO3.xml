@@ -1,0 +1,1780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="M49toISO3"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableconceptmap"/>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishableconceptmap"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap M49toISO3</b></p><a name="M49toISO3"> </a><a name="hcM49toISO3"> </a><a name="M49toISO3-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profiles: <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareableconceptmap.html">CRMI Shareable ConceptMap</a>, <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishableconceptmap.html">CRMI Publishable ConceptMap</a></p></div><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <a href="CodeSystem-COUNTRYM49.html">WHO RefMart Country List M49 Codes</a> to <a href="CodeSystem-COUNTRYISO3.html">WHO RefMart Country List ISO 3 Codes</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>004 (Afghanistan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>AFG (Afghanistan)</td></tr><tr><td>008 (Albania)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ALB (Albania)</td></tr><tr><td>012 (Algeria)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DZA (Algeria)</td></tr><tr><td>016 (American Samoa)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ASM (American Samoa)</td></tr><tr><td>020 (Andorra)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>AND (Andorra)</td></tr><tr><td>024 (Angola)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>AGO (Angola)</td></tr><tr><td>028 (Antigua and Barbuda)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ATG (Antigua and Barbuda)</td></tr><tr><td>031 (Azerbaijan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>AZE (Azerbaijan)</td></tr><tr><td>032 (Argentina)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ARG (Argentina)</td></tr><tr><td>036 (Australia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>AUS (Australia)</td></tr><tr><td>040 (Austria)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>AUT (Austria)</td></tr><tr><td>044 (Bahamas)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BHS (Bahamas)</td></tr><tr><td>048 (Bahrain)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BHR (Bahrain)</td></tr><tr><td>050 (Bangladesh)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BGD (Bangladesh)</td></tr><tr><td>051 (Armenia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ARM (Armenia)</td></tr><tr><td>052 (Barbados)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BRB (Barbados)</td></tr><tr><td>056 (Belgium)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BEL (Belgium)</td></tr><tr><td>060 (Bermuda)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BMU (Bermuda)</td></tr><tr><td>064 (Bhutan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BTN (Bhutan)</td></tr><tr><td>068 (Bolivia (Plurinational State of))</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BOL (Bolivia (Plurinational State of))</td></tr><tr><td>070 (Bosnia and Herzegovina)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BIH (Bosnia and Herzegovina)</td></tr><tr><td>072 (Botswana)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BWA (Botswana)</td></tr><tr><td>074 (Bouvet Island)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BVT (Bouvet Island)</td></tr><tr><td>076 (Brazil)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BRA (Brazil)</td></tr><tr><td>084 (Belize)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BLZ (Belize)</td></tr><tr><td>086 (British Indian Ocean Territory)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>IOT (British Indian Ocean Territory)</td></tr><tr><td>090 (Solomon Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SLB (Solomon Islands)</td></tr><tr><td>092 (British Virgin Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>VGB (British Virgin Islands)</td></tr><tr><td>096 (Brunei Darussalam)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BRN (Brunei Darussalam)</td></tr><tr><td>100 (Bulgaria)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BGR (Bulgaria)</td></tr><tr><td>104 (Myanmar)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MMR (Myanmar)</td></tr><tr><td>108 (Burundi)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BDI (Burundi)</td></tr><tr><td>112 (Belarus)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BLR (Belarus)</td></tr><tr><td>116 (Cambodia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>KHM (Cambodia)</td></tr><tr><td>120 (Cameroon)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CMR (Cameroon)</td></tr><tr><td>124 (Canada)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CAN (Canada)</td></tr><tr><td>132 (Cabo Verde)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CPV (Cabo Verde)</td></tr><tr><td>136 (Cayman Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CYM (Cayman Islands)</td></tr><tr><td>140 (Central African Republic)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CAF (Central African Republic)</td></tr><tr><td>144 (Sri Lanka)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>LKA (Sri Lanka)</td></tr><tr><td>148 (Chad)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TCD (Chad)</td></tr><tr><td>152 (Chile)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CHL (Chile)</td></tr><tr><td>156 (China)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CHN (China)</td></tr><tr><td>158 (Taiwan, China)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TWN (Taiwan, China)</td></tr><tr><td>162 (Christmas Island)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CXR (Christmas Island)</td></tr><tr><td>166 (Cocos (Keeling) Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CCK (Cocos (Keeling) Islands)</td></tr><tr><td>170 (Colombia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>COL (Colombia)</td></tr><tr><td>174 (Comoros)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>COM (Comoros)</td></tr><tr><td>175 (Mayotte)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MYT (Mayotte)</td></tr><tr><td>178 (Congo)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>COG (Congo)</td></tr><tr><td>180 (Democratic Republic of the Congo)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>COD (Democratic Republic of the Congo)</td></tr><tr><td>184 (Cook Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>COK (Cook Islands)</td></tr><tr><td>188 (Costa Rica)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CRI (Costa Rica)</td></tr><tr><td>191 (Croatia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>HRV (Croatia)</td></tr><tr><td>192 (Cuba)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CUB (Cuba)</td></tr><tr><td>196 (Cyprus)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CYP (Cyprus)</td></tr><tr><td>203 (Czechia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CZE (Czechia)</td></tr><tr><td>204 (Benin)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BEN (Benin)</td></tr><tr><td>208 (Denmark)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DNK (Denmark)</td></tr><tr><td>212 (Dominica)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DMA (Dominica)</td></tr><tr><td>214 (Dominican Republic)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DOM (Dominican Republic)</td></tr><tr><td>218 (Ecuador)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ECU (Ecuador)</td></tr><tr><td>222 (El Salvador)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SLV (El Salvador)</td></tr><tr><td>226 (Equatorial Guinea)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GNQ (Equatorial Guinea)</td></tr><tr><td>231 (Ethiopia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ETH (Ethiopia)</td></tr><tr><td>232 (Eritrea)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ERI (Eritrea)</td></tr><tr><td>233 (Estonia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EST (Estonia)</td></tr><tr><td>234 (Faroe Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>FRO (Faroe Islands)</td></tr><tr><td>238 (Falkland Islands (Malvinas))</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>FLK (Falkland Islands (Malvinas))</td></tr><tr><td>239 (South Georgia and the South Sandwich Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SGS (South Georgia and the South Sandwich Islands)</td></tr><tr><td>242 (Fiji)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>FJI (Fiji)</td></tr><tr><td>246 (Finland)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>FIN (Finland)</td></tr><tr><td>248 (Åland Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ALA (Åland Islands)</td></tr><tr><td>250 (France)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>FRA (France)</td></tr><tr><td>254 (French Guiana)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GUF (French Guiana)</td></tr><tr><td>258 (French Polynesia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PYF (French Polynesia)</td></tr><tr><td>260 (French Southern Territories)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ATF (French Southern Territories)</td></tr><tr><td>262 (Djibouti)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DJI (Djibouti)</td></tr><tr><td>266 (Gabon)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GAB (Gabon)</td></tr><tr><td>268 (Georgia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GEO (Georgia)</td></tr><tr><td>270 (Gambia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GMB (Gambia)</td></tr><tr><td>275 (occupied Palestinian territory, including east Jerusalem)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PSE (occupied Palestinian territory, including east Jerusalem)</td></tr><tr><td>276 (Germany)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DEU (Germany)</td></tr><tr><td>288 (Ghana)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GHA (Ghana)</td></tr><tr><td>292 (Gibraltar)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GIB (Gibraltar)</td></tr><tr><td>296 (Kiribati)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>KIR (Kiribati)</td></tr><tr><td>300 (Greece)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GRC (Greece)</td></tr><tr><td>304 (Greenland)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GRL (Greenland)</td></tr><tr><td>308 (Grenada)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GRD (Grenada)</td></tr><tr><td>312 (Guadeloupe)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GLP (Guadeloupe)</td></tr><tr><td>316 (Guam)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GUM (Guam)</td></tr><tr><td>320 (Guatemala)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GTM (Guatemala)</td></tr><tr><td>324 (Guinea)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GIN (Guinea)</td></tr><tr><td>328 (Guyana)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GUY (Guyana)</td></tr><tr><td>332 (Haiti)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>HTI (Haiti)</td></tr><tr><td>334 (Heard Island and McDonald Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>HMD (Heard Island and McDonald Islands)</td></tr><tr><td>336 (Holy See)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>VAT (Holy See)</td></tr><tr><td>340 (Honduras)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>HND (Honduras)</td></tr><tr><td>344 (China, Hong Kong SAR)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>HKG (China, Hong Kong SAR)</td></tr><tr><td>348 (Hungary)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>HUN (Hungary)</td></tr><tr><td>352 (Iceland)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ISL (Iceland)</td></tr><tr><td>356 (India)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>IND (India)</td></tr><tr><td>360 (Indonesia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>IDN (Indonesia)</td></tr><tr><td>364 (Iran (Islamic Republic of))</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>IRN (Iran (Islamic Republic of))</td></tr><tr><td>368 (Iraq)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>IRQ (Iraq)</td></tr><tr><td>372 (Ireland)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>IRL (Ireland)</td></tr><tr><td>376 (Israel)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ISR (Israel)</td></tr><tr><td>380 (Italy)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ITA (Italy)</td></tr><tr><td>384 (Côte d’Ivoire)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CIV (Côte d’Ivoire)</td></tr><tr><td>388 (Jamaica)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>JAM (Jamaica)</td></tr><tr><td>392 (Japan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>JPN (Japan)</td></tr><tr><td>398 (Kazakhstan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>KAZ (Kazakhstan)</td></tr><tr><td>400 (Jordan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>JOR (Jordan)</td></tr><tr><td>404 (Kenya)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>KEN (Kenya)</td></tr><tr><td>408 (Democratic People's Republic of Korea)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PRK (Democratic People's Republic of Korea)</td></tr><tr><td>410 (Republic of Korea)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>KOR (Republic of Korea)</td></tr><tr><td>412 (Kosovo (in accordance with UN Security Council resolution 1244 (1999)))</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>XKX (Kosovo (in accordance with UN Security Council resolution 1244 (1999)))</td></tr><tr><td>414 (Kuwait)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>KWT (Kuwait)</td></tr><tr><td>417 (Kyrgyzstan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>KGZ (Kyrgyzstan)</td></tr><tr><td>418 (Lao People's Democratic Republic)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>LAO (Lao People's Democratic Republic)</td></tr><tr><td>422 (Lebanon)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>LBN (Lebanon)</td></tr><tr><td>426 (Lesotho)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>LSO (Lesotho)</td></tr><tr><td>428 (Latvia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>LVA (Latvia)</td></tr><tr><td>430 (Liberia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>LBR (Liberia)</td></tr><tr><td>434 (Libya)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>LBY (Libya)</td></tr><tr><td>438 (Liechtenstein)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>LIE (Liechtenstein)</td></tr><tr><td>440 (Lithuania)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>LTU (Lithuania)</td></tr><tr><td>442 (Luxembourg)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>LUX (Luxembourg)</td></tr><tr><td>446 (China, Macao SAR)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MAC (China, Macao SAR)</td></tr><tr><td>450 (Madagascar)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MDG (Madagascar)</td></tr><tr><td>454 (Malawi)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MWI (Malawi)</td></tr><tr><td>458 (Malaysia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MYS (Malaysia)</td></tr><tr><td>462 (Maldives)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MDV (Maldives)</td></tr><tr><td>466 (Mali)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MLI (Mali)</td></tr><tr><td>470 (Malta)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MLT (Malta)</td></tr><tr><td>474 (Martinique)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MTQ (Martinique)</td></tr><tr><td>478 (Mauritania)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MRT (Mauritania)</td></tr><tr><td>480 (Mauritius)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MUS (Mauritius)</td></tr><tr><td>484 (Mexico)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MEX (Mexico)</td></tr><tr><td>492 (Monaco)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MCO (Monaco)</td></tr><tr><td>496 (Mongolia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MNG (Mongolia)</td></tr><tr><td>498 (Republic of Moldova)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MDA (Republic of Moldova)</td></tr><tr><td>499 (Montenegro)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MNE (Montenegro)</td></tr><tr><td>500 (Montserrat)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MSR (Montserrat)</td></tr><tr><td>504 (Morocco)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MAR (Morocco)</td></tr><tr><td>508 (Mozambique)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MOZ (Mozambique)</td></tr><tr><td>512 (Oman)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>OMN (Oman)</td></tr><tr><td>516 (Namibia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NAM (Namibia)</td></tr><tr><td>520 (Nauru)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NRU (Nauru)</td></tr><tr><td>524 (Nepal)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NPL (Nepal)</td></tr><tr><td>528 (Netherlands (Kingdom of the))</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NLD (Netherlands (Kingdom of the))</td></tr><tr><td>531 (Curaçao)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CUW (Curaçao)</td></tr><tr><td>533 (Aruba)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ABW (Aruba)</td></tr><tr><td>534 (Sint Maarten (Dutch part))</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SXM (Sint Maarten (Dutch part))</td></tr><tr><td>535 (Bonaire, Sint Eustatius and Saba)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BES (Bonaire, Sint Eustatius and Saba)</td></tr><tr><td>540 (New Caledonia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NCL (New Caledonia)</td></tr><tr><td>548 (Vanuatu)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>VUT (Vanuatu)</td></tr><tr><td>554 (New Zealand)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NZL (New Zealand)</td></tr><tr><td>558 (Nicaragua)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NIC (Nicaragua)</td></tr><tr><td>562 (Niger)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NER (Niger)</td></tr><tr><td>566 (Nigeria)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NGA (Nigeria)</td></tr><tr><td>570 (Niue)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NIU (Niue)</td></tr><tr><td>574 (Norfolk Island)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NFK (Norfolk Island)</td></tr><tr><td>578 (Norway)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>NOR (Norway)</td></tr><tr><td>580 (Northern Mariana Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MNP (Northern Mariana Islands)</td></tr><tr><td>581 (United States Minor Outlying Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>UMI (United States Minor Outlying Islands)</td></tr><tr><td>583 (Micronesia (Federated States of))</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>FSM (Micronesia (Federated States of))</td></tr><tr><td>584 (Marshall Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MHL (Marshall Islands)</td></tr><tr><td>585 (Palau)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PLW (Palau)</td></tr><tr><td>586 (Pakistan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PAK (Pakistan)</td></tr><tr><td>591 (Panama)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PAN (Panama)</td></tr><tr><td>598 (Papua New Guinea)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PNG (Papua New Guinea)</td></tr><tr><td>600 (Paraguay)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PRY (Paraguay)</td></tr><tr><td>604 (Peru)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PER (Peru)</td></tr><tr><td>608 (Philippines)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PHL (Philippines)</td></tr><tr><td>612 (Pitcairn)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PCN (Pitcairn)</td></tr><tr><td>616 (Poland)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>POL (Poland)</td></tr><tr><td>620 (Portugal)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PRT (Portugal)</td></tr><tr><td>624 (Guinea-Bissau)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GNB (Guinea-Bissau)</td></tr><tr><td>626 (Timor-Leste)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TLS (Timor-Leste)</td></tr><tr><td>630 (Puerto Rico)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PRI (Puerto Rico)</td></tr><tr><td>634 (Qatar)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>QAT (Qatar)</td></tr><tr><td>638 (Réunion)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>REU (Réunion)</td></tr><tr><td>642 (Romania)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ROU (Romania)</td></tr><tr><td>643 (Russian Federation)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RUS (Russian Federation)</td></tr><tr><td>646 (Rwanda)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RWA (Rwanda)</td></tr><tr><td>652 (Saint Barthélemy)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BLM (Saint Barthélemy)</td></tr><tr><td>654 (Saint Helena)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SHN (Saint Helena)</td></tr><tr><td>659 (Saint Kitts and Nevis)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>KNA (Saint Kitts and Nevis)</td></tr><tr><td>660 (Anguilla)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>AIA (Anguilla)</td></tr><tr><td>662 (Saint Lucia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>LCA (Saint Lucia)</td></tr><tr><td>663 (Saint Martin (French part))</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MAF (Saint Martin (French part))</td></tr><tr><td>666 (Saint Pierre and Miquelon)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SPM (Saint Pierre and Miquelon)</td></tr><tr><td>670 (Saint Vincent and the Grenadines)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>VCT (Saint Vincent and the Grenadines)</td></tr><tr><td>674 (San Marino)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SMR (San Marino)</td></tr><tr><td>678 (Sao Tome and Principe)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>STP (Sao Tome and Principe)</td></tr><tr><td>682 (Saudi Arabia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SAU (Saudi Arabia)</td></tr><tr><td>686 (Senegal)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SEN (Senegal)</td></tr><tr><td>688 (Serbia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SRB (Serbia)</td></tr><tr><td>690 (Seychelles)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SYC (Seychelles)</td></tr><tr><td>694 (Sierra Leone)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SLE (Sierra Leone)</td></tr><tr><td>702 (Singapore)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SGP (Singapore)</td></tr><tr><td>703 (Slovakia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SVK (Slovakia)</td></tr><tr><td>704 (Viet Nam)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>VNM (Viet Nam)</td></tr><tr><td>705 (Slovenia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SVN (Slovenia)</td></tr><tr><td>706 (Somalia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SOM (Somalia)</td></tr><tr><td>710 (South Africa)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ZAF (South Africa)</td></tr><tr><td>716 (Zimbabwe)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ZWE (Zimbabwe)</td></tr><tr><td>724 (Spain)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ESP (Spain)</td></tr><tr><td>728 (South Sudan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SSD (South Sudan)</td></tr><tr><td>729 (Sudan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SDN (Sudan)</td></tr><tr><td>732 (Western Sahara)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ESH (Western Sahara)</td></tr><tr><td>740 (Suriname)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SUR (Suriname)</td></tr><tr><td>744 (Svalbard and Jan Mayen)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SJM (Svalbard and Jan Mayen)</td></tr><tr><td>748 (Eswatini)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SWZ (Eswatini)</td></tr><tr><td>752 (Sweden)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SWE (Sweden)</td></tr><tr><td>756 (Switzerland)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CHE (Switzerland)</td></tr><tr><td>760 (Syrian Arab Republic)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>SYR (Syrian Arab Republic)</td></tr><tr><td>762 (Tajikistan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TJK (Tajikistan)</td></tr><tr><td>764 (Thailand)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>THA (Thailand)</td></tr><tr><td>768 (Togo)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TGO (Togo)</td></tr><tr><td>772 (Tokelau)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TKL (Tokelau)</td></tr><tr><td>776 (Tonga)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TON (Tonga)</td></tr><tr><td>780 (Trinidad and Tobago)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TTO (Trinidad and Tobago)</td></tr><tr><td>784 (United Arab Emirates)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ARE (United Arab Emirates)</td></tr><tr><td>788 (Tunisia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TUN (Tunisia)</td></tr><tr><td>792 (Türkiye)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TUR (Türkiye)</td></tr><tr><td>795 (Turkmenistan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TKM (Turkmenistan)</td></tr><tr><td>796 (Turks and Caicos Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TCA (Turks and Caicos Islands)</td></tr><tr><td>798 (Tuvalu)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TUV (Tuvalu)</td></tr><tr><td>800 (Uganda)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>UGA (Uganda)</td></tr><tr><td>804 (Ukraine)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>UKR (Ukraine)</td></tr><tr><td>807 (North Macedonia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MKD (North Macedonia)</td></tr><tr><td>818 (Egypt)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EGY (Egypt)</td></tr><tr><td>826 (United Kingdom of Great Britain and Northern Ireland)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GBR (United Kingdom of Great Britain and Northern Ireland)</td></tr><tr><td>831 (Guernsey)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>GGY (Guernsey)</td></tr><tr><td>832 (Jersey)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>JEY (Jersey)</td></tr><tr><td>833 (Isle of Man)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>IMN (Isle of Man)</td></tr><tr><td>834 (United Republic of Tanzania)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TZA (United Republic of Tanzania)</td></tr><tr><td>840 (United States of America)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>USA (United States of America)</td></tr><tr><td>850 (United States Virgin Islands)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>VIR (United States Virgin Islands)</td></tr><tr><td>854 (Burkina Faso)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BFA (Burkina Faso)</td></tr><tr><td>858 (Uruguay)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>URY (Uruguay)</td></tr><tr><td>860 (Uzbekistan)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>UZB (Uzbekistan)</td></tr><tr><td>862 (Venezuela (Bolivarian Republic of))</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>VEN (Venezuela (Bolivarian Republic of))</td></tr><tr><td>876 (Wallis and Futuna)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>WLF (Wallis and Futuna)</td></tr><tr><td>882 (Samoa)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>WSM (Samoa)</td></tr><tr><td>887 (Yemen)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>YEM (Yemen)</td></tr><tr><td>894 (Zambia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ZMB (Zambia)</td></tr></table></div>
+  </text>
+  <url value="http://smart.who.int/refmart/ConceptMap/M49toISO3"/>
+  <version value="0.1.0"/>
+  <title value="Concept Map from M49 to ISO3 country codes"/>
+  <status value="active"/>
+  <date value="2025-04-08T14:10:31+00:00"/>
+  <publisher value="WHO"/>
+  <contact>
+    <name value="WHO"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://who.int"/>
+    </telecom>
+  </contact>
+  <description value="WHO Concept Map for RefMart countries from M49 to ISO3 codes"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <group>
+    <source value="http://smart.who.int/refmart/CodeSystem/COUNTRYM49"/>
+    <target value="http://smart.who.int/refmart/CodeSystem/COUNTRYISO3"/>
+    <element>
+      <code value="004"/>
+      <target>
+        <code value="AFG"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="008"/>
+      <target>
+        <code value="ALB"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="012"/>
+      <target>
+        <code value="DZA"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="016"/>
+      <target>
+        <code value="ASM"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="020"/>
+      <target>
+        <code value="AND"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="024"/>
+      <target>
+        <code value="AGO"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="028"/>
+      <target>
+        <code value="ATG"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="031"/>
+      <target>
+        <code value="AZE"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="032"/>
+      <target>
+        <code value="ARG"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="036"/>
+      <target>
+        <code value="AUS"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="040"/>
+      <target>
+        <code value="AUT"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="044"/>
+      <target>
+        <code value="BHS"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="048"/>
+      <target>
+        <code value="BHR"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="050"/>
+      <target>
+        <code value="BGD"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="051"/>
+      <target>
+        <code value="ARM"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="052"/>
+      <target>
+        <code value="BRB"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="056"/>
+      <target>
+        <code value="BEL"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="060"/>
+      <target>
+        <code value="BMU"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="064"/>
+      <target>
+        <code value="BTN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="068"/>
+      <target>
+        <code value="BOL"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="070"/>
+      <target>
+        <code value="BIH"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="072"/>
+      <target>
+        <code value="BWA"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="074"/>
+      <target>
+        <code value="BVT"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="076"/>
+      <target>
+        <code value="BRA"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="084"/>
+      <target>
+        <code value="BLZ"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="086"/>
+      <target>
+        <code value="IOT"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="090"/>
+      <target>
+        <code value="SLB"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="092"/>
+      <target>
+        <code value="VGB"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="096"/>
+      <target>
+        <code value="BRN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="100"/>
+      <target>
+        <code value="BGR"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="104"/>
+      <target>
+        <code value="MMR"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="108"/>
+      <target>
+        <code value="BDI"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="112"/>
+      <target>
+        <code value="BLR"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="116"/>
+      <target>
+        <code value="KHM"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="120"/>
+      <target>
+        <code value="CMR"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="124"/>
+      <target>
+        <code value="CAN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="132"/>
+      <target>
+        <code value="CPV"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="136"/>
+      <target>
+        <code value="CYM"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="140"/>
+      <target>
+        <code value="CAF"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="144"/>
+      <target>
+        <code value="LKA"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="148"/>
+      <target>
+        <code value="TCD"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="152"/>
+      <target>
+        <code value="CHL"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="156"/>
+      <target>
+        <code value="CHN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="158"/>
+      <target>
+        <code value="TWN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="162"/>
+      <target>
+        <code value="CXR"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="166"/>
+      <target>
+        <code value="CCK"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="170"/>
+      <target>
+        <code value="COL"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="174"/>
+      <target>
+        <code value="COM"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="175"/>
+      <target>
+        <code value="MYT"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="178"/>
+      <target>
+        <code value="COG"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="180"/>
+      <target>
+        <code value="COD"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="184"/>
+      <target>
+        <code value="COK"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="188"/>
+      <target>
+        <code value="CRI"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="191"/>
+      <target>
+        <code value="HRV"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="192"/>
+      <target>
+        <code value="CUB"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="196"/>
+      <target>
+        <code value="CYP"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="203"/>
+      <target>
+        <code value="CZE"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="204"/>
+      <target>
+        <code value="BEN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="208"/>
+      <target>
+        <code value="DNK"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="212"/>
+      <target>
+        <code value="DMA"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="214"/>
+      <target>
+        <code value="DOM"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="218"/>
+      <target>
+        <code value="ECU"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="222"/>
+      <target>
+        <code value="SLV"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="226"/>
+      <target>
+        <code value="GNQ"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="231"/>
+      <target>
+        <code value="ETH"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="232"/>
+      <target>
+        <code value="ERI"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="233"/>
+      <target>
+        <code value="EST"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="234"/>
+      <target>
+        <code value="FRO"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="238"/>
+      <target>
+        <code value="FLK"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="239"/>
+      <target>
+        <code value="SGS"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="242"/>
+      <target>
+        <code value="FJI"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="246"/>
+      <target>
+        <code value="FIN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="248"/>
+      <target>
+        <code value="ALA"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="250"/>
+      <target>
+        <code value="FRA"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="254"/>
+      <target>
+        <code value="GUF"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="258"/>
+      <target>
+        <code value="PYF"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="260"/>
+      <target>
+        <code value="ATF"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="262"/>
+      <target>
+        <code value="DJI"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="266"/>
+      <target>
+        <code value="GAB"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="268"/>
+      <target>
+        <code value="GEO"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="270"/>
+      <target>
+        <code value="GMB"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="275"/>
+      <target>
+        <code value="PSE"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="276"/>
+      <target>
+        <code value="DEU"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="288"/>
+      <target>
+        <code value="GHA"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="292"/>
+      <target>
+        <code value="GIB"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="296"/>
+      <target>
+        <code value="KIR"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="300"/>
+      <target>
+        <code value="GRC"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="304"/>
+      <target>
+        <code value="GRL"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="308"/>
+      <target>
+        <code value="GRD"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="312"/>
+      <target>
+        <code value="GLP"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="316"/>
+      <target>
+        <code value="GUM"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="320"/>
+      <target>
+        <code value="GTM"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="324"/>
+      <target>
+        <code value="GIN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="328"/>
+      <target>
+        <code value="GUY"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="332"/>
+      <target>
+        <code value="HTI"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="334"/>
+      <target>
+        <code value="HMD"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="336"/>
+      <target>
+        <code value="VAT"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="340"/>
+      <target>
+        <code value="HND"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="344"/>
+      <target>
+        <code value="HKG"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="348"/>
+      <target>
+        <code value="HUN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="352"/>
+      <target>
+        <code value="ISL"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="356"/>
+      <target>
+        <code value="IND"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="360"/>
+      <target>
+        <code value="IDN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="364"/>
+      <target>
+        <code value="IRN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="368"/>
+      <target>
+        <code value="IRQ"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="372"/>
+      <target>
+        <code value="IRL"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="376"/>
+      <target>
+        <code value="ISR"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="380"/>
+      <target>
+        <code value="ITA"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="384"/>
+      <target>
+        <code value="CIV"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="388"/>
+      <target>
+        <code value="JAM"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="392"/>
+      <target>
+        <code value="JPN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="398"/>
+      <target>
+        <code value="KAZ"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="400"/>
+      <target>
+        <code value="JOR"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="404"/>
+      <target>
+        <code value="KEN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="408"/>
+      <target>
+        <code value="PRK"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="410"/>
+      <target>
+        <code value="KOR"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="412"/>
+      <target>
+        <code value="XKX"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="414"/>
+      <target>
+        <code value="KWT"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="417"/>
+      <target>
+        <code value="KGZ"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="418"/>
+      <target>
+        <code value="LAO"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="422"/>
+      <target>
+        <code value="LBN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="426"/>
+      <target>
+        <code value="LSO"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="428"/>
+      <target>
+        <code value="LVA"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="430"/>
+      <target>
+        <code value="LBR"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="434"/>
+      <target>
+        <code value="LBY"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="438"/>
+      <target>
+        <code value="LIE"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="440"/>
+      <target>
+        <code value="LTU"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="442"/>
+      <target>
+        <code value="LUX"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="446"/>
+      <target>
+        <code value="MAC"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="450"/>
+      <target>
+        <code value="MDG"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="454"/>
+      <target>
+        <code value="MWI"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="458"/>
+      <target>
+        <code value="MYS"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="462"/>
+      <target>
+        <code value="MDV"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="466"/>
+      <target>
+        <code value="MLI"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="470"/>
+      <target>
+        <code value="MLT"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="474"/>
+      <target>
+        <code value="MTQ"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="478"/>
+      <target>
+        <code value="MRT"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="480"/>
+      <target>
+        <code value="MUS"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="484"/>
+      <target>
+        <code value="MEX"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="492"/>
+      <target>
+        <code value="MCO"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="496"/>
+      <target>
+        <code value="MNG"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="498"/>
+      <target>
+        <code value="MDA"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="499"/>
+      <target>
+        <code value="MNE"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="500"/>
+      <target>
+        <code value="MSR"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="504"/>
+      <target>
+        <code value="MAR"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="508"/>
+      <target>
+        <code value="MOZ"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="512"/>
+      <target>
+        <code value="OMN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="516"/>
+      <target>
+        <code value="NAM"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="520"/>
+      <target>
+        <code value="NRU"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="524"/>
+      <target>
+        <code value="NPL"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="528"/>
+      <target>
+        <code value="NLD"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="531"/>
+      <target>
+        <code value="CUW"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="533"/>
+      <target>
+        <code value="ABW"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="534"/>
+      <target>
+        <code value="SXM"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="535"/>
+      <target>
+        <code value="BES"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="540"/>
+      <target>
+        <code value="NCL"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="548"/>
+      <target>
+        <code value="VUT"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="554"/>
+      <target>
+        <code value="NZL"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="558"/>
+      <target>
+        <code value="NIC"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="562"/>
+      <target>
+        <code value="NER"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="566"/>
+      <target>
+        <code value="NGA"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="570"/>
+      <target>
+        <code value="NIU"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="574"/>
+      <target>
+        <code value="NFK"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="578"/>
+      <target>
+        <code value="NOR"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="580"/>
+      <target>
+        <code value="MNP"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="581"/>
+      <target>
+        <code value="UMI"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="583"/>
+      <target>
+        <code value="FSM"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="584"/>
+      <target>
+        <code value="MHL"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="585"/>
+      <target>
+        <code value="PLW"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="586"/>
+      <target>
+        <code value="PAK"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="591"/>
+      <target>
+        <code value="PAN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="598"/>
+      <target>
+        <code value="PNG"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="600"/>
+      <target>
+        <code value="PRY"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="604"/>
+      <target>
+        <code value="PER"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="608"/>
+      <target>
+        <code value="PHL"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="612"/>
+      <target>
+        <code value="PCN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="616"/>
+      <target>
+        <code value="POL"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="620"/>
+      <target>
+        <code value="PRT"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="624"/>
+      <target>
+        <code value="GNB"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="626"/>
+      <target>
+        <code value="TLS"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="630"/>
+      <target>
+        <code value="PRI"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="634"/>
+      <target>
+        <code value="QAT"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="638"/>
+      <target>
+        <code value="REU"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="642"/>
+      <target>
+        <code value="ROU"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="643"/>
+      <target>
+        <code value="RUS"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="646"/>
+      <target>
+        <code value="RWA"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="652"/>
+      <target>
+        <code value="BLM"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="654"/>
+      <target>
+        <code value="SHN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="659"/>
+      <target>
+        <code value="KNA"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="660"/>
+      <target>
+        <code value="AIA"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="662"/>
+      <target>
+        <code value="LCA"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="663"/>
+      <target>
+        <code value="MAF"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="666"/>
+      <target>
+        <code value="SPM"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="670"/>
+      <target>
+        <code value="VCT"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="674"/>
+      <target>
+        <code value="SMR"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="678"/>
+      <target>
+        <code value="STP"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="682"/>
+      <target>
+        <code value="SAU"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="686"/>
+      <target>
+        <code value="SEN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="688"/>
+      <target>
+        <code value="SRB"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="690"/>
+      <target>
+        <code value="SYC"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="694"/>
+      <target>
+        <code value="SLE"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="702"/>
+      <target>
+        <code value="SGP"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="703"/>
+      <target>
+        <code value="SVK"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="704"/>
+      <target>
+        <code value="VNM"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="705"/>
+      <target>
+        <code value="SVN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="706"/>
+      <target>
+        <code value="SOM"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="710"/>
+      <target>
+        <code value="ZAF"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="716"/>
+      <target>
+        <code value="ZWE"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="724"/>
+      <target>
+        <code value="ESP"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="728"/>
+      <target>
+        <code value="SSD"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="729"/>
+      <target>
+        <code value="SDN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="732"/>
+      <target>
+        <code value="ESH"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="740"/>
+      <target>
+        <code value="SUR"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="744"/>
+      <target>
+        <code value="SJM"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="748"/>
+      <target>
+        <code value="SWZ"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="752"/>
+      <target>
+        <code value="SWE"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="756"/>
+      <target>
+        <code value="CHE"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="760"/>
+      <target>
+        <code value="SYR"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="762"/>
+      <target>
+        <code value="TJK"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="764"/>
+      <target>
+        <code value="THA"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="768"/>
+      <target>
+        <code value="TGO"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="772"/>
+      <target>
+        <code value="TKL"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="776"/>
+      <target>
+        <code value="TON"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="780"/>
+      <target>
+        <code value="TTO"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="784"/>
+      <target>
+        <code value="ARE"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="788"/>
+      <target>
+        <code value="TUN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="792"/>
+      <target>
+        <code value="TUR"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="795"/>
+      <target>
+        <code value="TKM"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="796"/>
+      <target>
+        <code value="TCA"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="798"/>
+      <target>
+        <code value="TUV"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="800"/>
+      <target>
+        <code value="UGA"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="804"/>
+      <target>
+        <code value="UKR"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="807"/>
+      <target>
+        <code value="MKD"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="818"/>
+      <target>
+        <code value="EGY"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="826"/>
+      <target>
+        <code value="GBR"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="831"/>
+      <target>
+        <code value="GGY"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="832"/>
+      <target>
+        <code value="JEY"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="833"/>
+      <target>
+        <code value="IMN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="834"/>
+      <target>
+        <code value="TZA"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="840"/>
+      <target>
+        <code value="USA"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="850"/>
+      <target>
+        <code value="VIR"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="854"/>
+      <target>
+        <code value="BFA"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="858"/>
+      <target>
+        <code value="URY"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="860"/>
+      <target>
+        <code value="UZB"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="862"/>
+      <target>
+        <code value="VEN"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="876"/>
+      <target>
+        <code value="WLF"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="882"/>
+      <target>
+        <code value="WSM"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="887"/>
+      <target>
+        <code value="YEM"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="894"/>
+      <target>
+        <code value="ZMB"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

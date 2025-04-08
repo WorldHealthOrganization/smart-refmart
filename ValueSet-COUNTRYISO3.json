@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "COUNTRYISO3",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet COUNTRYISO3</b></p><a name=\"COUNTRYISO3\"> </a><a name=\"hcCOUNTRYISO3\"> </a><a name=\"COUNTRYISO3-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-COUNTRYISO3.html\"><code>http://smart.who.int/refmart/CodeSystem/COUNTRYISO3</code></a></li></ul></div>"
+  },
+  "url" : "http://smart.who.int/refmart/ValueSet/COUNTRYISO3",
+  "version" : "0.1.0",
+  "name" : "COUNTRYISO3",
+  "title" : "WHO RefMart ISO3 Country List",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2025-04-08T14:10:31+00:00",
+  "publisher" : "WHO",
+  "contact" : [{
+    "name" : "WHO",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://who.int"
+    }]
+  }],
+  "description" : "ValueSet of ISO 3 codes for WHO RefMart Country and Jurisidiction List available at https://xmart-api-public.who.int/REFMART/REF_COUNTRY",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://smart.who.int/refmart/CodeSystem/COUNTRYISO3"
+    }]
+  }
+}

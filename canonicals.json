@@ -1,0 +1,63 @@
+[
+  {
+    "id" : "COUNTRYISO2",
+    "type" : "CodeSystem",
+    "url" : "http://smart.who.int/refmart/CodeSystem/COUNTRYISO2",
+    "version" : "0.1.0",
+    "name" : "COUNTRYISO2"
+  },
+  {
+    "id" : "COUNTRYISO3",
+    "type" : "CodeSystem",
+    "url" : "http://smart.who.int/refmart/CodeSystem/COUNTRYISO3",
+    "version" : "0.1.0",
+    "name" : "COUNTRYISO3"
+  },
+  {
+    "id" : "COUNTRYM49",
+    "type" : "CodeSystem",
+    "url" : "http://smart.who.int/refmart/CodeSystem/COUNTRYM49",
+    "version" : "0.1.0",
+    "name" : "COUNTRYM49"
+  },
+  {
+    "id" : "ISO3toISO2",
+    "type" : "ConceptMap",
+    "url" : "http://smart.who.int/refmart/ConceptMap/ISO3toISO2",
+    "version" : "0.1.0"
+  },
+  {
+    "id" : "M49toISO3",
+    "type" : "ConceptMap",
+    "url" : "http://smart.who.int/refmart/ConceptMap/M49toISO3",
+    "version" : "0.1.0"
+  },
+  {
+    "id" : "smart.who.int.refmart",
+    "type" : "ImplementationGuide",
+    "url" : "http://smart.who.int/refmart/ImplementationGuide/smart.who.int.refmart",
+    "version" : "0.1.0",
+    "name" : "refmart"
+  },
+  {
+    "id" : "COUNTRYISO2",
+    "type" : "ValueSet",
+    "url" : "http://smart.who.int/refmart/ValueSet/COUNTRYISO2",
+    "version" : "0.1.0",
+    "name" : "COUNTRYISO2"
+  },
+  {
+    "id" : "COUNTRYISO3",
+    "type" : "ValueSet",
+    "url" : "http://smart.who.int/refmart/ValueSet/COUNTRYISO3",
+    "version" : "0.1.0",
+    "name" : "COUNTRYISO3"
+  },
+  {
+    "id" : "COUNTRYM49",
+    "type" : "ValueSet",
+    "url" : "http://smart.who.int/refmart/ValueSet/COUNTRYM49",
+    "version" : "0.1.0",
+    "name" : "COUNTRYM49"
+  }
+]

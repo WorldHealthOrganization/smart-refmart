@@ -1,0 +1,4 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://smart.who.int/refmart/ValueSet/COUNTRYISO2,0.1.0,active,,COUNTRYISO2,WHO RefMart ISO2 Country List,"ValueSet of ISO 2 codes for WHO RefMart Country and Jurisidiction List available at https://xmart-api-public.who.int/REFMART/REF_COUNTRY",,"Internal"
+http://smart.who.int/refmart/ValueSet/COUNTRYISO3,0.1.0,active,,COUNTRYISO3,WHO RefMart ISO3 Country List,"ValueSet of ISO 3 codes for WHO RefMart Country and Jurisidiction List available at https://xmart-api-public.who.int/REFMART/REF_COUNTRY",,"Internal"
+http://smart.who.int/refmart/ValueSet/COUNTRYM49,0.1.0,active,,COUNTRYM49,WHO RefMart M49 Country List,"ValueSet of M49 codes for WHO RefMart Country and Jurisidiction List available at https://xmart-api-public.who.int/REFMART/REF_COUNTRY",,"Internal"

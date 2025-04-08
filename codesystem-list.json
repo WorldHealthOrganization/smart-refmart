@@ -1,0 +1,28 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://smart.who.int/refmart/CodeSystem/COUNTRYISO2",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "COUNTRYISO2",
+      "title" : "WHO RefMart Country List ISO 2 Codes",
+      "description" : "CodeSystem for ISO 2 code from from WHO RefMart Country and Jurisidiction List available at https://xmart-api-public.who.int/REFMART/REF_COUNTRY"
+    },
+    {
+      "url" : "http://smart.who.int/refmart/CodeSystem/COUNTRYISO3",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "COUNTRYISO3",
+      "title" : "WHO RefMart Country List ISO 3 Codes",
+      "description" : "CodeSystem for ISO 3 code from  WHO RefMart Country and Jurisidiction List available at https://xmart-api-public.who.int/REFMART/REF_COUNTRY"
+    },
+    {
+      "url" : "http://smart.who.int/refmart/CodeSystem/COUNTRYM49",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "COUNTRYM49",
+      "title" : "WHO RefMart Country List M49 Codes",
+      "description" : "CodeSystem for M49 code from WHO RefMart Country and Jurisidiction List available at https://xmart-api-public.who.int/REFMART/REF_COUNTRY"
+    }
+  ]
+}

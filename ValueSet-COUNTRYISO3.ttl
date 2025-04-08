@@ -1,0 +1,46 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://smart.who.int/refmart/ValueSet/COUNTRYISO3> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "COUNTRYISO3"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet COUNTRYISO3</b></p><a name=\"COUNTRYISO3\"> </a><a name=\"hcCOUNTRYISO3\"> </a><a name=\"COUNTRYISO3-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-COUNTRYISO3.html\"><code>http://smart.who.int/refmart/CodeSystem/COUNTRYISO3</code></a></li></ul></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://smart.who.int/refmart/ValueSet/COUNTRYISO3"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "COUNTRYISO3"] ; # 
+  fhir:title [ fhir:v "WHO RefMart ISO3 Country List"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2025-04-08T14:10:31+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "WHO"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "WHO" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://who.int" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "ValueSet of ISO 3 codes for WHO RefMart Country and Jurisidiction List available at https://xmart-api-public.who.int/REFMART/REF_COUNTRY"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://smart.who.int/refmart/CodeSystem/COUNTRYISO3"^^xsd:anyURI ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

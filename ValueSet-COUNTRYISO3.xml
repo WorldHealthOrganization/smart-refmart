@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="COUNTRYISO3"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet COUNTRYISO3</b></p><a name="COUNTRYISO3"> </a><a name="hcCOUNTRYISO3"> </a><a name="COUNTRYISO3-en-US"> </a><ul><li>Include all codes defined in <a href="CodeSystem-COUNTRYISO3.html"><code>http://smart.who.int/refmart/CodeSystem/COUNTRYISO3</code></a></li></ul></div>
+  </text>
+  <url value="http://smart.who.int/refmart/ValueSet/COUNTRYISO3"/>
+  <version value="0.1.0"/>
+  <name value="COUNTRYISO3"/>
+  <title value="WHO RefMart ISO3 Country List"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2025-04-08T14:10:31+00:00"/>
+  <publisher value="WHO"/>
+  <contact>
+    <name value="WHO"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://who.int"/>
+    </telecom>
+  </contact>
+  <description value="ValueSet of ISO 3 codes for WHO RefMart Country and Jurisidiction List available at https://xmart-api-public.who.int/REFMART/REF_COUNTRY"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://smart.who.int/refmart/CodeSystem/COUNTRYISO3"/>
+    </include>
+  </compose>
+</ValueSet>

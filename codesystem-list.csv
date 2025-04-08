@@ -1,0 +1,4 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://smart.who.int/refmart/CodeSystem/COUNTRYISO2,0.1.0,active,,COUNTRYISO2,WHO RefMart Country List ISO 2 Codes,"CodeSystem for ISO 2 code from from WHO RefMart Country and Jurisidiction List available at https://xmart-api-public.who.int/REFMART/REF_COUNTRY",
+http://smart.who.int/refmart/CodeSystem/COUNTRYISO3,0.1.0,active,,COUNTRYISO3,WHO RefMart Country List ISO 3 Codes,"CodeSystem for ISO 3 code from  WHO RefMart Country and Jurisidiction List available at https://xmart-api-public.who.int/REFMART/REF_COUNTRY",
+http://smart.who.int/refmart/CodeSystem/COUNTRYM49,0.1.0,active,,COUNTRYM49,WHO RefMart Country List M49 Codes,"CodeSystem for M49 code from WHO RefMart Country and Jurisidiction List available at https://xmart-api-public.who.int/REFMART/REF_COUNTRY",
